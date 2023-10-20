@@ -2,10 +2,10 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: Trang chủ
 heroImage: /logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+heroText: Trang cá nhân của Linh
+tagline: Chia sẻ kiến thức
 heroFullScreen: true
 projects:
   - icon: project

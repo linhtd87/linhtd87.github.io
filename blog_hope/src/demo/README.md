@@ -1,5 +1,5 @@
 ---
-title: Features demo
+title: Thử nghiệm tính năng
 index: false
 icon: laptop-code
 category:
