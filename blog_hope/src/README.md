@@ -38,7 +38,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+footer: một dev vui tính, một người đam mê chạy bộ, chụp ảnh và kiêm bố của 2 đứa con gái
 ---
 
 This is a blog home page demo.

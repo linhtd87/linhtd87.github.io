@@ -8,7 +8,7 @@ icon: file
 # This control sidebar order
 order: 1
 # Set author
-author: Ms.Linh
+author: Mr.Linh
 # Set writing time
 date: 2020-01-01
 # A page can have multiple categories
