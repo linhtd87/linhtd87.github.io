@@ -16,14 +16,13 @@ category:
   - Tra cứu
 # A page can have multiple tags
 tag:
-  - Tiếng nhật
-  - Tra cứu
+  - Tra cứu Tiếng nhật
   - Ja
   - ja
   - Jp
   - jp
 # this page is sticky in article list
-sticky: true
+sticky: false
 # this page will appear in starred articles
 star: true
 # You can customize footer content

@@ -1,12 +1,13 @@
 ---
 # This is the title of the article
-title: 5 nguyên tắc BDSM  nhưng không đau để cặp đôi tha hồ  tận hưởng
+title: 5 nguyên tắc BDSM  nhưng không đau để cặp đôi tha hồ tận hưởng
 # You can customize cover image
 cover: /assets/images/cover1.jpg
 # This is the icon of the page
 icon: file
 # This control sidebar order
 order: 1
+sidebar: false
 # Set author
 author: Mr.Linh
 # Set writing time
@@ -19,7 +20,7 @@ tag:
   - Tâm lý học
   - BDSM
 # this page is sticky in article list
-sticky: true
+sticky: false
 # this page will appear in starred articles
 star: true
 # You can customize copyright content
