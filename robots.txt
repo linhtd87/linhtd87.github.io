@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://linhtd128.github.io/sitemap.xml
+Sitemap: https://linhtd.site/sitemap.xml
