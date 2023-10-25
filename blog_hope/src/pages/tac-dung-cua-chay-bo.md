@@ -2,7 +2,7 @@
 # This is the title of the article
 title: Tác dụng của chạy bộ
 # You can customize cover image
-cover: /assets/images/cover1.jpg
+cover: /assets/images/cover-running.jpg
 # This is the icon of the page
 icon: file
 # This control sidebar order
