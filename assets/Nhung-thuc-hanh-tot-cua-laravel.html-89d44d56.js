@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as a}from"./app-1298d117.js";const c={};function o(r,n){return t(),a("div")}const l=e(c,[["render",o],["__file","Nhung-thuc-hanh-tot-cua-laravel.html.vue"]]);export{l as default};
