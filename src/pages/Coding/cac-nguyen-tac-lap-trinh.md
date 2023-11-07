@@ -344,7 +344,10 @@ bạn sẽ chứng kiến sự
 phát triển của sức mạnh mã hóa của mình và sự xuất hiện của mã thực sự sạch sẽ đứng trước thử thách của thời gian. Nắm
 bắt các nguyên tắc **SOLID** và nâng cao kỹ năng mã hóa của bạn lên một tầm cao mới!
 
-**## Nguồn:**
+## **Nguồn:**
 
 [1]
 [kawser2133/SOLID-design-principles](https://github.com/kawser2133/SOLID-design-principles)
+
+[2]
+[The DRY Principle: Benefits and Costs with Examples](https://thevaluable.dev/dry-principle-cost-benefit-example/)
