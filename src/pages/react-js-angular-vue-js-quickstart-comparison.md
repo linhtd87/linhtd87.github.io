@@ -1,6 +1,6 @@
 ---
 # This is the title of the article
-title: [Course] React JS, Angular & Vue JS - Quickstart & Comparison
+title: [ Course ] React JS, Angular & Vue JS - Quickstart & Comparison
 # You can customize cover image
 cover: /assets/images/cover-coding.jpg
 # This is the icon of the page
@@ -28,7 +28,7 @@ copyright: No Copyright
 
 # [Course] React JS, Angular & Vue JS - Quickstart & Comparison
 
-## Section 1: Geting
+## Section 1: Getting Started
 
 ### Introduction
 
@@ -188,8 +188,8 @@ Bây giờ chúng ta hãy thêm một nút vào nút Document.queryselector đ�
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 ```
 
 Chúng tôi có quyền truy cập vào tất cả các yếu tố này.
@@ -202,8 +202,8 @@ Tôi sẽ đặt tên cho hàm này là `addTodo()` như thế này là một h�
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -221,8 +221,8 @@ Trong trường hợp này `li`.
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -241,8 +241,8 @@ Rất tiếc, `property` không phải `method`, là `property` mặc định đ
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -260,8 +260,8 @@ Vì vậy, sau đó tôi sẽ so sánh giá trị đã cắt bớt với một c
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -282,8 +282,8 @@ Và ở đó tôi có thể gọi `appendChild` để thêm mục danh sách vi�
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -328,8 +328,8 @@ Vì vậy, những gì tôi sẽ làm ở đây, nơi tôi tạo mục danh sác
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -355,8 +355,8 @@ Tất nhiên tôi cần phải tìm ra phần tử nào chúng tôi đã nhấp 
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 buttonEl.addEventListener('click', addTodo);
 
@@ -413,8 +413,8 @@ Tuy nhiên, bây giờ nó sẽ ổn ở đây.
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 var todos = [];
 
@@ -449,12 +449,12 @@ Vì vậy chúng ta cũng cần lưu ID vào Dom tại đây.
 
 Vì vậy, những gì tôi có thể làm là trước khi thêm mục danh sách việc cần làm này, tôi sẽ liên hệ với nó và sử dụng `dataset`tài sản. Để sử dụng thuộc tính dữ liệu này, chúng tôi có thể điền, chúng tôi có thể điền dữ liệu của riêng mình, với các thuộc tính tùy chỉnh của riêng mình, có thể nói như vậy.
 
-Và sau đó tôi muốn lưu trữ `ID`, đặt dữ liệu `ID`, thuộc tính hoặc thuộc tính mà tôi nên nói và đặt nó bằng mới để làm `ID`, vậy để làm `ID` chúng ta đã tạo ở đây.
+Và sau đó tôi muốn lưu trữ `id`, đặt dữ liệu `id`, thuộc tính hoặc thuộc tính mà tôi nên nói và đặt nó bằng mới để làm `id`, vậy để làm `id` chúng ta đã tạo ở đây.
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 var todos = [];
 
@@ -480,9 +480,9 @@ function removeTodo(event) {
 }
 ```
 
-Bây giờ cái này được lưu trữ trong Dom và tôi có thể cho bạn xem cái này. Nếu chúng ta tải lại phần này và nói `mua sữa` rồi chọn phần tử tạo này, thì nó có thuộc tính ID dữ liệu này ở đây bây giờ. Bây giờ chúng ta có thể sử dụng mã đó ở đây trong mã xóa để thực hiện trước khi chúng ta thực sự xóa mã đó để lấy ID mục. Bằng cách truy cập vào nhấp chuột. Và sau đó là `ID` tập dữ liệu để chúng tôi lưu trữ nó ở đây.
+Bây giờ cái này được lưu trữ trong Dom và tôi có thể cho bạn xem cái này. Nếu chúng ta tải lại phần này và nói `Buy milk` rồi chọn phần tử tạo này, thì nó có thuộc tính ID dữ liệu này ở đây bây giờ. Bây giờ chúng ta có thể sử dụng mã đó ở đây trong mã xóa để thực hiện trước khi chúng ta thực sự xóa mã đó để lấy ID mục. Bằng cách truy cập vào nhấp chuột. Và sau đó là `id` tập dữ liệu để chúng tôi lưu trữ nó ở đây.
 
-Giờ đây, với `ID` đó đã được tìm nạp, giờ đây chúng tôi có thể lặp qua tất cả việc cần làm trong mảng việc cần làm của mình.
+Giờ đây, với `id` đó đã được tìm nạp, giờ đây chúng tôi có thể lặp qua tất cả việc cần làm trong mảng việc cần làm của mình.
 
 Vì vậy, hãy bắt đầu từ phần tử đầu tiên có chỉ số bằng 0.
 
@@ -496,8 +496,8 @@ Gọi `splice` trên todos để loại bỏ một phần tử về cơ bản. V
 
 ```javascript
 var inputEl = document.querySelector('input');
-var buttonEl = document.querySelector('input');
-var ulEl = document.querySelector('input');
+var buttonEl = document.querySelector('button');
+var ulEl = document.querySelector('ul');
 
 var todos = [];
 
@@ -521,29 +521,20 @@ function addTodo() {
 
 function removeTodo(event) {
     var clickedLi = event.target;
-    clickedLi.parentNode.removeChild(clickedLi);
+    var itemId = clickedLi.dataset.id;
     for (var i = 0; i < todos.length; i++) {
         if (todos[i].id === itemId) {
             todos.slice(i, 1);
             break;
         }
     }
+    clickedLi.parentNode.removeChild(clickedLi);
 
     console.log(todos);
 }
 ```
 
-Vì vậy, bây giờ để xem liệu nó có hoạt động hay không, hãy `console` ghi lại mảng việc cần làm của chúng ta ở cuối `addToDo` và ở cuối loại bỏ việc cần làm ở đây.
-
-Và nếu bây giờ chúng ta nhấn nút điều khiển, hãy nhập và mở `console.log` để xem chúng ta có gặp lỗi nào không.
-
-Nếu tôi thêm `mua sữa` và trả lời các câu hỏi, bạn thấy đấy, dường như chúng ta đang thêm các đối tượng vào mảng.
-
-Trông tôt đây.
-
-Nếu bây giờ tôi nhấp vào `Mua Sữa`, chỉ còn lại một mục và đó thực sự là câu trả lời cho các câu hỏi.
-
-Và bây giờ mảng trống.
+Vì vậy, bây giờ để xem liệu nó có hoạt động hay không, hãy `console` ghi lại mảng việc cần làm của chúng ta ở cuối `addToDo` và ở cuối loại bỏ việc cần làm ở đây. Và nếu bây giờ chúng ta nhấn nút điều khiển, hãy nhập và mở `console.log` để xem chúng ta có gặp lỗi nào không. Nếu tôi thêm `Buy milk` và trả lời các câu hỏi, bạn thấy đấy, dường như chúng ta đang thêm các đối tượng vào mảng. Trông tôt đây. Nếu bây giờ tôi nhấp vào `Buy milk`, chỉ còn lại một mục và đó thực sự là câu trả lời cho các câu hỏi. Và bây giờ mảng trống.
 
 Vậy là nó đã hoạt động và đó là mã JavaScript đã hoàn thành.
 
@@ -552,3 +543,852 @@ Bây giờ.
 Thế là ứng dụng đã hoàn thành với rất nhiều code rồi.
 
 Vì vậy, hãy phân tích điều này và tìm ra cách chúng ta có thể cải thiện nó.
+
+### Analyzing the Vanilla JavaScript Solution
+
+Trong các bài giảng trước, chúng tôi đã tạo ra ứng dụng cơ bản để làm.
+
+Chúng tôi có rất ít mã HTML nhưng lại có khá nhiều mã JavaScript, điều này hợp lý vì chúng tôi có ở đây một ứng dụng rất năng động và chúng tôi tạo và xóa các phần tử thông qua JavaScript. Chúng ta cần có quyền truy cập vào các yếu tố này. Sau đó chúng ta cần tạo mới ở đây.
+
+Một vấn đề là `id`. Nó không thực sự độc đáo. Chúng tôi có thể khắc phục điều này bằng cách sử dụng dấu thời gian, nhưng. Nhưng vẫn không phải là cách tuyệt vời nhất để làm điều đó ở đây. Sau đó, chúng tôi tạo một phần tử theo cách thủ công trong JavaScript.
+
+Chúng tôi nối thêm nó.
+
+Chúng tôi lưu trữ `id` trong Dom gắn liền với phần tử này và sau đó chúng tôi xóa phần tử `to do` như thế này. Đồng thời có quyền truy cập vào mục tiêu sự kiện, xóa nó theo cách thủ công. Và trong khi tất cả đều hoạt động thì chúng tôi đã viết rất nhiều mã ở đó và quản lý trạng thái.
+
+Ví dụ: việc tìm ra những gì cần làm mà chúng tôi đã xóa đã hơi phức tạp một chút và tôi đoán bạn có thể tưởng tượng việc này ngày càng phức tạp hơn nếu bạn thêm nhiều chức năng hơn như có thể tải một công việc cần làm để chỉnh sửa hoặc những việc tương tự.
+
+Vì vậy, đó là lý do tại sao JavaScript thuần có thể không phải là tất cả những gì chúng ta cần.
+
+Nếu JavaScript thuần không phải là tất cả những gì chúng ta cần thì làm cách nào chúng ta có thể cải thiện mã bằng một số thư viện, một số thư viện JavaScript, ví dụ: jQuery hoặc Lodash?
+
+#### Bây giờ thư viện JavaScript là gì?
+
+Thư viện JavaScript chỉ đơn giản là gói mã JavaScript của bên thứ ba cung cấp cho bạn nhiều tính năng thông thường các đối tượng chức năng mà bạn có thể sử dụng để làm cho cuộc sống của bạn dễ dàng hơn.
+
+Vì vậy, các biên tập viên của thư viện đã viết và tối ưu hóa rất nhiều mã. Bạn sẽ phải viết khác để có thể sử dụng chức năng đơn giản hóa để đạt được kết quả tương tự như bạn đã làm trước đây nhưng giờ đây với ít mã hơn, cho phép bạn tập trung vào logic kinh doanh của mình.
+
+Và vì bạn sử dụng ít mã hơn nên cũng viết ít mã dễ xảy ra lỗi hơn, đó là công việc của một thư viện. Và ở đây tôi chỉ đề cập đến hai. Tất nhiên là có rất nhiều, rất nhiều thư viện JavaScript dành cho các loại công việc khác nhau và các mục đích khác nhau. các loại sự vật.
+
+Và chúng ta sẽ xem xét các thư viện này.
+
+![Jquery and Lodash](/assets/images/react-js-angular-vue-js-quickstart-comparison-01.jpg)
+
+Vì vậy, hãy cải thiện ứng dụng hiện có của chúng tôi bằng hai thư viện mà chúng tôi thấy ở đây để biết lý do sử dụng những thư viện như thế này có thể có ích cho chúng ta.
+
+### Improving the App with jQuery
+
+Tôi quay lại ứng dụng chúng tôi đã tạo và tôi muốn cải thiện nó bằng cách thêm jQuery và Lodash. Hãy bắt đầu với jQuery và đơn giản là tìm kiếm jQuery trên Google tại đây. Hãy truy cập jquery.com và nếu bạn nhấp vào tải xuống, bạn có thể tải xuống, lưu trữ cục bộ. Nếu bạn đang làm việc tại địa phương, điều đó có ý nghĩa. Nhưng chúng tôi đang sử dụng Jsfiddle. Và ở đó tôi muốn sử dụng CDN, về cơ bản là một liên kết trỏ đến một số máy chủ khác không thuộc sở hữu của chúng tôi, nơi mã này được tải xuống từ đó. Chúng tôi có thể tìm thấy các liên kết nếu chúng tôi cuộn xuống đây bằng cách sử dụng jQuery với CDN.
+
+```html
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<input type="text">
+<button>Add Todo</button>
+```
+
+Nếu chúng ta nhấp vào mã jquery.com ở đây, chúng ta có thể tìm thấy các liên kết đến CDN. Tôi sẽ sử dụng phiên bản ba. Tất nhiên bạn có thể sử dụng một cái khác. One và tôi sẽ sử dụng mã không nén, sao chép địa chỉ liên kết và quay lại jsfiddle, tôi sẽ chỉ đơn giản là thêm mục nhập này. Vì vậy, hãy thêm thẻ tập lệnh ở đây vào mã HTML và thêm lệnh nhập tập lệnh vào jQuery. Mã khác không thay đổi.
+
+Bây giờ chúng ta có thể sử dụng jQuery và nếu bạn chưa bao giờ sử dụng jQuery, đoạn mã tôi sắp viết có thể trông lạ cho bạn. Tuy nhiên, tôi vẫn sẽ không đi sâu vào jQuery vì đây không phải là một khóa học về jQuery và jQuery cung cấp đủ nội dung cho toàn bộ khóa học. Vì vậy, đây chỉ đơn giản là sử dụng nó để cho bạn thấy cách chúng tôi có thể cải thiện mã này. Nếu bạn muốn tìm hiểu thêm về jQuery, hãy xem các khóa học tập trung vào đó.
+
+Vì vậy, hãy sử dụng jQuery.
+
+#### Chúng ta có thể sử dụng jQuery để dễ dàng chọn các phần tử trong Dom.
+
+Ví dụ.
+
+Thay vì sử dụng `document.querySelector`, chúng ta chỉ cần sử dụng ký hiệu `$`, đây là chức năng phổ biến nhất được giới thiệu bởi jQuery.
+
+```javascript
+var inputEl = $('input');
+var buttonEl = $('input');
+var ulEl = $('input');
+
+var todos = [];
+
+buttonEl.addEventListener('click', addTodo);
+
+function addTodo() {
+    var userInput = inputEl.value;
+    if (userInput.trim() == '') {
+        return;
+    }
+    var newTodo = {id: Math.random(), value: userInput};
+    todos.push(newTodo);
+    var todoLi = document.createElement('LI');
+    todoLi.textContent = userInput;
+    todoLi.addEventListener('click', remoteTodo);
+    todoLi.dataset.id = newTodo.id;
+    ulEl.appendChild(todoLi);
+
+    console.log(todos);
+}
+
+function removeTodo(event) {
+    var clickedLi = event.target;
+    var itemId = clickedLi.dataset.id;
+    for (var i = 0; i < todos.length; i++) {
+        if (todos[i].id === itemId) {
+            todos.slice(i, 1);
+            break;
+        }
+    }
+    clickedLi.parentNode.removeChild(clickedLi);
+
+    console.log(todos);
+}
+```
+
+Ký hiệu `$` chỉ cần chọn các thành phần trong Dom bằng cách sử dụng bộ chọn CSS như `document.querySelector` đã làm. Tuy nhiên, nếu chúng ta sử dụng ký hiệu `$` thì thứ chúng ta lưu trữ trong `buttonEl`, v.v., không còn là thông thường nữa. Phần tử HTML JavaScript để mã khác không hoạt động nữa. Hiện nay. Bạn có thể nói rằng thay vào đó nó là một đối tượng jQuery với một số thông tin siêu dữ liệu bổ sung. Vì vậy, chúng tôi đã có quyền truy cập ở đây. Như tôi đã nói, đoạn mã kia sẽ không hoạt động, nhưng điều đó không thành vấn đề vì thực ra chúng ta có thể cải thiện đoạn mã kia. mã cũng vậy.
+
+Ví dụ: để thêm trình xử lý sự kiện, cụ thể là trình xử lý lượt nhấp, chúng ta chỉ cần sử dụng hàm nhấp chuột phương thức và loại bỏ đối số đầu tiên.
+
+```javascript
+var inputEl = $('input');
+var buttonEl = $('input');
+var ulEl = $('input');
+
+var todos = [];
+
+buttonEl.click(addTodo);
+
+function addTodo() {
+    var userInput = inputEl.value;
+    if (userInput.trim() == '') {
+        return;
+    }
+    var newTodo = {id: Math.random(), value: userInput};
+    todos.push(newTodo);
+    var todoLi = document.createElement('LI');
+    todoLi.textContent = userInput;
+    todoLi.addEventListener('click', remoteTodo);
+    todoLi.dataset.id = newTodo.id;
+    ulEl.appendChild(todoLi);
+
+    console.log(todos);
+}
+
+function removeTodo(event) {
+    var clickedLi = event.target;
+    var itemId = clickedLi.dataset.id;
+    for (var i = 0; i < todos.length; i++) {
+        if (todos[i].id === itemId) {
+            todos.slice(i, 1);
+            break;
+        }
+    }
+    clickedLi.parentNode.removeChild(clickedLi);
+
+    console.log(todos);
+}
+```
+
+Bây giờ, nhấp chuột có sẵn trên `buttonEL` vì hãy nhớ rằng `buttonEL` là một đối tượng jQuery vì chúng tôi đã có truy cập vào nó bằng phương pháp ký hiệu đô la. Vì vậy click là một hàm hữu ích được jQuery giới thiệu.
+
+Và như một lưu ý phụ, nếu bạn muốn xem tất cả các hàm được jQuery giới thiệu, hãy quay lại tới jquery.com. Tại đây và đi tới tài liệu API và ở đó bạn sẽ tìm thấy danh sách tất cả các phương thức được jQuery giới thiệu. Và nếu bạn nhấp vào chúng, bạn sẽ nhận được thông tin về cách thức hoạt động của nó.
+
+Vì vậy, hãy quay lại mã của chúng tôi.
+
+Chúng tôi có trình xử lý lượt nhấp chuột và vẫn yêu cầu jQuery thực thi việc cần làm ngay bây giờ. Bây giờ trong đó chúng ta vẫn trích xuất giá trị tuy nhiên không phải bằng `value` mà bằng `val()`, một phương thức có tên `val` ở đây và chúng tôi phải sử dụng nó vì `inputEl` cũng được tìm nạp thông qua ký hiệu `$`.
+
+Vì vậy, chúng tôi cũng có một đối tượng jQuery ở đó.
+
+```javascript
+var inputEl = $('input');
+var buttonEl = $('button');
+var ulEl = $('ul');
+
+var todos = [];
+
+buttonEl.click(addTodo);
+
+function addTodo() {
+    var userInput = inputEl.value;
+    if (userInput.trim() == '') {
+        return;
+    }
+    var newTodo = {id: Math.random(), value: userInput};
+    todos.push(newTodo);
+    var todoLi = document.createElement('LI');
+    todoLi.textContent = userInput;
+    todoLi.addEventListener('click', remoteTodo);
+    todoLi.dataset.id = newTodo.id;
+    ulEl.appendChild(todoLi);
+
+    console.log(todos);
+}
+
+function removeTodo(event) {
+    var clickedLi = event.target;
+    var itemId = clickedLi.dataset.id;
+    for (var i = 0; i < todos.length; i++) {
+        if (todos[i].id === itemId) {
+            todos.slice(i, 1);
+            break;
+        }
+    }
+    clickedLi.parentNode.removeChild(clickedLi);
+
+    console.log(todos);
+}
+```
+
+Chúng ta vẫn có thể sử dụng tính năng `trim` vì đầu vào của người dùng vẫn chỉ là một chuỗi. Và việc mới cần làm chỉ là một đối tượng mới là được. Chúng tôi đẩy đối tượng mới đó vào mảng, nhưng ở đây khi chúng tôi tạo phần tử mới, điều này hoạt động khác. Khi sử dụng jQuery, chúng ta có thể viết ít mã hơn ở đây để có thể tạo mục danh sách `Todo` mới này bằng cách đơn giản nói ký hiệu `$` và sau đó thực sự không chọn một phần tử bằng bộ chọn CSS.
+
+Nhưng đó là một trường hợp sử dụng khác của phương thức jQuery ở đây để tạo mã HTML. Vì vậy, các thẻ thông thường ở đây và ở giữa là `userInput`. Vì vậy, hãy nối chuỗi này ở đây như thế và thêm `userInput` vào giữa. Bây giờ, chỉ riêng điều này sẽ không tạo ra phần tử mà bây giờ chúng ta có thể gọi nối thêm vào, để nối thêm phần tử mới được tạo này bây giờ đến `Dom`.
+
+Vì vậy, ở đây tôi muốn thêm một phần tử vào phần tử `ul` và điều này đã cho phép chúng tôi xóa dòng này, dòng này dòng và dòng này. Tuy nhiên, chúng tôi vẫn cần đảm bảo rằng chúng tôi thêm tập dữ liệu và trình xử lý sự kiện. Vì vậy tôi sẽ đưa phần bổ sung vào dòng mới.
+
+```javascript
+var inputEl = $('input');
+var buttonEl = $('button');
+var ulEl = $('ul');
+
+var todos = [];
+
+buttonEl.click(addTodo);
+
+function addTodo() {
+    var userInput = inputEl.value;
+    if (userInput.trim() == '') {
+        return;
+    }
+    var newTodo = {id: Math.random(), value: userInput};
+    todos.push(newTodo);
+    $('<li>' + userInput + '</li>').appendTo(ulEl);
+    todoLi.addEventListener('click', remoteTodo);
+    todoLi.dataset.id = newTodo.id;
+    console.log(todos);
+}
+
+function removeTodo(event) {
+    var clickedLi = event.target;
+    var itemId = clickedLi.dataset.id;
+    for (var i = 0; i < todos.length; i++) {
+        if (todos[i].id === itemId) {
+            todos.slice(i, 1);
+            break;
+        }
+    }
+    clickedLi.parentNode.removeChild(clickedLi);
+
+    console.log(todos);
+}
+```
+
+Nó vẫn được thêm vào dòng đầu tiên ở đây.
+
+Tôi chỉ chia nó thành nhiều dòng để dễ đọc hơn và do đó bây giờ tôi cũng sẽ thêm phương thức `attribute` cho phép chúng ta thêm các thuộc tính của riêng mình ở đây, tôi sẽ đặt `dataset-id`, tức là đúng như những gì chúng tôi đã đặt với `dataset`. `dataset-id` ở đây trước đó và đặt giá trị này bằng `id` mới để thực hiện. Với điều đó chúng ta có thể loại bỏ dòng này.
+
+Cuối cùng, tôi muốn thêm một trình nghe nhấp chuột. Vì vậy mình sẽ thêm phương thức `click` và mình muốn thực thi lệnh `removeTodo` ở đây và chúng ta có thể xóa dòng này nhiều đã ngắn hơn với jQuery. Bây giờ, thao tác đó sẽ tạo phần tử mới và thêm thuộc tính cũng như trình nghe lượt nhấp.
+
+```javascript
+var inputEl = $('input');
+var buttonEl = $('button');
+var ulEl = $('ul');
+
+var todos = [];
+
+buttonEl.click(addTodo);
+
+function addTodo() {
+    var userInput = inputEl.value;
+    if (userInput.trim() == '') {
+        return;
+    }
+    var newTodo = {id: Math.random(), value: userInput};
+    todos.push(newTodo);
+    $('<li>' + userInput + '</li>')
+        .appendTo(ulEl)
+        .attribute('dataset-id', newTodo.id)
+        .click(removeTodo);
+    console.log(todos);
+}
+
+function removeTodo(event) {
+    var clickedLi = event.target;
+    var itemId = clickedLi.attr('dataset-id');
+    for (var i = 0; i < todos.length; i++) {
+        if (todos[i].id === itemId) {
+            todos.slice(i, 1);
+            break;
+        }
+    }
+    clickedLi.parentNode.removeChild(clickedLi);
+
+    console.log(todos);
+}
+```
+
+Chúng ta hãy có một cái nhìn.
+Nếu chúng ta nhấn nút điều khiển, hãy vào đây, xóa bảng điều khiển và nói lý do tại sao sữa dường như vẫn hoạt động. Chúng tôi cũng thêm nó vào mảng. Tuy nhiên, nhấp vào nó sẽ không hoạt động. Hoặc nó sẽ hoạt động. Nhưng thực ra như bạn thấy, nó sẽ không xóa mảng vì ở đó chúng ta vẫn cần thực hiện một số công việc để xóa để làm chúng tôi nhận được sự kiện này. Nhưng thực ra chúng ta không cần nó ở đây như thế này.
+
+Thay vào đó, chúng ta có thể truy cập vào phần tử mà chúng ta đã nhấp vào bằng cách sử dụng ký hiệu `$`. Và sau đó, như một đối số, `this` một từ khóa dành riêng trong JavaScript, nhưng khi được sử dụng trong jQuery như ở đây, nó sẽ cấp cho chúng ta quyền truy cập lại vào mục tiêu sự kiện dưới dạng đối tượng jQuery.
+
+Thế là xong.
+
+```javascript
+function removeTodo(event) {
+    var clickedLi = $(this);
+    var itemId = clickedLi.attr('dataset-id');
+    for (var i = 0; i < todos.length; i++) {
+        if (todos[i].id === itemId) {
+            todos.slice(i, 1);
+            break;
+        }
+    }
+    clickedLi.remove();
+    console.log(todos);
+}
+```
+
+Và vì chúng tôi có được điều này nên chúng tôi có thể truy xuất `itemId` bằng cách truy cập `attr()`. Một lần nữa, hàm chúng tôi sử dụng ở đây để thiết lập dữ liệu này. Đặt `id` ngay bây giờ nếu tôi chỉ chuyển `dataset-id` mà không có đối số thứ hai, thì tôi chỉ cần truy xuất nó.
+
+Vì vậy, bây giờ điều này mang lại cho tôi `id` mặt hàng một lần nữa và do đó mã khác cũng sẽ hoạt động.
+
+Nhưng chúng ta có thể cải thiện mã ở đây thay vì `parentNode` và sau đó `removeChild`, chúng ta có thể chỉ cần gọi `remove()` khi nhấp vào chính nó.
+
+Bây giờ hãy mở lại bảng điều khiển.
+Hãy thêm mua sữa.
+Và trả lời các câu hỏi.
+Và bây giờ nếu tôi bấm vào nó, bạn thấy đấy, bây giờ chúng ta chỉ có bằng cách bấm vào mảng và bây giờ chúng ta có một khoảng trống mảng.
+Vì vậy, bây giờ ứng dụng hoạt động giống như trước đây, nhưng bạn ơi, có phải là ít mã hơn nhiều, mã gọn gàng hơn nhiều không, dễ dàng hơn nhiều với jQuery.
+
+Bây giờ chúng ta hãy thêm Lodash vào bài giảng tiếp theo trước khi xem chúng ta có thể cải thiện những gì khác.
+
+### More JavaScript Libraries: Adding Lodash
+
+Trong bài giảng trước, chúng tôi đã thêm jQuery để làm cho mã của chúng tôi gọn gàng và dễ dàng hơn và điều đó thật tuyệt. Nhưng jQuery chỉ là một thư viện có sẵn. Một thư viện tập trung vào việc truy cập `Dom` làm việc với `Dom`.
+
+Bây giờ chúng ta cũng có thể sử dụng Lodash, vì vậy chỉ cần tìm kiếm Lodash để truy cập lodash.com và Lodash là một JavaScript thư viện, cung cấp rất nhiều chức năng tiện ích.
+
+Bạn có thể tìm hiểu thêm về tất cả các chức năng tiện ích này. Nếu bạn truy cập tài liệu. Nó cung cấp cho bạn rất nhiều hàm để làm việc với array, collection, string và tất cả những thứ này.
+
+ví dụ: Và bạn chỉ cần tải xuống tại đây để phát triển tại local. Hoặc vì tôi muốn sử dụng CDN ở đây để truy cập CDN và sau đó chọn gói `core` có tên chẳng hạn `min.js` sao chép cái đó.
+
+Đi tới mã HTML của bạn và thêm phần nhập này.
+
+```html
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
+<input type="text">
+<button>Add Todo</button>
+```
+
+Thứ tự không quan trọng ở đây, nhưng sẽ quan trọng nếu bạn muốn ghi đè một số hàm mà jQuery cung cấp, mà thông thường các thư viện không nên ghi đè lên các chức năng khác. Nhưng vâng, về mặt lý thuyết thì thứ tự có vấn đề.
+
+Bây giờ với Lodash được thêm vào, chúng ta thực sự có thể xem tài liệu và đây là một tài liệu cụ thể chức năng tiện ích mà tôi quan tâm. Và đó là ở đây dưới util.
+
+`uniqueId`, Nó tạo ra một ID duy nhất, đúng như tên gọi.
+
+Vì vậy, bây giờ chúng ta có thể sử dụng thông tin đó để tạo ID thực sự độc đáo này tại đây. Bạn sử dụng Lodash bằng cách sử dụng dấu `_`. Đó là nơi tên đến từ. Vì vậy, mặc dù tên này có vẻ lạ nhưng thực tế đây là tên hàm JavaScript hợp lệ. Vì vậy, giống như ký hiệu `$` dành cho jQuery Lodash. Có thể nói, dấu `_` này hiện đang truy cập vào đối tượng Lodash.
+
+```javascript
+function addTodo() {
+    var userInput = inputEl.value;
+    if (userInput.trim() == '') {
+        return;
+    }
+    var newTodo = {id: _.uniqueId(), value: userInput};
+    todos.push(newTodo);
+    $('<li>' + userInput + '</li>')
+        .appendTo(ulEl)
+        .attribute('dataset-id', newTodo.id)
+        .click(removeTodo);
+    console.log(todos);
+}
+```
+
+Và ở đó, như bạn thấy ở đây, chúng tôi có thể thực thi ID duy nhất, ID duy nhất và chúng tôi có thể cung cấp cho nó tiền tố của riêng mình.
+
+Tuy nhiên, chúng tôi không cần phải làm vậy.
+
+Nếu bây giờ chúng ta nhấn control, hãy nhập và mở bảng điều khiển. Hãy thêm `Buy milk` một lần nữa và thêm câu trả lời. Câu hỏi lần cuối. Nếu chúng ta nhìn vào những vật thể mà chúng ta thấy, chúng ta có những ID duy nhất ở đây. Số tăng dần.
+
+Và do đó, tất nhiên, tôi vẫn có thể loại bỏ những mục này. Cái này vẫn hoạt động như trước, nhưng bây giờ sử dụng thư viện khác, lodash để có được chức năng tiện ích này. Và hy vọng điều đó sẽ cho bạn thấy cách chúng tôi có thể cải thiện ứng dụng này bằng cách không chỉ sử dụng JavaScript cơ bản hoặc cuối cùng, tất nhiên chúng tôi sử dụng JavaScript thuần nhưng cũng thêm một số thư viện của bên thứ ba để cải thiện cuộc sống của chúng tôi ở đây và làm cho mã của chúng tôi gọn gàng hơn và do đó dễ quản lý hơn.
+
+### The Role of JavaScript Libraries
+
+Trước khi chúng ta xem xét cách chúng ta có thể cải thiện ứng dụng của mình hơn nữa, hãy để tôi nói về những thư viện này một chút xíu nữa. Chúng tôi thấy có hai thư viện ở đây và còn có nhiều thư viện hơn cho tất cả mọi thứ bạn có thể làm với JavaScript.
+
+Vậy làm thế nào để bạn tìm thấy những thư viện này? Làm thế nào để bạn biết bạn nên sử dụng cái nào? Vâng, không có câu trả lời đơn giản cho điều này. Thông thường, nó hoạt động như thế này. Bạn biết đấy, bạn muốn thêm một chức năng nhất định.
+
+Ví dụ: bạn muốn làm việc nhiều với ngày tháng và bạn không muốn viết mã để định dạng hoặc tự mình chuyển đổi ngày tháng. Chà, vậy thì bạn chỉ cần tìm kiếm ngày tháng JavaScript hoặc ngày tháng JavaScript, thư viện và sau đó bạn nên tìm một thư viện như Moment.js, một thư viện tập trung vào các hàm tiện ích cụ thể về ngày tháng. Đó là cách nó hoạt động.
+
+Và như tôi vừa đề cập, có các thư viện dành cho tất cả mọi thứ bạn có thể tạo trong JavaScript và thư viện là một phần không thể thiếu của JavaScript vì chúng giúp cuộc sống của bạn dễ dàng hơn rất nhiều và cho phép bạn có thể tập trung vào logic kinh doanh của mình thay vì phải liên tục phát minh lại cái bánh xe.
+
+Và sau đó có thể cũng làm sai. Bạn có thể không viết mã tối ưu ở đó. Đó là lý do tại sao các thư viện tồn tại và tại sao chúng lại cực kỳ quan trọng.
+
+### Libraries vs Frameworks
+
+Quay lại và đuổi theo fiddle.
+Đây.
+Chúng tôi cải thiện ứng dụng bằng cách thêm jQuery và Lodash và tôi nghĩ bạn đã có thể hiểu lý do tại sao thêm thư viện vào ứng dụng của bạn có thể là một điều tốt đẹp. Thay vì chỉ bám vào JavaScript thuần túy và tự mình viết mọi thứ.
+
+Tuy nhiên, khóa học này chủ yếu nói về các framework, ưu đãi JavaScript khác nhau và chúng tôi chưa có hãy nhìn vào những thứ này.
+
+Chúng tôi chỉ sử dụng thư viện và thư viện là khung. Tôi sẽ quay lại với sự khác biệt trong giây lát. Chúng tôi vẫn có thể cải thiện ứng dụng của mình ở đây vì mặc dù nó gọn gàng hơn và chúng tôi sử dụng ít mã hơn ở đây nhưng chúng tôi vẫn phải viết khá nhiều mã để chỉ cần thêm và xóa một số thành phần vào và ra khỏi Dom và quản lý trạng thái lưu trữ `id` này trong Dom. Và điều này hoàn toàn phù hợp với các ứng dụng nhỏ hơn hoặc nếu bạn chỉ muốn nâng cao những điều nhỏ nhặt về các ứng dụng hiện có Các trang HTML, nhưng đối với các ứng dụng lớn hơn, bạn vẫn có thể chạm vào đường viền khiến việc này trở nên quá cồng kềnh và việc quản lý nhà nước của chúng ta trở nên rất khó khăn. Đó là một trong những vấn đề quan trọng mà framework có thể giải quyết cho bạn. Vì vậy, chúng ta hãy xem xét kỹ hơn về điều này. Chúng tôi đã xem xét các thư viện và trong video trước, chúng tôi nhận ra rằng chúng tôi vẫn có thể cải thiện ứng dụng của mình. Đó là điều mà các framework cố gắng làm cho bạn. Chúng tôi thường có Angular React và Vue. Tất nhiên cũng có các framework JavaScript khác, nhưng ba framework này có lẽ là phổ biến nhất những cái tốt nhất và những cái hiện đại nhất hiện nay.
+
+#### Sự khác biệt giữa khung như Angular và thư viện như Lodash hoặc jQuery là gì?
+
+Thư viện thường khắc phục một số vấn đề nhất định. jQuery chủ yếu nói về cách làm việc với Dom. Lodash cung cấp cho bạn rất nhiều chức năng tiện ích để làm việc với mảng hoặc tạo ID duy nhất đó, nhưng tuy nhiên, tổng thể cách bạn tạo ứng dụng của mình là điều bạn phải quyết định.
+
+Một khung làm được nhiều việc hơn là chỉ cung cấp cho bạn một số chức năng tiện ích hoặc tập trung vào một lĩnh vực. Một khung thường cung cấp cho bạn cấu trúc về cách bạn nên viết ứng dụng của mình và quan tâm đến một rất nhiều chi tiết thực tế ở mức độ thấp mà bạn sẽ phải làm theo cách khác.
+
+Ví dụ: thêm hoặc xóa các mục vào và ra khỏi Dom.
+
+Đó là một nhiệm vụ thường được khung thực hiện tự động để bạn vẫn có JavaScript cơ bản làm cơ sở mã mà là một cấu trúc nhất định về cách viết mã của bạn để dễ dàng nhận được các tính năng như thêm và loại bỏ các thành phần để bạn có thể tập trung hơn nữa vào logic kinh doanh của mình. Hãy xem nó hoạt động như thế nào và bạn sẽ nhanh chóng hiểu được những lợi ích mà khung này mang lại cho bạn.
+
+### Using Vue.js (A JavaScript Framework)
+
+Tôi sẽ thêm Vue.js vào ứng dụng này tại đây. Vue.js là một trong những framework dễ bắt đầu nhất, đó là lý do tại sao tôi chọn nó ở đây. Nhưng ở phần sau của khóa học, chúng ta sẽ xem xét React và Angular 2 cũng như nhiều nội dung khác về Vue.js. Ở đây chúng ta sẽ nhanh chóng đi sâu vào nó. Sau này chúng ta sẽ có phần xem xét kỹ hơn về Vue.js. Hãy truy cập Vuejs.org và tại đây chúng ta có thể nhấp vào Bắt đầu để bắt đầu, nhưng sau đó chúng ta có thể chọn cài đặt để cài đặt nó.
+
+Và tôi vẫn muốn sử dụng CDN ở đây. Vì vậy, những gì chúng ta có thể làm là chỉ cần nhấp chuột phải vào liên kết này ở đây và sao chép địa chỉ liên kết để lấy CDN từ giải nén ở đây, đưa cho chúng tôi liên kết này, phiên bản mới nhất của Vue tự động và tôi sẽ thay thế.
+
+Jake, cậu có đồng ý với nó không? Không phải Lodash.
+Tôi vẫn muốn ID duy nhất đó, nhưng tôi sẽ thay thế jQuery và tôi sẽ nói điều gì đó về sự thay thế đó của jQuery chứ không phải Lodash sau này.
+Ối.
+Hãy biến điều này thành một thẻ `script` hợp lệ một lần nữa.
+
+Vì vậy, bây giờ việc nhập Vue.js và liên kết Lodash ở đây đã được sửa.
+
+Bây giờ hãy sử dụng Vue.js.
+
+Việc sử dụng những chiếc ghế hoạt động hoàn toàn khác so với việc sử dụng jQuery chỉ với lý do tại sao tôi thay thế nó. Lodash không can thiệp vào lãnh thổ của chúng tôi, đó là lý do tại sao tôi vẫn sử dụng Lodash. Nhưng tất cả thao tác trên Dom giờ đây sẽ được Vue.js xử lý, đó là lý do tại sao tôi đã xóa jQuery. Chúng ta không nên có nhiều thư viện hoặc framework làm cùng một việc. Vì vậy, nếu jQuery tương tác với Dom và Vue.js như bạn sẽ thấy sau đây, thì điều tương tự cũng xảy ra. Rất có thể chúng ta sẽ làm mọi chuyện rối tung lên. Vì vậy, theo nguyên tắc chung, nếu bạn đang sử dụng một framework như Angular, React hoặc Vue, thì đừng sử dụng jQuery. Có thể khó khăn lúc đầu, nhưng hãy thực sự nắm bắt cấu trúc mà khuôn khổ mang lại cho bạn và sau đó gắn bó đến nó. Và đừng sử dụng các thư viện khác, không chỉ jQuery, mà đó là thư viện nổi bật nhất thao túng Dom đến các thư viện khác thực hiện những việc khác giống như Lodash làm ở đây. Chỉ cung cấp cho tôi các chức năng tiện ích bằng JavaScript. Sử dụng hoàn toàn ổn, nhưng việc truy cập vào Dom chỉ nên được thực hiện bởi một thứ, bởi một `framework`.
+
+Nói đủ rồi.
+
+Hãy quay lại Vue.js và tìm hiểu cách nó hoạt động.
+
+Vue.js hoạt động với `templates`. Điều đó có nghĩa là về cơ bản nó cần một mẫu cho mã HTML thực tế mà nó sẽ tạo sau đó. Chúng tôi đã có mã HTML và chúng tôi có thể yêu cầu Vue.js sử dụng mã này làm mẫu bằng cách gói nó trong `div` đó
+
+```html
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
+<div id="app">
+	<input type="text">
+	<button>Add Todo</button>
+	<ul></ul>
+</div>
+```
+
+ví dụ.
+Lấy tất cả mã đó và đặt nó vào `div` đó.
+
+Vì vậy, như thế này.
+Hãy để tôi dọn dẹp cái này và sau đó tôi sẽ cung cấp cho `div` này `id="app"`. Bạn có thể chọn bất kỳ ID nào khác hoàn toàn tùy thuộc vào bạn. Tuy nhiên, chúng tôi sẽ cần nó trong giây lát. Vậy là bây giờ chúng ta có mã HTML gần giống như trước đây.
+
+Bây giờ trong JavaScript.
+
+Tôi sẽ xóa mã đó sau, nhưng tôi sẽ bắt đầu đơn giản bằng cách sử dụng Vue. Và hãy nhớ rằng chúng tôi đã thêm phần nhập nên điều tôi có thể làm ở đây là tôi có thể nói `new Vue()` để tạo một Vue mới
+
+ví dụ.
+
+Đó là cách Vue.js hoạt động và ở đó chúng tôi chuyển một đối tượng JavaScript để định cấu hình nó.
+
+Vì vậy, về cơ bản, điều này khởi tạo Vue.js và bây giờ chúng ta có thể làm việc với nó ở đó. Đối tượng đó chúng ta có thể thiết lập một vài thuộc tính. Điều quan trọng đầu tiên là thuộc tính nơi chúng ta nói với Vue.js, này, phần nào trong HTML của chúng ta mã bạn nên kiểm soát?
+
+Vậy bạn nên lấy phần nào làm mẫu để chúng tôi có thể làm việc cùng. Và ở đây chúng tôi sử dụng bộ chọn CSS thông thường, ví dụ như ứng dụng `#` để chọn toàn bộ div này ở đây. `div` này, bây giờ điều này nằm dưới sự kiểm soát của Vue.js.
+
+```javascript
+new Vue({
+    el: '#app'
+});
+```
+
+Bây giờ bạn có thể nói và bây giờ chúng tôi muốn thêm chức năng tương tự mà chúng tôi đã có trước khi làm cho nút này có thể nhấp được và thêm và bớt các phần tử. Bây giờ, vì chúng ta sử dụng một khung và kiểm soát phần HTML này nên chúng ta có thể sử dụng các lệnh đặc biệt trong HTML. Bởi vì một lần nữa, hãy nhớ rằng phần này được kiểm soát bởi Vue.js. Vì vậy, trong khi HTML, trong khi trình duyệt không hiểu các lệnh của chúng ta, thì Vue.js sẽ hiểu và về cơ bản nó sẽ hiểu thay thế các lệnh bằng mã mà trình duyệt hiểu được trước khi mã truy cập vào trình duyệt.
+
+Vì vậy, ví dụ: chúng ta có thể thêm trình nghe lượt nhấp chuột.
+
+```html
+
+<div id="app">
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul></ul>
+</div>
+```
+
+Và chúng ta có thể làm điều này bằng cách sử dụng `v-on:click`.
+Bây giờ `v-on` là một chỉ thị, một lệnh được Vue.js hiểu và thứ sau dấu hai chấm `:` là sự kiện chúng tôi muốn nghe vì chữ `v-on` lệnh báo cho Vue.js biết, vui lòng phản ứng với một sự kiện và sự kiện đó sau đó được chuyển làm đối số ở đây sau dấu hai chấm.
+
+Vì vậy, về cơ bản, điều này sẽ thiết lập một trình nghe lượt nhấp mà bạn có thể nói và ở đây tôi muốn thực hiện thao tác thêm để làm. Tuy nhiên, điều này sẽ không nhắm mục tiêu chức năng của chúng tôi ở đây. Thay vào đó, chúng ta phải ở trong thế giới Vue.js đó.
+
+```javascript
+new Vue({
+    el: '#app',
+    method: {}
+});
+```
+
+Đối tượng khung nhìn này mà chúng ta chuyển đến thể hiện khung nhìn có một `property` khác. Vue.js hiểu và chúng tôi không thể thêm bất kỳ thuộc tính nào vào đây. Nó phải là `properties`. Vue.js biết thêm về điều này trong phần Vue.js ở phần sau của khóa học. Ví dụ: thuộc tính phương thức.
+
+Bây giờ các `mothods` ở đây cho phép chúng ta thêm các phương thức của riêng mình như `addToDo`, khi đó chỉ là một hàm.
+
+Vì vậy, đó là một đối tượng JavaScript bình thường mà chúng ta có ở đây với một chức năng hiện là một thuộc tính bổ sung để thực hiện và điều này bây giờ là những gì người nghe nhấp chuột này sẽ đề cập đến.
+
+```javascript
+new Vue({
+    el: '#app',
+    method: {
+        addTodo: function () {
+
+        }
+    }
+});
+```
+
+Bây giờ đây là cách chúng ta có thể thêm một `todo`. Và để quản lý danh sách `todos`, tôi cần thêm một `property` khác vào `view instance`, thuộc tính dữ liệu.
+
+Vì vậy, khi các phương thức cho phép chúng ta đăng ký các phương thức của riêng mình, chúng ta có thể gọi từ Dom hoặc bất kỳ phương thức nào khác đặt mã xem ở đây. `Data` cho phép chúng tôi thiết lập một số dữ liệu mà chúng tôi muốn làm việc trong ứng dụng của mình. Vì vậy ở đây tôi sẽ thêm một đối tượng JavaScript làm `data`.
+
+Và ở đó tôi sẽ thêm `todos` làm thuộc tính là một mảng trống.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        todos: [],
+        userInput: ''
+    },
+    method: {
+        addTodo: function () {
+            var newTodo = {
+                id: _.uniqueId(),
+                value: userInput
+            };
+        }
+    }
+});
+```
+
+Vì vậy, điều này tương tự như `todo` ở dưới đó, nhưng bây giờ không phải là một biến, chỉ là một `property`. Trong đối tượng này, chúng tôi thiết lập làm dữ liệu của `view instance` của chúng tôi, chỉ cần đưa nó trở lại bộ nhớ là xong chúng tôi hiện đang làm việc vì `Vue` hiện đang nắm quyền kiểm soát mã HTML của chúng tôi.
+Vì vậy, ở đây trong `todos` của chúng ta, bây giờ chúng ta có thể tạo một việc cần làm mới để chúng ta vẫn có thể nói `var newTodo`.
+
+Về cơ bản chúng ta chỉ có thể sao chép mã chúng ta có ở đây. Và thêm nó vào đây để thêm Todo mới. Có lẽ chúng tôi vẫn muốn xác thực xem người dùng đã nhập nội dung nào hợp lệ hay chưa.
+
+Vì vậy, để làm được điều này, chúng ta cần kiểm tra xem phần tử đầu vào của chúng ta ở đây có giữ mã hợp lệ hay không và chúng ta có thể truy cập vào `input` này, nội dung người dùng đã nhập với `v-model` của chúng tôi.
+
+Bây giờ với việc `remodel`, chúng ta có thể `bind` điều này với một số `data property` ở đây.
+
+Vì vậy, đây có thể là `userInput`, ban đầu là một chuỗi trống.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        todos: [],
+        userInput: ''
+    },
+    method: {
+        addTodo: function () {
+            var newTodo = {
+                id: _.uniqueId(),
+                value: userInput
+            };
+        }
+    }
+});
+```
+
+Và ở đây bây giờ tôi sẽ chuyển thông tin `userInput`.
+
+```html
+<input type="text" v-model="userInput">
+```
+
+Và điều này làm đối với các phần tử `input`, mô hình sẽ tự động tìm nạp bất cứ thứ gì người dùng đã nhập dưới dạng một giá trị và chuyển nó đến một số thuộc tính trong thuộc tính `data` ở đây mà chúng tôi xác định giữa dấu ngoặc kép. Vì vậy chúng tôi thiết lập liên kết này ở đây.
+
+Vì vậy, vì chúng tôi tự động nhận được giá trị này trong hàm này nên về cơ bản chúng tôi có thể kiểm tra kỹ điều tương tự chúng tôi đã làm đối với dữ liệu đầu vào của người dùng nếu người dùng nhập và `return`.
+
+Tuy nhiên, nếu điều này không hợp lệ thì dữ liệu nhập của người dùng như thế này sẽ không hoạt động vì chúng ta không có biến có tên đầu vào của người dùng tại thời điểm này.
+
+Nhưng với thông tin đầu vào của người dùng này, Vuejs sẽ tự động cấp cho chúng tôi quyền truy cập vào phiên bản chế độ xem này và `this` có thể trông có vẻ hơi kỳ diệu nếu bạn là nhà phát triển JavaScript có kinh nghiệm vì điều này có thể phức tạp trong JavaScript,
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        todos: [],
+        userInput: ''
+    },
+    method: {
+        addTodo: function () {
+            if (this.userInput.trim() == '') {
+                return;
+            }
+            var newTodo = {
+                id: _.uniqueId(),
+                value: userInput
+            };
+        }
+    }
+});
+```
+
+nhưng Vue.js sẽ đảm bảo rằng `this` thực sự sẽ luôn đề cập đến `view instance` và cấp cho chúng tôi quyền truy cập cho tất cả các `method` và `property` hoặc tất cả `data` mà chúng tôi đã thêm vào phiên bản này bằng dữ liệu hoặc các đối tượng phương thức.
+
+Vì vậy, có một chút phép thuật ở đây, nhưng đó chính là nội dung của các `framework` như Vue. Vì vậy, bây giờ điều này cho phép chúng tôi truy cập vào thông tin đầu vào của người dùng, cho phép chúng tôi kiểm tra xem nó có cho phép chúng tôi tạo một công việc mới để làm và do đó cho phép chúng tôi sử dụng điều này để làm những `todo`, để truy cập những `todo` của chúng tôi ở đây và sau đó đẩy để đẩy cái mới đó sang làm trên mảng `todos` này.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        todos: [],
+        userInput: ''
+    },
+    method: {
+        addTodo: function () {
+            if (this.userInput.trim() == '') {
+                return;
+            }
+            var newTodo = {
+                id: _.uniqueId(),
+                value: this.userInput
+            };
+            this.todos.push(newTodo);
+            console.log(this.todos);
+        }
+    }
+});
+```
+
+Bây giờ điều này thêm một `todo` mới. Bây giờ chúng ta hãy hiển thị `todo` trong danh sách `unordered` của chúng ta. Và ở đây chúng ta lại làm việc với mã HTML vì nó lại nằm dưới sự kiểm soát của Vue.js và ở đó chúng ta có thể thêm một mục list mà cuối cùng chúng ta muốn kết thúc. Và bây giờ là một lệnh khác, một lệnh khác Vue.js sẽ hiểu `v-for` cho phép chúng ta lặp qua một số mục. Và ở đây tôi muốn lặp lại những `todo` của mình để tôi có thể nói `todo` trong những `todos`.
+
+```html
+
+<div id="app">
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul>
+		<li v-for="todo in todos"></li>
+	</ul>
+</div>
+```
+
+Điều này sẽ làm là làm điều này sẽ tự động tham chiếu đến thuộc tính `data` của chúng tôi giống như người dùng `ViewModel`đầu vào đề cập đến input của người dùng và việc cần làm chỉ là một biến sẽ lấy `todo` hiện tại để thực hiện cho mỗi lần lặp.
+
+Và bây giờ chúng ta có thể sử dụng một cú pháp khác là `{{}}`, Vue.js cũng hiểu như vậy. cho phép chúng ta xuất ra văn bản riêng lẻ `todo`. Vì Todo là một đối tượng JavaScript nên đây sẽ là `value`. Việc cần làm sẽ đề cập đến từng đối tượng trong mảng của chúng ta và các đối tượng có định dạng và giá trị này.
+
+```html
+
+<div id="app">
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul>
+		<li v-for="todo in todos">
+			{{ todo.value }}
+		</li>
+	</ul>
+</div>
+```
+
+Vì vậy, bất cứ điều gì chúng ta đã nhập, mã này sẽ xuất ra mã mới `todos`. Vì vậy, bây giờ chúng ta hãy loại bỏ tất cả các mã JavaScript khác. Mọi thứ.
+
+Và ở phần cuối của `addTodo`. Tuy nhiên, hãy cùng `console.log` điều này vào, chúng ta phải có một số giá trị trong đó nếu chúng ta thấy điều gì đó ở đây. Bởi vì nếu không, vì chúng ta lặp qua các việc cần làm nên chúng ta sẽ không thấy gì cả.
+
+Nếu bây giờ tôi nhấn điều khiển, hãy mở bảng điều khiển và xóa nó để xem có lỗi nào không. Hãy thêm `Buy milk` và nhấp vào thêm `todo` và chúng tôi gặp lỗi vì tất nhiên nếu tôi đóng bảng điều khiển ở đây khi chúng ta gán giá trị, đây cũng phải là thông tin đầu vào của người dùng.
+
+Giống như khi kiểm tra ở đây, chúng tôi phải tham khảo thông tin đầu vào của người dùng mà chúng tôi đã tạo trong dữ liệu và do đó tự động được thêm vào phiên bản chế độ xem tổng thể được tạo. Vì vậy, nếu điều này xảy ra nếu bây giờ chúng ta nhấn nút điều khiển, hãy nhập và mở bảng điều khiển, hãy xóa điều này và giả sử `Buy milk`. Hiện nay. Và bây giờ bạn thấy `Buy milk` đã được thêm vào.
+Và nếu chúng ta nói `Answer question`.
+
+Câu hỏi ở đây. Bạn thấy đấy, cách này hiệu quả và chúng tôi đã có được mảng của mình.
+
+Bạn có thể bỏ qua đối tượng quan sát này trong mảng được Vue.js thêm vào để thực hiện một số phép thuật đó. Nhưng chủ yếu bạn sẽ thấy rằng `todo` của chúng tôi ở đây đã được thêm `ID` và tất nhiên là các giá trị ban đầu của chúng. Đó là những gì Vue.js làm.
+
+Và bạn đã thấy rằng mảng trông hơi khác một chút, rằng chúng tôi có một số phép thuật xem này trong đó. Và đây là cách quản lý mã của chúng tôi dễ dàng hơn nhiều, dễ hiểu hơn nhiều. Và chúng ta không phải tạo tất cả các phần tử này một cách thủ công. Thay vào đó, giờ đây chúng ta có Vue.js làm tất cả những việc đó cho chúng tôi.
+
+#### Sẽ đặc biệt dễ dàng nếu bây giờ chúng ta cũng thêm chức năng loại bỏ các phần tử.
+
+Tất cả những gì chúng ta phải làm cho việc này là thêm một trình nghe nhấp chuột khác vào mục danh sách và Vue.js sẽ tự động thêm nó cho mỗi mục danh sách mới mà nó tự động tạo ra. `v-on:click` đây nơi tôi nói `removeTodo` . Cứ như vậy đi.
+
+```html
+
+<div id="app">
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul>
+		<li
+			v-for="todo in todos"
+			v-on:click="removeTodo(todo)">
+			{{ todo.value }}
+		</li>
+	</ul>
+</div>
+```
+
+Và điều duy nhất tôi phải làm ở đây là tôi phải chuyển `todo` làm đối số để loại bỏ.
+
+Bây giờ chúng ta có thể thêm một phương thức `removeTodo`. Và tôi biết rằng tôi sẽ nhận được việc cần làm mà cần được loại bỏ như một đối số khi tôi chuyển nó ở đây. Và với điều đó, điều chúng ta có thể làm là tôi có thể trích xuất ID thành `todo.id` vì một lần nữa, việc cần làm chỉ đơn giản là một đối tượng thuộc loại này. Và bây giờ tôi có thể tiếp cận mảng việc cần làm của mình bằng vòng lặp `for` để loại bỏ nó. Vì vậy, ở đây tôi có thể sử dụng lại vòng lặp `var i=0` cho đến khi chúng ta kết thúc việc cần làm. Vì vậy, miễn là chúng ta ở trong độ dài của nó sẽ tăng lên ở đây. Và sau đó chỉ cần kiểm tra xem việc cần làm có bị lỗi không.`ID` bằng `ID` chúng tôi đã truy xuất ở đây. Và sau đó nếu chúng tôi tìm thấy một cái, hãy sử dụng `this.todos.splice(i, 1)` để loại bỏ phần tử này bằng mã giống như trước, chỉ cần với điều này trước todos. Và sau đó cũng thoát ra khỏi vòng lặp này.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        todos: [],
+        userInput: ''
+    },
+    method: {
+        addTodo: function () {
+            if (this.userInput.trim() == '') {
+                return;
+            }
+            var newTodo = {
+                id: _.uniqueId(),
+                value: this.userInput
+            };
+            this.todos.push(newTodo);
+            console.log(this.todos);
+        },
+        remoteTodo: function (todo) {
+            var id = todo.id;
+            for (var i = 0; i < this.todos.length; i++) {
+                if (this.todos[i].id == id) {
+                    this.todos.splice(i, 1);
+                    break;
+                }
+            }
+        }
+    }
+});
+```
+
+Bây giờ chúng ta không cần thêm bất kỳ mã nào khác để loại bỏ phần tử vì bây giờ hãy tự mình xem. Nếu chúng ta mở công cụ dành cho nhà phát triển ở đây và tôi vào, `Buy Milk` rồi `Answer question`. Nếu tôi nhấp vào câu trả lời, nó sẽ bị xóa. Và đó là bởi vì bây giờ bạn chỉ làm việc với dữ liệu, với logic và cách biểu diễn của mình.
+
+Và Dom được Vue.js xử lý tự động. Vì chúng tôi lặp lại tất cả các việc cần làm ở đây và sao chép mục danh sách này thường xuyên nếu cần để có `todo` được xuất ra Dom, Vue.js cũng sẽ nhận ra nếu chúng tôi xóa các phần tử khỏi mảng mà chúng tôi sử dụng này ở đây và sau đó tự động xóa các phần tử khỏi dom.
+
+Và đó chính là ưu điểm lớn của framework. Bạn không cần phải thực hiện việc quản lý chi tiết các phần tử trong Dom. Bạn không cần phải viết quyền truy cập Dom. Vue.js sẽ làm điều này cho bạn. Chúng tôi thậm chí sẽ thực hiện việc đó theo cách rất hiệu quả cho bạn để bạn có cơ hội đạt được hiệu suất tốt hơn là với mã của bạn và bạn thực sự có thể tập trung vào logic kinh doanh của mình.
+
+Và đây tôi nghĩ là mã rất rõ ràng, rất dễ hiểu. Và tất nhiên chúng ta sẽ tìm hiểu sâu hơn một chút về Vue.js và cách nó hoạt động trong phần sau. Chúng tôi tập trung hoàn toàn vào Vue.js và sau đó chúng tôi cũng sẽ làm điều tương tự với Angular và React để bạn có được một cảm giác tuyệt vời về khuôn khổ nào bạn có thể thích nhất. Nhưng tôi hy vọng rằng ví dụ này đã cho thấy lý do tại sao sử dụng một framework như Vue có thể là một ý tưởng tuyệt vời.
+
+### Understand other Parts of the JavaScript World
+
+Vì vậy, trong bài giảng trước chúng ta đã tìm hiểu về JavaScript cơ bản. Chúng tôi đã thêm jQuery để cải thiện nó. Chúng tôi đã thêm Lodash để cải thiện ứng dụng của mình và sau đó thay thế jQuery bằng Vue.js. Và bạn tìm hiểu cách một framework như Vue.js có thể làm nhiều việc dễ dàng hơn, cách nó tự động xử lý về một số việc bạn phải làm thủ công trước đây.
+
+Vì vậy, trong thế giới JavaScript có một số thứ jQuery, angular, v.v. mà bây giờ chúng ta đã hiểu tốt hơn một chút
+
+Chúng tôi đã biết rằng đây là những thư viện hoặc `framework` thực hiện một số nhiệm vụ nhất định và đôi khi có thể thay thế nhau. Bạn thường sử dụng Angular hoặc React hoặc Vue hoặc bạn có thể thay thế jQuery bằng bất kỳ framework nào trong số này hoặc bổ sung cho nhau.
+
+Lodash chỉ đơn giản cung cấp một số chức năng tiện ích để bạn có thể sử dụng nó tốt với một trong các khung công tác khác hoặc các gói.
+
+Điều đó thật tuyệt, nhưng thế giới JavaScript còn có nhiều thứ hơn là chỉ các thư viện và `framework`.
+
+Bây giờ chúng tôi đã hiểu.
+
+Về cơ bản, chúng tôi cũng có những thứ như ES6, phiên bản JavaScript tiếp theo.
+
+TypeScript, Webpack và Babel.
+
+Và bạn có thể đã nghe nói về những điều này, nhưng chúng có ý nghĩa gì?
+
+#### Họ đóng vai trò gì?
+
+Vâng, như đã đề cập, chúng tôi hiểu thư viện là gì và khung vai trò nào.
+
+Nhưng còn những thứ khác thì sao?
+
+Chà, đối với Webpack và Babel, về cơ bản đây là những công cụ xây dựng, các gói chúng tôi sử dụng trong quá trình phát triển, và điều đó quan trọng, không có vai trò gì khi ứng dụng đang chạy trên máy chủ nhưng chúng tôi sử dụng trong phát triển để làm cho cuộc sống của các nhà phát triển của chúng tôi dễ dàng hơn một chút.
+
+Chúng cho phép chúng tôi sử dụng các tính năng mà chúng tôi không thể sử dụng khi kết hợp với các `framework`. Chúng có thể cho phép chúng tôi sử dụng một số tính năng nhất định dễ dàng hơn để phân chia mã của chúng tôi thành nhiều tệp và sau đó `bundle` nó gộp lại thành một `bundle` mà chúng tôi gửi đến đầu cuối hoặc để tối ưu hóa `minify` mã của chúng tôi.
+
+Nhưng cũng có những thứ được kết nối với những thứ như ES6 và TypeScript. Về cơ bản, đây chỉ là những phiên bản khác của JavaScript mà bạn có thể nói.
+
+Bây giờ chúng tôi chỉ có một phiên bản chạy được trên hầu hết các trình duyệt và đó là JavaScript. Hay nói chính xác hơn là Es5. Có thể bạn không biết nhưng JavaScript được lập phiên bản và chúng tôi thường xuyên nhận được các phiên bản mới của JavaScript.
+
+Bây giờ, vì JavaScript chạy trong trình duyệt nên một phiên bản mới có thể có sẵn sẽ không tự động được đưa ra được tất cả các trình duyệt hỗ trợ vì các trình duyệt cũ thường không được cập nhật nên chúng sẽ không hỗ trợ trình duyệt mới phiên bản của JavaScript.
+
+Ví dụ: ES6 là phiên bản tiếp theo của JavaScript và nó thường có sẵn. Bạn có thể sử dụng nó, bạn có thể viết mã của mình bằng ES6, nhưng nếu bạn gửi mã của mình như thế, nó sẽ không chạy trong tất cả các trình duyệt.
+
+Đó là lý do tại sao chúng tôi có Webpack, một công cụ xây dựng và cụ thể là Babel, một Transpiler cho phép chúng tôi sử dụng ES6 trong quá trình phát triển để có thể tận dụng tất cả các tính năng hay này. Nhưng sau đó Babel đã tích hợp vào Webpack, nơi quản lý toàn bộ quy trình xây dựng của chúng tôi.
+
+Bạn có thể nói rằng chúng tôi sẽ dịch ES6 sang Es5. Vì vậy, về cơ bản nó nghĩ ra các cách viết lại mã ES6 của chúng tôi bằng mã Es5 để chúng tôi có thể sử dụng các tính năng mới. Nhưng giao hàng mã hoạt động (JS ES5).
+
+Và TypeScript gần tương tự. Tuy nhiên, đây không phải là phiên bản tiếp theo. Đó là một ngôn ngữ riêng do Microsoft phát triển, dựa trên JavaScript và bổ sung thêm các tính năng mới và tất nhiên cũng không chạy trên trình duyệt. Vì vậy, cái này cũng phải được biên dịch bằng một trình biên dịch khác ở đây, nhưng nó cũng có thể được tích hợp vào quy trình làm việc được quản lý bởi Webpack.
+
+Và đó là cách chúng hoạt động cùng nhau, cách chúng tôi có những phần khác nhau, những ngôn ngữ khác nhau, xây dựng các công cụ cho phép chúng tôi sử dụng nhiều tính năng hơn, các tính năng khác nhau trong quá trình phát triển và tối ưu hóa mã của chúng tôi và sau đó là các thư viện và framework mà chúng ta đã tìm hiểu.
+
+![Understand other Parts of the JavaScript World](/assets/images/react-js-angular-vue-js-quickstart-comparison-02.png)
+
+### JavaScript Versions and Languages - ES6 and TypeScript
+
+Vậy là chúng ta đã xem xét thế giới JavaScript và tôi đã giải thích ES6, TypeScript, v.v. là gì. Nhưng một lần nữa, để làm rõ điều này, chúng ta hãy xem xét kỹ hơn.
+
+Như đã đề cập, ES6 đơn giản là phiên bản tiếp theo của JavaScript và bạn có thể sử dụng nó ngay hôm nay, nhưng sẽ không chạy trong tất cả các trình duyệt. Nó bổ sung thêm các tính năng mới, chẳng hạn như các lớp hoặc hàm mũi tên, những tính năng này đã được cải tiến. Các chức năng hoạt động hầu hết thời gian, giống như các chức năng cũ, nhưng thêm một số tính năng bổ sung và nó rất tuyệt để sử dụng các tính năng này nhưng lại không được hỗ trợ trong tất cả các trình duyệt. Vì vậy, chúng tôi chỉ có thể viết các ứng dụng đang chạy trên các trình duyệt tiên tiến. Và tất nhiên chúng tôi không thể dựa vào việc người dùng trang web của chúng tôi có những trình duyệt như vậy.
+
+TypeScript là một ví dụ khác. Đây không phải là phiên bản tiếp theo nhưng nó là ngôn ngữ được phát triển bởi Microsoft và nó cũng bổ sung thêm nhiều tính năng mới. Nhưng nó là một `superset` của JavaScript. Điều đó có nghĩa là nó luôn phải được biên dịch sang JavaScript.
+
+Cuối cùng, nó không chạy trình duyệt, nó chỉ mở rộng JavaScript, thay đổi cú pháp một chút và thêm nhiều tính năng mới. Quan trọng nhất là các loại.
+
+JavaScript theo mặc định là ngôn ngữ được có kiểu dữ liệu động và bạn không chỉ định kiểu dữ liệu. Khi bạn tạo một biến mới, biến đó có thể chứa bất kỳ loại và dữ liệu nào. Vì vậy, bạn có thể giữ một chuỗi rồi gán một số và JavaScript sẽ không phàn nàn. Đó có thể là một lợi thế, nhưng nó cũng có thể làm cho mã của bạn trở nên khó đoán hơn một chút. TypeScript, Ví dụ, thêm các loại để bạn phải rõ ràng về loại biến nào sẽ giữ cuối cùng. Tuy nhiên, đó chỉ là một trong những tính năng và bạn không cần phải sử dụng nó dưới bất kỳ hình thức nào nhưng nó có thể cung cấp một số lợi thế. Nhưng một lần nữa, nó luôn cần được biên dịch sang JavaScript, nếu không nó sẽ không chạy trên trình duyệt.
+
+Đây là lúc Babel phát huy tác dụng. Nó dịch ES6, không phải TypeScript. Trên thực tế, TypeScript có trình biên dịch riêng.
+
+Nhưng nếu ngày nay chúng ta sử dụng các tính năng của ES6 trong quá trình phát triển, chúng ta sẽ cần Babel, một trình biên dịch chuyển mã ES6 của chúng tôi sang mã Es5, mã này cuối cùng sẽ chạy trong trình duyệt để chúng tôi có thể sử dụng các tính năng trong quá trình phát triển và vẫn gửi `working code`.
+
+Còn Webpack thì sao? Nó có phải là sự thay thế cho Babel không? Không, trên hết Webpack là một gói, có nghĩa là chúng ta có thể chia mã của mình thành nhiều tệp, nhiều tệp JavaScript. Chỉ cần đặt một câu lệnh cho Webpack biết cuối cùng tệp nào chúng tôi muốn nhập vào tệp khác và sau đó nó sẽ quét tất cả các lần nhập này và tạo một gói. Cuối cùng, điều này cho phép chúng tôi tạo mã dễ bảo trì hơn vì chia nó thành nhiều tệp dễ dàng hơn để làm việc với chúng tôi. Nhưng cuối cùng, chúng tôi lại có một tệp mà chúng tôi triển khai và gửi tới trình duyệt.
+
+Trong quá trình đóng gói này, chúng tôi có thể tích hợp nhiều trình cắm hoặc trình tải khi chúng được gọi vào quy trình làm việc của Webpack để chúng tôi không chỉ đóng gói các tệp mà còn có thể chuyển đổi nếu muốn họ.
+
+Ví dụ: chúng tôi có thể tích hợp Babel vào quy trình đóng gói Webpack của mình và kiểm tra xem tệp có sử dụng ES6 không và liệu nó có biên dịch nó thành Es5 trước khi gói mọi thứ hay không. Và điều tương tự đối với TypeScript. Bạn có thể tích hợp trình biên dịch TypeScript vào quy trình làm việc Webpack của mình. Bạn cũng có thể tối ưu hóa mã của mình và `minify` nó.
+
+Vì vậy, đó là vai trò của Webpack.
+
+Và có những lựa chọn thay thế như gulp hoặc grunt. Nhưng Webpack là phổ biến nhất và bạn có thể đã nghe nói về nó trong khóa học này.
+
+Một phần nơi chúng tôi phân tích dự án Vue.js sử dụng Webpack để chúng tôi có thể hiểu Webpack là gì thực hiện chi tiết hơn một chút.
+
+Vậy đó chính là ES6, TypeScript và Webpack và hy vọng điều đó sẽ xóa tan một số nhầm lẫn bạn có thể đã có.
+
+Hy vọng điều này sẽ giải thích được vai trò của các gói và công cụ này.
+
+![JavaScript Versions and Languages - ES6 and TypeScript](/assets/images/react-js-angular-vue-js-quickstart-comparison-03.png)
+
+### Course Structure
+
+Chúng ta vẫn đang ở phần bắt đầu nhưng chúng ta đã học được rất nhiều điều. Chúng tôi đã tìm hiểu ý nghĩa của các thuật ngữ cơ bản, ý nghĩa của tất cả những điều này trong thế giới JavaScript, thư viện là gì và tại sao chúng ta có thể muốn sử dụng một số `framework` là gì và tại sao chúng ta có thể muốn thay thế một số thư viện với các `framework`.
+
+Bây giờ đã đến lúc phải tiếp tục.
+
+Chúng ta sẽ xem xét kỹ hơn các `framework` JavaScript và hiểu cách chúng ta có thể thêm chúng vào các ứng dụng. Bởi vì có nhiều hơn một cách để làm như vậy. Chúng tôi sẽ hiểu điều gì tạo nên những `framework` như vậy, cách chúng hoạt động cũng như những tính năng chúng cung cấp cho chúng tôi. Sau khi tìm hiểu điều đó, chúng ta sẽ đi sâu vào từng `framework` một, ba khung phổ biến nhất.
+
+Chúng ta sẽ bắt đầu với Vue.js.
+
+Chúng ta đã xem qua phần bắt đầu ở đây, nhưng ở đó chúng ta sẽ đi sâu hơn và tìm hiểu cú pháp cơ bản, khái niệm đằng sau nó, cách thức hoạt động và cách chúng ta có thể tạo ra các loại ứng dụng khác nhau với nó sau đó trước khi đi sâu vào các khuôn khổ khác, tôi sẽ dừng lại một giây và xem xét tại Webpack và quy trình xây dựng khi sử dụng Vue.js.
+
+Đến cuối mô-đun đó, chúng ta sẽ có một thiết lập cục bộ sử dụng Webpack để gói mã của chúng ta, biên dịch nó hoặc biến đổi nó một chút và cũng tối ưu hóa nó.
+
+Chúng ta sẽ xem xét quy trình làm việc này trong phần này tại đây và hiểu Webpack làm gì ở đây cho chúng ta và lý do tại sao chúng tôi sử dụng nó.
+
+Sau đó, chúng ta sẽ quay lại các framework. Chúng ta sẽ xem xét React JS Một framework rất phổ biến và tuyệt vời và chúng ta sẽ hiểu framework này hoạt động như thế nào. Bạn sẽ thấy khá khác với Vue.js, nhưng rất thú vị khi đi sâu vào vấn đề đó để bạn có thể có được ấn tượng về việc điều đó có thú vị với bạn hay không.
+
+Chà, sau React chúng ta sẽ xem xét Angular trong phiên bản mới nhất của nó, Angular 4 vào thời điểm này. Tuy nhiên, bây giờ chúng tôi cũng sẽ có hiệu lực cho các phiên bản sau này.
+
+Chúng ta sẽ tìm hiểu cách Angular hoạt động, cách chúng ta tạo các dự án góc và cách chúng ta làm việc với Angular, khái niệm `framework` này sử dụng.
+
+Sau đó, chúng ta đã xem xét ba framework quan trọng nhất.
+
+Chúng tôi đã xem xét những thứ khác như Webpack và sau đó bạn sẽ có ấn tượng rõ ràng về thế giới JavaScript, vai trò của từng bộ phận và cách chúng ta có thể sử dụng chúng.
+
+Và đặc biệt là bạn sẽ có ấn tượng về cách hoạt động của các framework này và bạn thích cái nào nhất.
+
+Dù vậy tôi vẫn chưa xong việc. 
+
+Tôi sẽ có một mô-đun để so sánh các khung này. Tôi sẽ có một vài chủ đề hoặc tiêu chí mà tôi sẽ so sánh các framework với nhau để bạn cũng có thể có thêm ý tưởng về framework nào có thể phù hợp cho nhiệm vụ nào.
+
+Chà, sau đó, bạn thực sự nên chuẩn bị chọn khung yêu thích của mình và tìm hiểu sâu hơn vào đó nếu bạn muốn.
+
+![Course Structure](/assets/images/react-js-angular-vue-js-quickstart-comparison-04.png)
+
+### Module resource
+
+Mã nguồn của mô-đun này có thể được tìm thấy trên JSFiddle:
+
+Vanilla JS App: https://jsfiddle.net/smax/23pxksab/
+
+jQuery + Lodash App: https://jsfiddle.net/smax/q5wLaodv/
+
+Vue.js App: https://jsfiddle.net/smax/g7hc05vu/
+
+## Section 2: Understanding JavaScript Frameworks in General
