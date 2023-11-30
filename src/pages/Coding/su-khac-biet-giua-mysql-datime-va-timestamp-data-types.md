@@ -120,7 +120,6 @@ Bây giờ, hãy thay đổi múi giờ hệ thống từ IST sang EST, tức l�
 
 ```mysql
 SET @@session.time_zone = '-05:00';
-
 SELECT *
 FROM `employee`;
 ```
