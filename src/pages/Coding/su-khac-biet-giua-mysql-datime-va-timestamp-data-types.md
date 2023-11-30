@@ -118,9 +118,9 @@ FROM `employee`;
 
 Bây giờ, hãy thay đổi múi giờ hệ thống từ IST sang EST, tức là UTC - 05:00 trong những tháng lạnh của Giờ tiết kiệm ánh sáng ban ngày.
 
-```sql
-mysql>
+```mysql
 SET @@session.time_zone = '-05:00';
+
 SELECT *
 FROM `employee`;
 ```
