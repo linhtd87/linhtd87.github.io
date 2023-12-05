@@ -1393,4 +1393,314 @@ Vue.js App: https://jsfiddle.net/smax/g7hc05vu/
 
 ## Section 2: Understanding JavaScript Frameworks in General
 
-123
+### Module Introduction
+
+Chào mừng bạn đến với mô-đun khóa học này.
+
+Chúng tôi mới bắt đầu và đã hiểu tại sao Vue.js trong ví dụ chúng tôi sử dụng có thể tốt hơn jQuery cho một số tác vụ.
+
+Bây giờ trong mô-đun này, chúng ta sẽ xem xét kỹ hơn các khung JavaScript này và bạn sẽ biết rằng có thực tế là hai cách khác nhau để sử dụng chúng.
+
+Bạn sẽ tìm hiểu hai cách này trông như thế nào và khi nào bạn có thể chọn cách nào cũng như cách các khung có thể hoạt động chung giúp bạn trong ứng dụng của bạn.
+
+Vậy hãy bắt đầu.
+
+### JS Frameworks in Fullstack Applications
+
+Đây là cách đầu tiên chúng ta có thể sử dụng `framework` JavaScript.
+
+Chúng tôi có một ứng dụng web điển hình, một ứng dụng `full stack` nơi chúng tôi có một số chương trình phụ trợ sử dụng PHP với có thể một số framework như Laravel hoặc ASP.Net hoặc NodeJS, có thể với một framework như Express.
+
+Bây giờ chúng tôi gửi yêu cầu đến đó và thông thường chúng tôi sẽ nhận lại một trang.
+
+Tuy nhiên, trong hầu hết các ứng dụng, chúng tôi có một số `route` được đăng ký trên máy chủ để khi chúng tôi gửi ở đó có một yêu cầu dành cho các yêu cầu khác nhau, vì vậy về cơ bản các URL khác nhau như `/blog` hoặc `/about` chúng tôi, chúng tôi lấy lại các trang khác nhau như thế, vì vậy cuối cùng chúng tôi lấy lại các trang HTML khác nhau, khác nhau Mã HTML.
+
+Thông thường điều này được gọi là `views`.
+
+![JS Frameworks in Fullstack Applications](/assets/images/react-js-angular-vue-js-quickstart-comparison-05.png)
+
+Vì vậy, backend `PHP` hoặc `node` hoặc bất cứ thứ gì render `view` cho chúng tôi, cho máy khách.
+
+Vì vậy, chế độ xem này thường bao gồm HTML, JavaScript và CSS và nó trình bày hoặc tạo nên trang web. Sau đó, chúng tôi sẽ xem và có thể làm việc với nơi chúng tôi có thể nhấp vào liên kết để tải trang mới.
+
+Có lẽ bây giờ theo cách tiếp cận này, tất nhiên chúng ta có thể sử dụng JavaScript để làm điều gì đó trên các trang riêng lẻ này và chúng ta cũng có thể sử dụng một số framework ở đó. Chúng tôi có thể thêm một khung như `Vue.js` để nâng cao từng trang riêng lẻ ở đây và điều đó cực kỳ quan trọng. Tất nhiên, chúng tôi sẽ thêm mã nhập `JavaScript` khung vào mỗi trang này vì chúng tôi cần khuôn khổ trên mỗi trang, ít nhất là trên mỗi trang mà chúng tôi muốn sử dụng nó. Vì vậy, hãy quay lại ví dụ Jsfiddle từ ứng dụng đầu tiên, từ mô-đun đầu tiên trong khóa học này rõ ràng là chúng tôi chỉ có một trang mà chúng tôi đang làm việc, nhưng bạn có thể nghĩ đến trang đó mà JS fiddle trình soạn thảo mà chúng tôi đã làm việc với phần HTML, CSS và JavaScript đó dưới dạng một trang trong nhiều trang theo cách tiếp cận như vậy, trong một ứng dụng web điển hình như vậy.
+
+Bây giờ, theo cách tiếp cận này, như đã đề cập, chúng tôi có các phiên bản khác nhau và bạn có thể nói các `app` được xây dựng với chúng tôi đối với các trang khác nhau và một số trang có thể không sử dụng `framework` của chúng tôi.
+
+Nếu họ không cần nó thì tại sao họ lại sử dụng nó?
+
+Vì vậy, chúng tôi tạo một ứng dụng với `framework` đó cho các trang khác nhau còn được gọi là `multi-page application` vì chúng tôi lấy lại nhiều trang từ máy chủ cho các yêu cầu khác nhau. Đó là cách đầu tiên để sử dụng một `framework` như vậy. Và như bạn sẽ học trong suốt khóa học này, không phải mọi `framework` đều phù hợp với phương pháp này.
+
+Chà, nếu đúng như vậy thì giải pháp thay thế là gì?
+
+### JS Frameworks in Single-Page-Applications
+
+Trong bài giảng trước, chúng ta đã biết rằng một cách sử dụng khung JavaScript như Vue.js là sử dụng nó trong các trang khác nhau của `full-stack application` của chúng tôi, ở các chế độ xem khác nhau. Chúng tôi nhận được phản hồi từ máy chủ và một số `views` có thể không sử dụng nó. Điều đó hoàn toàn ổn.
+
+Bây giờ, giải pháp thay thế khá hiện đại và là xu hướng lớn hiện nay là tạo một `single-page application`. Máy chủ của chúng tôi chỉ trả về một trang HTML cho tất cả các URL mà chúng tôi có thể gửi tới trang đó. Điều đó nghe có vẻ lạ vì rõ ràng chúng ta cần các trang khác nhau. Nếu tôi truy cập `/blog`, tôi chắc chắn muốn nhận về một trang khác so với khi tôi truy cập `/about-us`.
+
+Bí quyết là trang chúng tôi lấy lại thực sự sẽ không chứa bất kỳ nội dung nào, nhưng nó sẽ chứa JavaScript của `app` và tất nhiên đó sẽ là một `app` lớn hơn nhiều so với `app` nhỏ mà chúng ta có thể thêm vào các trang riêng lẻ của một `multi-page application`.
+
+Sau đó, ứng dụng này thực sự sẽ nắm bắt URL của chúng tôi, phân tích cú pháp và hiển thị các trang khác nhau, nhưng nó sẽ chỉ trông như thế này với người dùng để JavaScript của họ sẽ tiếp quản và kiểm soát toàn bộ giao diện người dùng.
+
+Nó sẽ đảm bảo với chúng ta rằng, chúng có vẻ như các trang khác nhau. Trang này sẽ thay đổi nhưng mọi thứ sẽ được xử lý bằng JavaScript và chúng tôi sẽ không bao giờ tải lại trang. Chúng tôi sẽ không bao giờ nhận được một trang mới từ máy chủ. Thay vào đó, mã HTML sẽ được thay đổi khi chạy bằng JavaScript.
+
+Tại sao chúng ta lại sử dụng nó?
+
+* Bởi vì nó nhanh hơn nhiều.
+* Chúng tôi không phải gửi yêu cầu và chờ phản hồi.
+* Chúng tôi không phải tải xuống mã mà chúng tôi có thể đã sử dụng trước đây.
+* Thay vào đó, mọi thứ diễn ra ở `front-end`. Mọi thứ xảy ra ngay lập tức, rất phản ứng.
+
+Và ví dụ: nếu chúng tôi cần liên hệ với máy chủ vì chúng tôi muốn lưu trữ một số dữ liệu trong cơ sở dữ liệu, vậy thì JavaScript có thể thực hiện điều đó một cách bí mật để chúng ta vẫn không phải rời khỏi `single page` của mình.
+
+Một điều quan trọng chúng ta phải lưu ý ở đây là khi tạo một `single-page application`, chúng ta sẽ có một số `server` chứa logic nghiệp vụ mà chúng tôi kết nối ở `back-screen`. Nhưng máy chủ phục vụ `single page` này, tệp index.html đơn này và các tệp JavaScript có thể là một máy `static server`. Chúng tôi không cần `Apache` hoặc bất kỳ `intepreter` (trình thông dịch) `PHP` nào ở đó. Chúng tôi không cần `NodeJS` cho việc đó. Đó có thể là bất kỳ `server` nào bạn chọn có mục đích duy nhất là cung cấp lại cho chúng tôi tệp HTML này và một vài tệp JavaScript và CSS.
+
+Bây giờ chúng ta hãy xem các ví dụ cho cả hai cách tiếp cận.
+Một số ví dụ thực tế để điều đó trở nên rõ ràng hoặc dễ hiểu hơn một chút.
+
+![JS Frameworks in Single-Page-Applications](/assets/images/react-js-angular-vue-js-quickstart-comparison-06.png)
+
+### An Example for a Framework in a Fullstack Application
+
+Hãy lấy `Udemy.com` làm ví dụ. Nếu chúng ta truy cập trang này ở đây, `Udemy.com`, và tôi được chuyển tiếp để `/courses`, thì đây thực chất là một`multi-page application` bởi vì nếu bây giờ tôi tìm kiếm `angular` ở đây và nhấn enter, bạn xem trang được làm mới và chúng tôi đã tải một trang mới. Bạn có thể thấy điều đó bằng icon refresh spin trên đó. Vì vậy, bây giờ đây là trang mới mà chúng tôi đã quay lại.
+
+Và nếu bây giờ tôi nhấp vào `Development` > `Web development`, hãy xem lại `icon` này. Một lần nữa, chúng tôi đã tải một trang mới và chúng tôi có thể xác nhận điều này bằng cách mở các công cụ dành cho nhà phát triển trong trình duyệt của mình đi tới tab `network`.
+
+Và bây giờ nếu tôi nhấp vào `Development` > `Mobile Apps` chẳng hạn, bạn sẽ thấy chúng tôi gửi một vài yêu cầu và về cơ bản chúng tôi đã lấy lại được một trang web mới với rất nhiều nội dung trong đó. Bây giờ nếu tôi tìm kiếm lại `angular` và nhấn enter lần nữa, chúng tôi sẽ tải xuống một trang hoàn toàn mới và trang này là điều luôn xảy ra nếu chúng ta chuyển trang ở đây.
+
+Ví dụ: đó là trang chúng tôi đã tải xuống. Đó là mã HTML chúng tôi đã lấy lại được.
+
+Đó là một trang khác với trang chúng ta đã ở trước đây. Bây giờ đây là một ứng dụng web bình thường.
+
+Làm thế nào để tôi biết rằng nó sử dụng một số `framework`? Bởi vì đó chính là điểm tôi đang cố gắng thực hiện, rằng chúng ta có thể sử dụng một `framework` như `Vue`, chẳng hạn như một `multi-page application` .
+
+Chà, rõ ràng là tất cả các trang này đều có một số thành phần được kiểm soát bởi JavaScript. Vì vậy, ví dụ: ở đây trên trang tìm kiếm nơi tôi đã tìm kiếm `Angular`, tôi có thể đặt bộ lọc như cấp độ tôi muốn đặt nó ở mức độ `beginer`. Bây giờ nếu tôi nhấp vào đây, nó sẽ cập nhật trang mà không cần tải lại. Bạn có thể nhận biết bằng biểu tượng đó ở đây nếu tôi bỏ chọn nó, bạn nhìn thấy nó, cập nhật nó, nhưng chúng tôi không nhận được trang mới được thực hiện bằng JavaScript, vì JavaScript là thứ duy nhất có thể chỉnh sửa trang của chúng tôi trong thời gian chạy.
+
+Chúng tôi có thể xác nhận rằng họ sử dụng `framework` cho việc này bằng cách quay lại tab `network` và tải lại một lần nữa trang này ngay bây giờ để tôi tải lại hoặc tải xuống lại tất cả nội dung.
+
+Vì vậy, bạn có thể muốn tắt `cache` ở đây để buộc trình duyệt tải xuống lại tất cả nội dung.
+
+Tại sao tôi muốn tải lại mọi thứ? Bởi vì nếu chúng ta cuộn lên đây trong tab `network`, chúng ta sẽ thấy điều gì đó tương đối thú vị ở trên cùng đây. Tệp `vendor.entry....` này, bạn thấy đó là tệp JavaScript và nó có tên tệp lạ này, nhưng đó chỉ là cách họ đặt tên cho nó trong quá trình xây dựng.
+
+Nhân tiện, nếu chúng ta nhấp vào nhà cung cấp này, luôn ngụ ý rằng đó là một `framework` nào đó, một `library` nào đó, không phải mã do họ viết. Nếu chúng ta nhấp vào đây, chúng ta sẽ thấy điều gì đó thú vị trong tệp này. Ngay trên đầu chúng ta thấy thỏa thuận cấp phép Angular 1.5.
+
+Vì vậy, về cơ bản, Angular là một. Chà, điều đó có nghĩa là họ đang sử dụng Angular làm `framework` trên trang này. Và nó có ý nghĩa vì việc cập nhật danh sách kết quả này và tất cả những việc khác bạn có thể làm trên này trang được điều khiển bằng JavaScript sẽ rất cồng kềnh nếu được viết bằng tay với vanilla JavaScript.
+
+Nhưng ở đây một lần nữa, ứng dụng Angular này chỉ là một phần của trang tìm kiếm này. Nếu chuyển sang đây, các khóa học `financial` chẳng hạn, tôi không có bộ lọc ở đây. Có thể chúng ta có một số ứng dụng Angular khác ở đây, có thể có một số chức năng được chia sẻ với ứng dụng trước đó, nhưng chúng tôi có ứng dụng Angular mới trên trang này. Chúng tôi có một tệp khác ở đây hoặc một mã khác sẽ chạy cuối cùng. Và đó chính là điều tôi muốn nói.
+
+Chúng tôi có Angular đang được thêm vào ứng dụng nhiều trang của chúng tôi. Với mỗi trang mới tôi nhận được ở đây, tôi tải lại `angular code` hoặc trình duyệt của tôi có thể lưu nó vào `cache` để cải thiện hiệu suất, nhưng nhìn chung nó được phục vụ bởi mỗi trang mới và do đó đây không phải là một `single-page application`.
+
+Vậy `single-page application` là gì?
+
+Chà, nếu tôi chuyển sang các `my-courses` và có thể bạn cũng có ít nhất một khóa học, khóa học bạn đang xem ngay bây giờ, bạn có thể thấy đây là một số khóa học tôi đã đăng ký. Bây giờ nếu tôi tham gia một trong những khóa học này, có thể là khóa học Ruby ở đây và tôi nhấp vào nó bây giờ về cơ bản chúng ta sẽ nhập một loại ứng dụng khác.
+
+Hãy xem ứng dụng nào trong bài giảng tiếp theo.
+
+### Fullstack Approach - Pros and Cons
+
+Bây giờ chúng ta đã thấy các ví dụ cho cả `multi-page application` tích hợp `framework` JavaScript vào
+các `views` khác nhau và một `single-page application` trong đó chúng tôi có một `app` JavaScript điều khiển toàn bộ trang,
+Chúng ta hãy xem những ưu điểm hoặc nhược điểm mà mỗi phương pháp này có thể có.
+
+Hãy bắt đầu với cách tiếp cận `multi-page fullstack`.
+
+#### Tại sao chúng ta có thể sử dụng nó? Tại sao chúng ta có thể không làm như vậy?
+
+Hãy bắt đầu với những ưu điểm ở đây.
+
+![Fullstack Approach - Pros and Cons](/assets/images/react-js-angular-vue-js-quickstart-comparison-07.png)
+
+Về mặt ưu điểm, có thể nói nó rất thân thiện với việc tối ưu hóa công cụ tìm kiếm SEO.
+Đây cũng là lý do tại sao Udemy chọn cách tiếp cận này cho trang tìm kiếm khóa học của mình, v.v.
+Tất nhiên họ muốn Google tìm thấy những trang này.
+Họ muốn Google lập chỉ mục các trang này.
+
+Tại sao lại thân thiện hơn thế?
+Bởi vì trình thu thập thông tin đang gặp khó khăn khi đọc JavaScript và đặc biệt là mã JavaScript tải
+mọi thứ `asynchronously`.
+Nếu chúng tôi chuyển trang trên một `single-page application` và do đó URL thay đổi và hiển thị lại JavaScript
+các phần của trang đó mà không cần tải trang mới.
+
+Chà, trình thu thập thông tin sẽ làm điều đó như thế nào?
+Đó là điều mà hiện tại trình thu thập thông tin không thể thực hiện được, đó là tạo một trang mới.
+Hiện tại thân thiện hơn với SEO.
+
+Ngoài ra, một lợi thế khác là chúng tôi có rất nhiều `frameworks` cho hướng tiếp cận này.
+Nếu bạn đang làm việc với `PHP Laravel`, có rất nhiều hướng dẫn.
+Nếu bạn đang làm việc với `NodeJS Express`, sẽ có rất nhiều hướng dẫn vì hầu hết các ứng dụng, hầu hết các trang web đều
+hoạt động như thế này vì đây là cách duy nhất để tạo ứng dụng hoặc tạo trang web cho đến tận 3 hoặc 4 năm trước kia.
+Hiện tại nó đang thay đổi, nhưng chúng tôi vẫn có những ứng dụng này hỗ trợ phần lớn tất cả các trang Web.
+
+Bây giờ, một lý do khác là chúng tôi có các giải pháp bảo mật đơn giản hơn.
+Với điều đó, ý tôi không có nghĩa là bảo mật sẽ dễ dàng hơn nhưng vì lần trước chúng tôi đã sử dụng loại ứng dụng này 10 năm, 20 năm, rất nhiều vấn đề đã được giải quyết và rất nhiều `framework` bạn thường sử dụng
+có tính năng bảo mật được tích hợp vào chúng.
+Vì vậy, đó là một lợi thế ở đây.
+
+Một ưu điểm khác là bạn có cơ hội nhận được ứng dụng hoạt động cao hơn nếu người dùng chuyển sang
+tắt JavaScript vì tất nhiên là trong một ứng dụng một trang hoàn toàn được điều khiển bởi JavaScript,
+nếu người dùng tắt tính năng đó, bạn sẽ gặp khó khăn với một `fullstack application` nơi bạn thêm một số chức năng
+với JavaScript, ít nhất một phần trang của bạn vẫn có thể hoạt động mà không cần đến nó.
+
+Hiện nay có một số nhược điểm, nếu không chúng tôi sẽ không có xu hướng chuyển sang các ứng dụng một trang,
+
+Phải?
+
+Một nhược điểm lớn là thời gian phản hồi bị chậm và nó có vẻ không phải là một vấn đề vì nó tương đối
+nhanh, nhưng việc phải tải lại trang cho mọi thứ chúng ta nhấp vào thực sự không lý tưởng.
+Ví dụ, đó không phải là những gì chúng ta đã quen với điện thoại di động của mình.
+
+Trên ứng dụng dành cho thiết bị di động, chúng ta chạm vào thứ gì đó và ngay lập tức thứ gì đó sẽ thay đổi.
+Và một lần nữa, nếu chúng ta cần tải dữ liệu hoặc lưu trữ dữ liệu diễn ra ở hậu trường và điều đó sẽ thật tuyệt
+để có các ứng dụng web hoạt động theo cách tương tự.
+
+Một điều nữa là rất dễ kết hợp giữa trình bày và logic nghiệp vụ trong các phương pháp tiếp cận ngăn xếp đầy đủ này,
+đặc biệt là khi sử dụng PHP, chẳng hạn, thật dễ dàng để nhúng quá nhiều logic nghiệp vụ chạy trên
+server vào mã `front end` của bạn vào `views` của bạn.
+
+Điều đó không hẳn là một vấn đề, nhưng nó có thể trở thành một vấn đề và có thể dẫn đến mã có vấn đề trong đó
+bạn có rất nhiều logic xảy ra trong mã `front end` của mình.
+
+Trên thực tế, một nhược điểm khác là bạn có thể phải học nhiều trang.
+Nếu bạn đang làm việc với tư cách là một nhà phát triển `full stack`, bạn có thể phải học PHP.
+Nếu bạn đang sử dụng nó trên máy chủ, bạn sẽ cần `HTML`, `CSS` và `JavaScript`.
+Có thể là cái khác.
+Không nhất thiết là một bất lợi lớn, nhưng nó có thể là một vấn đề.
+Bạn có thể tập trung hơn khi chỉ phát triển các `single-page application` hoặc chỉ làm việc ở `front-end`.
+
+### Single-Page-Application - Pros and Cons
+
+Vì vậy, bây giờ trong bài giảng trước chúng ta đã xem xét những ưu và nhược điểm của cách tiếp cận `full stack`, trong đó chúng ta
+thêm `framework` vào từng trang riêng lẻ và tạo các ứng dụng nhỏ cho các trang này.
+
+Bây giờ, còn cách tiếp cận một trang thì sao?
+Chúng ta có những ưu và nhược điểm nào ở đó?
+
+![Single-Page-Application - Pros and Cons](/assets/images/react-js-angular-vue-js-quickstart-comparison-08.png)
+
+Hãy bắt đầu lại với những ưu điểm.
+Nó giống như mặt trái của nhược điểm của phương pháp kia.
+
+Nó có thời gian phản ứng rất nhanh.
+Rõ ràng, vì chúng ta chỉ sử dụng JavaScript và JavaScript chạy trên trình duyệt nên khi chúng ta nhấp vào đâu đó
+và chúng tôi thay đổi điều gì đó, điều đó xảy ra gần như ngay lập tức và điều đó mang lại trải nghiệm tuyệt vời cho người dùng vì
+mọi thứ sẽ cập nhật nếu bạn cần tải một số dữ liệu, hiển thị một công cụ quay vòng, nhưng nó sẽ có cảm giác phản ứng nhanh hơn nhiều
+và tương tác với người dùng và điều đó thực sự quan trọng và điều đó thực sự quan trọng.
+
+Các ưu điểm khác là chúng tôi có sự tách biệt tốt hơn giữa logic kinh doanh và logic trình bày vì tính chất quan trọng của chúng tôi
+logic nghiệp vụ phải chạy trên máy chủ.
+JavaScript luôn mở cho tất cả mọi người.
+Chúng ta phải khác biệt, chúng ta sẽ phải tập trung vào những điều quan trọng đối với trải nghiệm người dùng
+trong mã `front end` của chúng tôi và chúng tôi sẽ phải tập trung vào các mục logic nghiệp vụ quan trọng trên `server` và
+trộn nó khó hơn và đó là một điều tốt.
+
+Ngoài ra, chúng tôi có thể cung cấp trải nghiệm người dùng tuyệt vời vì mọi thứ đều có tính phản hồi, vì mọi thứ
+diễn ra rất nhanh và bởi vì nếu chúng ta tạo một `single-page application`, chúng ta vẫn phải thay đổi
+URL.
+
+Vì vậy, nó có cảm giác giống như một trang web truyền thống đối với người dùng.
+Nhưng một lần nữa, mọi thứ diễn ra nhanh hơn và chúng tôi có thể phản ứng tốt hơn với những gì người dùng đang thực hiện trên trang của chúng tôi.
+Chúng tôi có thể theo dõi người dùng tốt hơn và cung cấp trải nghiệm người dùng tốt
+
+và chúng tôi cũng có thể cung cấp hỗ trợ ngoại tuyến
+một lần nữa, vì chúng tôi đang sử dụng JavaScript và nó chạy trong máy khách.
+Về mặt lý thuyết, chúng tôi không cần kết nối Internet mọi lúc, vì vậy nếu chúng tôi cung cấp đúng mã
+chúng tôi có thể đảm bảo rằng ứng dụng của chúng tôi vẫn hoạt động khi người dùng ngoại tuyến hoặc nếu họ tạm thời sử dụng Internet
+sự liên quan.
+
+Một lần nữa, bên cạnh trải nghiệm người dùng tuyệt vời này, chúng tôi cũng có những nhược điểm.
+
+Nhược điểm lớn nhất là việc tối ưu hóa công cụ tìm kiếm rất khó khăn.
+Nếu bạn muốn các trang của mình được Google lập chỉ mục thì việc sử dụng một ứng dụng một trang là điều khó khăn.
+Hiện nay có các công cụ và cách thức mới giúp việc này trở nên dễ dàng hơn, hoạt động với các phần kết xuất trước của
+ứng dụng của bạn trên máy chủ để Google nhìn thấy những gì người dùng nhìn thấy.
+
+Nhưng điều này vẫn đang nổi lên và có thể thực hiện được nhưng khó hơn so với cách tiếp cận khác.
+Vì vậy, nếu `SEO` rất quan trọng đối với trang của bạn, bạn thậm chí có thể tìm hiểu những cách mới nổi này hoặc bám sát
+ứng dụng nhiều trang trong đó bạn vẫn có thể sử dụng các `framework`, chỉ dành cho ứng dụng một trang
+phép cộng.
+
+Cuối cùng, bảo mật cần được suy nghĩ nhiều hơn và với điều đó, ý tôi không phải là nó không an toàn, nhưng vì điều này
+Cách tạo ứng dụng tương đối mới, nhiều vấn đề bảo mật điển hình được giải quyết một phần, nhưng
+bạn sẽ phải tìm hiểu thêm nhiều hướng dẫn hơn, nhiều bài đăng trên blog hơn để đọc về các phương pháp hay nhất, để tìm hiểu cách
+để giải quyết các vấn đề bảo mật cụ thể.
+Vì vậy, tất cả đều có thể thực hiện được, nhưng khó hơn một chút so với thế giới cũ.
+
+Trong các `multi-page application`, nơi có nhiều `framework` được tích hợp sâu vào chúng.
+Và một điểm nữa là nó sẽ không hoạt động nếu không có JavaScript.
+Nếu người dùng tắt JavaScript, ứng dụng của bạn sẽ không hoạt động.
+Tuy nhiên, hãy nhớ rằng chỉ có khoảng 2% tổng số người dùng Internet tắt tính năng này, vì vậy điều đó có thể
+không quan trọng với bạn.
+Nhưng nếu điều đó quan trọng thì `single-page application` không phải là lựa chọn dành cho bạn.
+
+Đó là những ưu điểm và nhược điểm của việc tạo một `single-page application`.
+Và với điều đó, hy vọng bạn có được cái nhìn tổng quan tốt về hai cách tiếp cận mà bạn có thể sử dụng, trong đó
+Khóa học này chúng ta sẽ đi sâu vào các `framework` theo cách cho phép bạn tạo hoặc sử dụng chúng trong
+dù thế nào đi nữa.
+Nhưng tất nhiên, như mọi khi, bạn sẽ phải tham gia một số khóa học dành riêng cho các `framework` này để học
+thêm về họ sau đó.
+Nhưng trước khi đi đến điểm này, hãy tiếp tục trước.
+
+### Prerequisites for the Different JS Frameworks
+
+Bây giờ, trước khi đi sâu vào `framework` đầu tiên, chúng ta sẽ làm việc với `Vue.js` trong khóa học này.
+Hãy hiểu những điều kiện tiên quyết mà các `framework` này có từ góc độ `JavaScript`.
+
+Chúng tôi có `Vue`, `React` và `Angular` và như chúng tôi đã tìm hiểu, chúng tôi có nhiều phiên bản `JavaScript` mà chúng tôi có thể sử dụng
+có thể dùng.
+Chúng tôi có `Es5`, `ES6` và `TypeScript` và chúng tôi cũng có những thứ khác như `Coffeescript`, đây cũng là một superset
+nhưng ngày nay không phổ biến lắm.
+
+Vì vậy, tôi sẽ bám vào ba điều này.
+`ES6` và `TypeScript` cần một quy trình làm việc cục bộ nên chúng ta cần một số công cụ như `Babel` kết hợp với `Webpack` để
+dịch nó sang `Es5` vì một lần nữa, nó sẽ không chạy trong tất cả hoặc trong trường hợp `TypeScript` trong bất kỳ trình duyệt nào.
+Vậy `framework` nào hỗ trợ ngôn ngữ nào hoặc cần ngôn ngữ nào?
+
+#### Hãy bắt đầu với `Vue`.
+
+Nó hoạt động hoàn toàn tốt với `Es5`, vì vậy bạn có thể viết tất cả mã bằng ngôn ngữ hoạt động như
+cái này trong trình duyệt, vì vậy bạn không cần phải dịch mã, biên dịch hoặc làm bất cứ điều gì với nó.
+Bạn vẫn có thể thiết lập quy trình làm việc để tối ưu hóa mã của mình, gói nó lại nếu bạn muốn chia nó thành nhiều phần.
+các tập tin hoặc tối ưu hóa nó, thu nhỏ nó nhưng bạn sẽ không cần phải dịch mã nó.
+
+`Vue.js` cũng hoạt động tốt với `ES6`.
+Nó hỗ trợ cả hai ngôn ngữ và nếu bạn muốn sử dụng một số tính năng `ES6` mới, hãy thoải mái thực hiện
+Vì thế.
+Bạn sẽ cần quy trình làm việc cục bộ đó.
+
+Tất nhiên, nó cũng hoạt động với `TypeScript`, nhưng việc thiết lập khó khăn hơn.
+Không có hỗ trợ chính thức, nhưng bạn có thể thêm một số gói.
+Không phải là siêu tầm thường nhưng về mặt lý thuyết có thể thực hiện được.
+Nếu bạn đã biết `TypeScript` và là một người hâm mộ lớn, bạn có thể tìm kiếm các bài viết giải thích điều đó và
+nó có thể thực hiện được.
+
+#### Còn `React` thì sao?
+
+`React` sẽ hoạt động với `Es5`, nhưng đó không thực sự là cách bạn tạo ứng dụng `React`.
+Nó không được hỗ trợ hoặc ghi chép tốt và đó không phải là cách bạn viết ứng dụng React ngày nay.
+Bạn có thể bắt đầu với điều đó nếu bạn thực sự phải làm vậy.
+Bạn có thể dính vào nó.
+Nhưng thay vào đó, chúng tôi thực sự khuyên bạn nên sử dụng `ES6` và do đó, tất nhiên bạn sẽ cần một quy trình làm việc
+dịch mã để nó chạy trong tất cả các trình duyệt.
+Mặt khác, `TypeScript`, vâng, bạn có thể thiết lập nó giống như với Vue.js, nhưng không có chính thức
+ủng hộ.
+Nó khó hơn một chút.
+Tuy nhiên, bạn có thể đào sâu vào nó nếu muốn.
+
+#### Angular
+
+Bây giờ ở đây chúng tôi không thể sử dụng `Es5`. Về mặt lý thuyết là có cách, nhưng không, cách đó chẳng vui chút nào. Và điều tương tự với `ES6`. Nó sẽ không hoạt động tốt với bất kỳ ngôn ngữ nào trong hai ngôn ngữ. Thay vào đó, bạn thường viết các ứng dụng góc của mình bằng `TypeScript` và bạn sẽ thấy điều đó đối với `Angular`, việc thiết lập quy trình làm việc `TypeScript` hoặc quy trình làm việc bằng `TypeScript` cuối cùng thực sự khá dễ dàng vì nó cung cấp một công cụ cho việc đó.
+Vì vậy, đó cũng là những gì chúng ta sẽ làm việc trong khóa học này, với `TypeScript` khi chúng ta tiếp cận `Angular`. Đừng lo lắng. Bạn không cần biết `ES6` hoặc `TypeScript` để theo dõi khóa học này. Những thứ chúng tôi sử dụng ở đây sẽ khá dễ tiếp thu và dễ hiểu. Tuy nhiên, nếu bạn có kế hoạch tìm hiểu sâu hơn về một trong những `framework` này, thì có thể đáng để bạn suy nghĩ. thu thập thêm kiến thức về điều đó.
+
+Tuy nhiên, các khóa học dạy các `framework` này cũng có thể bổ sung hoặc cung cấp phần giới thiệu cơ bản.
+
+Ví dụ: hướng dẫn đầy đủ của tôi về `Angular` có một phần giải thích những điều cơ bản về `TypeScript` để là những điều kiện tiên quyết mà các `framework` này có hoặc ngôn ngữ mà chúng sử dụng.
+
+Một lần nữa, đối với khóa học này, kiến thức `JavaScript` cơ bản là tất cả những gì bạn cần.
+
+### Module Resources
+
+Đính kèm với bài giảng này, bạn sẽ tìm thấy các slide mô-đun.
+
+Tài nguyên cho bài giảng này
+Nội dung khóa học
