@@ -1373,7 +1373,7 @@ Chúng tôi đã xem xét những thứ khác như Webpack và sau đó bạn s�
 
 Và đặc biệt là bạn sẽ có ấn tượng về cách hoạt động của các framework này và bạn thích cái nào nhất.
 
-Dù vậy tôi vẫn chưa xong việc. 
+Dù vậy tôi vẫn chưa xong việc.
 
 Tôi sẽ có một mô-đun để so sánh các khung này. Tôi sẽ có một vài chủ đề hoặc tiêu chí mà tôi sẽ so sánh các framework với nhau để bạn cũng có thể có thêm ý tưởng về framework nào có thể phù hợp cho nhiệm vụ nào.
 
@@ -1392,3 +1392,5 @@ jQuery + Lodash App: https://jsfiddle.net/smax/q5wLaodv/
 Vue.js App: https://jsfiddle.net/smax/g7hc05vu/
 
 ## Section 2: Understanding JavaScript Frameworks in General
+
+123
