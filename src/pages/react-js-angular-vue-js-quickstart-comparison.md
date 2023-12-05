@@ -1,6 +1,6 @@
 ---
 # This is the title of the article
-title: [ Course ] React JS, Angular & Vue JS - Quickstart & Comparison
+title: React JS, Angular & Vue JS - Quickstart & Comparison
 # You can customize cover image
 cover: /assets/images/cover-coding.jpg
 # This is the icon of the page
@@ -26,7 +26,7 @@ star: true
 copyright: No Copyright
 ---
 
-# [Course] React JS, Angular & Vue JS - Quickstart & Comparison
+# [Course] React JS, Angular & Vue.js - Quickstart & Comparison
 
 ## Section 1: Getting Started
 
