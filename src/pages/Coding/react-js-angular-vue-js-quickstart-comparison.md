@@ -1677,12 +1677,12 @@ nó có thể thực hiện được.
 #### Còn `React` thì sao?
 
 `React` sẽ hoạt động với `Es5`, nhưng đó không thực sự là cách bạn tạo ứng dụng `React`.
-Nó không được hỗ trợ hoặc ghi chép tốt và đó không phải là cách bạn viết ứng dụng React ngày nay.
+Nó không được hỗ trợ hoặc ghi chép tốt và đó không phải là cách bạn viết ứng dụng `React` ngày nay.
 Bạn có thể bắt đầu với điều đó nếu bạn thực sự phải làm vậy.
 Bạn có thể dính vào nó.
 Nhưng thay vào đó, chúng tôi thực sự khuyên bạn nên sử dụng `ES6` và do đó, tất nhiên bạn sẽ cần một quy trình làm việc
 dịch mã để nó chạy trong tất cả các trình duyệt.
-Mặt khác, `TypeScript`, vâng, bạn có thể thiết lập nó giống như với Vue.js, nhưng không có chính thức
+Mặt khác, `TypeScript`, vâng, bạn có thể thiết lập nó giống như với `Vue.js`, nhưng không có chính thức
 ủng hộ.
 Nó khó hơn một chút.
 Tuy nhiên, bạn có thể đào sâu vào nó nếu muốn.
@@ -1704,3 +1704,136 @@ Một lần nữa, đối với khóa học này, kiến thức `JavaScript` cơ
 
 Tài nguyên cho bài giảng này
 Nội dung khóa học
+
+## Vue.JS - an introduction
+
+### Module Introduction
+
+Chào mừng bạn đến với phần này, nói về `Vue.js`.
+`Framework` đầu tiên tôi muốn xem xét kỹ hơn.
+Chúng tôi thực sự đã sử dụng nó trong phần bắt đầu.
+Bây giờ tôi muốn tìm hiểu sâu hơn một chút và giải thích kỹ hơn những gì chúng tôi thực sự đã làm trong phần bắt đầu và những tính năng mà Vue.js của chúng tôi coi trọng hiện nay.
+
+Vue.js có một tài liệu tuyệt vời nếu bạn nhấp vào `Get Started`, vì vậy đó là nơi tốt để tìm hiểu sâu hơn vì tất nhiên tôi sẽ chỉ đề cập đến những điều cơ bản ở đây.
+
+Đây không phải là khóa học `Vue.js` hoàn chỉnh và đó chỉ là thứ tôi muốn thêm vào đây.
+Tôi có một khóa học hoàn chỉnh về `Vue.js` trên Udemy trong trường hợp bạn quan tâm.
+
+Nhưng bỏ chuyện đó sang một bên, hãy quay lại cài đặt và lấy lại liên kết này, giống như chúng ta đã làm trong phần bắt đầu.
+
+Tôi sẽ tiếp tục sử dụng `Jsfiddle` ở đây, nhưng chúng tôi sẽ để điều đó trong suốt phần này để hoạt động cục bộ, đặc biệt là khi chúng tôi đi sâu vào các `single-page application`. Nhưng để bắt đầu, điều này thật tuyệt nếu bạn bắt đầu nhanh chóng. Tất nhiên, bạn có thể thoải mái tạo tệp HTML cục bộ và tệp tập lệnh của mình. Nhập tệp tập lệnh vào tệp chỉ mục trong tệp HTML.
+
+Xin lỗi.
+
+Và bạn có thể sao chép tương tự tại địa phương.
+Vì vậy, ở đây tôi đã chuẩn bị một `jsfiddle`.
+
+Và như trước đây, chúng ta chỉ cần nhập script import vào đây và import `vue.js` để chúng ta có thể sử dụng nó.
+Đó là tất cả những gì chúng ta cần để bắt đầu.
+
+### Creating a Basic Vue.js Application
+
+Như bạn đã thấy trong phần bắt đầu, `Vue.js` cần một vị trí nào đó trong `HTML`, một số mã `HTML` có thể nắm quyền kiểm soát.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+```
+
+Vì vậy, hãy thêm mã như vậy vào đây và bằng hashtag `app`, sau đó nhấn để bạn nhanh chóng tạo một `div` bằng ứng dụng `id`.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app"></div>
+```
+
+Và `app` không phải là `id` bạn phải sử dụng. Bạn có thể sử dụng bất kỳ `id` nào ở đây.
+Đó chỉ là thứ bạn nhìn thấy khá nhiều.
+Đó là lý do tại sao tôi cũng bám vào điều đó.
+Giờ đây, ứng dụng `Vue.js` đơn giản nhất mà chúng ta có thể xây dựng là có `app` `div` này ở đây và sau đó.
+
+Đi tới phần JavaScript và tạo một `new Vue()` mới và đó thường là cách bạn khởi tạo `Vue.js`.
+
+```javascript
+new Vue();
+```
+
+Bạn tạo các phiên bản như vậy trong đó mỗi phiên bản và bạn có thể có nhiều phiên bản kiểm soát một số phiên bản một phần mã `HTML` của bạn.
+Bạn chuyển một đối tượng `JavaScript` tới phiên bản này để định cấu hình nó và sau đó bạn yêu cầu nó kiểm soát
+phần nào trong mã của bạn có thuộc tính.
+
+```javascript
+new Vue({
+    el: '#app'
+});
+```
+
+Tất nhiên, hãy đặt trước từ mà `Vue.js` sẽ nhận ra. Ở đây bạn chuyển một bộ chọn CSS, vì vậy đây là hashtag `app` để chọn `div` này.
+Và bây giờ bạn đã có quyền kiểm soát phần HTML này, bạn thực sự có thể thay đổi nó bằng `Vue.js`.
+
+Bây giờ ý tôi là gì khi nắm quyền kiểm soát ở đây?
+Hãy xem nó hoạt động như thế nào bằng cách thêm một thuộc tính khác.
+
+Vue.js sẽ nhận ra thuộc tính `data` cho đối tượng mà chúng ta chuyển sang `view instance`.
+Thuộc tính `data` lấy một đối tượng JavaScript làm đối số và ở đây chúng tôi có thể xác định bất kỳ dữ liệu nào chúng tôi muốn để làm việc trong `view instance` này.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {}
+});
+```
+
+Vì vậy, đây có thể đơn giản là `name` của chúng tôi.
+Tất nhiên bạn có thể chọn bất kỳ tên nào cho thuộc tính này mà bạn muốn.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        name: 'Max'
+    }
+});
+```
+
+Có thể là `age`, có thể là bất cứ điều gì.
+Tôi sẽ bám vào `name`.
+Tôi sẽ chỉ định một giá trị ở đây.
+Một chuỗi có tên `Max`.
+Và đây là cú pháp `JavaScript` bình thường phải không?
+Không có gì đặc biệt.
+Đây là một đối tượng JavaScript bình thường có cặp giá trị khóa.
+
+Bây giờ chúng ta đã đăng ký trường `data` này, thuộc tính `name` này, chúng ta có thể sử dụng nó trong mã `HTML`.
+Trong `div` mà chúng ta đang điều khiển bằng cách thêm một số cú pháp, `Vue.js` sẽ nhận ra dấu ngoặc nhọn đôi `{{ }}`, mở
+và đóng cửa.
+
+Về cơ bản, đây được gọi là `interpolation` (nội suy chuỗi) và điều đó có nghĩa là `Vue.js` sẽ tự động xuất ra một số
+văn bản ở nơi này.
+Văn bản ở đây chỉ đơn giản là giá trị của `name`.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+	{{name}}
+</div>
+```
+
+Vì vậy, bất cứ điều gì chúng ta nhập vào giữa các dấu ngoặc nhọn đều phải có, cuối cùng hãy cho chúng ta một chuỗi hoặc thứ gì đó
+có thể được chuyển đổi thành một chuỗi như số hoặc boolean.
+
+Vì vậy, đây cũng có thể là một lệnh gọi hàm ở đây.
+
+Vì vậy, chúng ta có thể gọi một số `method` mà chúng ta đã đăng ký trên `view object`, quay lại vấn đề này sau hoặc bất cứ điều gì khác, cuối cùng sẽ cho chúng ta một số văn bản.
+
+Nếu bây giờ chúng ta nhấn control enter, chúng ta sẽ thấy `Max` và không thấy tên dấu ngoặc nhọn (`{{ }}`).
+
+```text
+Max
+```
+
+Vì vậy `Vue.js` đã thay thế tên dấu ngoặc nhọn bằng giá trị của tên `Max`.
+Đó là một ứng dụng Vue JS rất đơn giản.
+Trong bài giảng tiếp theo tôi muốn giải thích điều kỳ diệu này xảy ra như thế nào.
