@@ -1205,9 +1205,9 @@ Chúng tôi đã có mã HTML và chúng tôi có thể yêu cầu Vue.js sử d
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
 <div id="app">
-    <input type="text">
-    <button>Add Todo</button>
-    <ul></ul>
+	<input type="text">
+	<button>Add Todo</button>
+	<ul></ul>
 </div>
 ```
 
@@ -1252,9 +1252,9 @@ Vì vậy, ví dụ: chúng ta có thể thêm trình nghe lượt nhấp chuộ
 ```html
 
 <div id="app">
-    <input type="text">
-    <button v-on:click="">Add Todo</button>
-    <ul></ul>
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul></ul>
 </div>
 ```
 
@@ -1437,11 +1437,11 @@ những `todos`.
 ```html
 
 <div id="app">
-    <input type="text">
-    <button v-on:click="">Add Todo</button>
-    <ul>
-        <li v-for="todo in todos"></li>
-    </ul>
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul>
+		<li v-for="todo in todos"></li>
+	</ul>
 </div>
 ```
 
@@ -1456,13 +1456,13 @@ tượng trong mảng của chúng ta và các đối tượng có định dạn
 ```html
 
 <div id="app">
-    <input type="text">
-    <button v-on:click="">Add Todo</button>
-    <ul>
-        <li v-for="todo in todos">
-            {{ todo.value }}
-        </li>
-    </ul>
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul>
+		<li v-for="todo in todos">
+			{{ todo.value }}
+		</li>
+	</ul>
 </div>
 ```
 
@@ -1501,15 +1501,15 @@ Tất cả những gì chúng ta phải làm cho việc này là thêm một tr�
 ```html
 
 <div id="app">
-    <input type="text">
-    <button v-on:click="">Add Todo</button>
-    <ul>
-        <li
-                v-for="todo in todos"
-                v-on:click="removeTodo(todo)">
-            {{ todo.value }}
-        </li>
-    </ul>
+	<input type="text">
+	<button v-on:click="">Add Todo</button>
+	<ul>
+		<li
+			v-for="todo in todos"
+			v-on:click="removeTodo(todo)">
+			{{ todo.value }}
+		</li>
+	</ul>
 </div>
 ```
 
@@ -2288,7 +2288,7 @@ Văn bản ở đây chỉ đơn giản là giá trị của `name`.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    {{name}}
+	{{name}}
 </div>
 ```
 
@@ -2332,7 +2332,7 @@ new Vue({
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    {{name}}
+	{{name}}
 </div>
 ```
 
@@ -2379,7 +2379,7 @@ new Vue({
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    {{name}}
+	{{name}}
 </div>
 {{name}}
 ```
@@ -2396,8 +2396,8 @@ Vì vậy, chúng ta có thể gói tên này thành một đoạn văn.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    <p>{{name}}</p>
-    <button v-on:click="">Change Name</button>
+	<p>{{name}}</p>
+	<button v-on:click="">Change Name</button>
 </div>
 ```
 
@@ -2471,8 +2471,8 @@ Và nếu chúng tôi làm như vậy và nhấn nút điều khiển, hãy tham
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    <p>{{name}}</p>
-    <button v-on:click="changeName">Change Name</button>
+	<p>{{name}}</p>
+	<button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2518,9 +2518,9 @@ Trong trường hợp này, chúng tôi có thể nói rằng chúng tôi muốn
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    <p>{{name}}</p>
-    <p v-if="">Name updated!</p>
-    <button v-on:click="changeName">Change Name</button>
+	<p>{{name}}</p>
+	<p v-if="">Name updated!</p>
+	<button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2541,9 +2541,9 @@ dấu ngoặc kép tối đa, đó sẽ là giá trị bắt đầu của chúng
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-    <p>{{name}}</p>
-    <p v-if="name == 'Max' ? false : true">Name updated!</p>
-    <button v-on:click="changeName">Change Name</button>
+	<p>{{name}}</p>
+	<p v-if="name == 'Max' ? false : true">Name updated!</p>
+	<button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2586,3 +2586,156 @@ Vì vậy, `v-if` thực sự thêm các phần tử vào `Dom` hoặc nếu b�
 thành `false` gỡ bỏ chúng khỏi đó.
 
 Và tất nhiên đó là điều rất quan trọng cần biết và ghi nhớ cũng như một tính năng thực sự tuyệt vời của `JS`.
+
+### Outputting Lists
+
+Vì vậy, trong bài giảng trước, chúng ta đã học về câu điều kiện, về việc liệu và cách chúng ta có thể sử dụng nó để điều kiện
+hiển thị một cái gì đó trong Dom.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+	<p>{{name}}</p>
+	<p v-if="name == 'Max' ? false : true">Name updated!</p>
+	<button v-on:click="changeName">Change Name</button>
+</div>
+```
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        name: 'Max'
+    },
+    methods: {
+        changeName: function () {
+            this.name = 'Anna';
+        }
+    }
+});
+```
+
+Một trường hợp sử dụng phổ biến khác là xuất danh sách.
+Và chúng tôi đã làm điều này trong phần `Get started`.
+
+Hãy làm lại lần nữa.
+Giả sử chúng ta có một `unordered list` và chúng ta có một `button` ở đây.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+	<p>{{name}}</p>
+	<p v-if="name == 'Max' ? false : true">Name updated!</p>
+	<button v-on:click="changeName">Change Name</button>
+	<button v-on:click="addElement">New Element</button>
+	<ul>
+		<li>A Element</li>
+	</ul>
+</div>
+```
+
+Vì vậy, khi chúng ta nhấp vào nút này ở đây, tôi chỉ muốn xuất ra một phần tử danh sách mới.
+Vì vậy, tôi sẽ nói `New Element` trên nút và trong danh sách không có thứ tự.
+Sau đó tôi muốn xuất ra một mục danh sách trong đó tôi nói `A Element`.
+Đây là mã hóa cứng trong phần tử này.
+Bây giờ tôi sẽ thêm `v-on:click` vào nút để làm điều gì đó.
+Khi chúng tôi nhấp vào nó và tôi sẽ đặt tên cho phần tử bổ sung này.
+Tất nhiên đây là một phương pháp chúng ta phải thêm vào.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        name: 'Max'
+    },
+    methods: {
+        changeName: function () {
+            this.name = 'Anna';
+        },
+        addElement: function () {
+
+        }
+    }
+});
+```
+
+Vì vậy, hãy đi đến thuộc tính `methods` của chúng tôi và thêm `addElement` vào đây.
+Đây là một `function` và trong hàm này ở đây, bây giờ tôi muốn thêm các phần tử mới vào một mảng các phần tử.
+
+Vì vậy tôi sẽ tạo mảng các phần tử ở đây.
+Tên tùy thuộc vào bạn và ban đầu nó là một mảng trống, nhưng bất cứ khi nào tôi nhấp vào nút này, tôi muốn
+để tiếp cận phần tử này và đẩy phần tử mới lên đó.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        name: 'Max',
+        elements: [],
+    },
+    methods: {
+        changeName: function () {
+            this.name = 'Anna';
+        },
+        addElement: function () {
+            this.elements.push(this.elements.length + 1);
+        }
+    }
+});
+```
+
+Và bây giờ đây có thể là bất cứ thứ gì, có thể là một `string`, có thể là một `JavaScript object`, có thể là một mảng khác, bất cứ điều gì bạn thích.
+Ở đây tôi sẽ chỉ đẩy chiều dài của phần tử này cộng thêm một.
+Vì vậy, một số vào mảng này.
+
+Bây giờ, nếu tôi làm điều này và quay lại mẫu của mình trên mục danh sách, phần tử tôi muốn lặp lại.
+Tôi sẽ thêm `v-for` một `directive` khác được `Vue.js` công nhận, về cơ bản `directive` này sẽ cho `Vue.js` biết, Này, làm ơn
+tạo lại phần tử này mà bạn ngồi lên.
+
+Vì vậy, hãy liệt kê mục thường xuyên theo yêu cầu và xác định mức độ thường xuyên được yêu cầu giữa các báo giá
+đánh dấu, chúng tôi cho nó biết thông qua phần tử nào cần lặp.
+Hiện tại có một số cú pháp vòng lặp khác nhau được `Vue.js` hỗ trợ và bạn có thể xem bản chính thức
+tài liệu để tìm hiểu thêm về điều đó.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+	<p>{{name}}</p>
+	<p v-if="name == 'Max' ? false : true">Name updated!</p>
+	<button v-on:click="changeName">Change Name</button>
+	<button v-on:click="addElement">New Element</button>
+	<ul>
+		<li v-for="element in elements">Element {{element}}</li>
+	</ul>
+</div>
+```
+
+Cú pháp cơ bản và phổ biến nhất là nói bất kỳ tên biến nào bạn thích như `el in elements`.
+Và một lần nữa, phần này ở đây có thể được đặt tên theo cách bạn muốn, có thể là `element`, bất kỳ tên nào khác cũng có thể.
+
+Nhưng tất nhiên, `elements` ở đây đề cập đến thuộc tính `data` của chúng ta và bây giờ mục danh sách sẽ được lặp lại cho mỗi
+phần tử trong mảng.
+
+Vì vậy, nếu chúng ta nhấn control enter, hãy mở bảng điều khiển để xem có gặp lỗi nào không.
+
+Nếu bây giờ tôi nhấp vào `New Element`, bạn sẽ thấy tôi thêm các phần tử mới vào đây và đó là điều tuyệt vời.
+Tất nhiên, chúng tôi thậm chí có thể cập nhật mục danh sách của mình và nói `Element `, sau đó sử dụng lại `string interpolation`.
+Hãy nhớ rằng tất nhiên chúng ta vẫn đang ở trong một `view template` ở đây để output ra `element`, đây sẽ chỉ là một
+số như chúng ta định nghĩa nó là một ở dưới đây.
+
+Vì vậy, bây giờ nếu tôi nhấn control enter, bạn sẽ thấy phần tử một, hai, ba, v.v.
+
+Điều đó thực sự tuyệt vời.
+
+Và đó là cách chúng ta có thể xuất danh sách bằng Vue.js.
+
+Siêu đơn giản.
+
+Và nếu bạn nhìn vào mã HTML chúng tôi có ở đây và mã JavaScript cũng như những gì chúng tôi có thể làm với
+
+điều đó, hãy tưởng tượng bạn viết cái này bằng JavaScript thuần hoặc chỉ bằng JavaScript mà không có Vue.js.
+
+Vui vẻ với điều đó.
