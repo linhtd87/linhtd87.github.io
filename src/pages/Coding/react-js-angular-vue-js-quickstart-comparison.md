@@ -1205,9 +1205,9 @@ Chúng tôi đã có mã HTML và chúng tôi có thể yêu cầu Vue.js sử d
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
 <div id="app">
-	<input type="text">
-	<button>Add Todo</button>
-	<ul></ul>
+    <input type="text">
+    <button>Add Todo</button>
+    <ul></ul>
 </div>
 ```
 
@@ -1252,9 +1252,9 @@ Vì vậy, ví dụ: chúng ta có thể thêm trình nghe lượt nhấp chuộ
 ```html
 
 <div id="app">
-	<input type="text">
-	<button v-on:click="">Add Todo</button>
-	<ul></ul>
+    <input type="text">
+    <button v-on:click="">Add Todo</button>
+    <ul></ul>
 </div>
 ```
 
@@ -1437,11 +1437,11 @@ những `todos`.
 ```html
 
 <div id="app">
-	<input type="text">
-	<button v-on:click="">Add Todo</button>
-	<ul>
-		<li v-for="todo in todos"></li>
-	</ul>
+    <input type="text">
+    <button v-on:click="">Add Todo</button>
+    <ul>
+        <li v-for="todo in todos"></li>
+    </ul>
 </div>
 ```
 
@@ -1456,13 +1456,13 @@ tượng trong mảng của chúng ta và các đối tượng có định dạn
 ```html
 
 <div id="app">
-	<input type="text">
-	<button v-on:click="">Add Todo</button>
-	<ul>
-		<li v-for="todo in todos">
-			{{ todo.value }}
-		</li>
-	</ul>
+    <input type="text">
+    <button v-on:click="">Add Todo</button>
+    <ul>
+        <li v-for="todo in todos">
+            {{ todo.value }}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -1501,15 +1501,15 @@ Tất cả những gì chúng ta phải làm cho việc này là thêm một tr�
 ```html
 
 <div id="app">
-	<input type="text">
-	<button v-on:click="">Add Todo</button>
-	<ul>
-		<li
-			v-for="todo in todos"
-			v-on:click="removeTodo(todo)">
-			{{ todo.value }}
-		</li>
-	</ul>
+    <input type="text">
+    <button v-on:click="">Add Todo</button>
+    <ul>
+        <li
+                v-for="todo in todos"
+                v-on:click="removeTodo(todo)">
+            {{ todo.value }}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -2288,7 +2288,7 @@ Văn bản ở đây chỉ đơn giản là giá trị của `name`.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	{{name}}
+    {{name}}
 </div>
 ```
 
@@ -2332,7 +2332,7 @@ new Vue({
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	{{name}}
+    {{name}}
 </div>
 ```
 
@@ -2379,7 +2379,7 @@ new Vue({
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	{{name}}
+    {{name}}
 </div>
 {{name}}
 ```
@@ -2396,8 +2396,8 @@ Vì vậy, chúng ta có thể gói tên này thành một đoạn văn.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<button v-on:click="">Change Name</button>
+    <p>{{name}}</p>
+    <button v-on:click="">Change Name</button>
 </div>
 ```
 
@@ -2471,8 +2471,8 @@ Và nếu chúng tôi làm như vậy và nhấn nút điều khiển, hãy tham
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<button v-on:click="changeName">Change Name</button>
+    <p>{{name}}</p>
+    <button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2518,9 +2518,9 @@ Trong trường hợp này, chúng tôi có thể nói rằng chúng tôi muốn
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
+    <p>{{name}}</p>
+    <p v-if="">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2541,9 +2541,9 @@ dấu ngoặc kép tối đa, đó sẽ là giá trị bắt đầu của chúng
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2597,9 +2597,9 @@ hiển thị một cái gì đó trong Dom.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
 </div>
 ```
 
@@ -2627,13 +2627,13 @@ Giả sử chúng ta có một `unordered list` và chúng ta có một `button`
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li>A Element</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li>A Element</li>
+    </ul>
 </div>
 ```
 
@@ -2706,13 +2706,13 @@ tài liệu để tìm hiểu thêm về điều đó.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements">Element {{element}}</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements">Element {{element}}</li>
+    </ul>
 </div>
 ```
 
@@ -2752,13 +2752,13 @@ Chúng ta sẽ tìm hiểu cách có thể xuất ra thứ gì đó ở đây b�
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements">Element {{element}}</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements">Element {{element}}</li>
+    </ul>
 </div>
 ```
 
@@ -2770,15 +2770,15 @@ văn bản nhưng lại muốn để tự động đặt một số thuộc tín
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    id="el{{element}}">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            id="el{{element}}">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -2804,19 +2804,20 @@ Tuy nhiên, có một cách dễ dàng để khắc phục điều này.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="el1">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="el1">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
-Thay vì đặt giá trị phần tử như thế này, chúng ta có thể sử dụng một `directive` khác `v-bind` để thông báo cho `Vue.js`,
+Thay vì đặt giá trị phần tử như thế này, chúng ta có thể sử dụng một `directive` khác `v-bind` để thông báo cho `Vue.js`
+,
 Xin chào, tôi muốn liên kết một số thuộc tính hoặc thuộc tính của phần tử `HTML` này với một giá trị động.
 Không động sẽ được `hardcoded` giống như `id` hiện có, chẳng hạn như `el1`.
 Đây là mã hóa cứng không thay đổi động với `v-bind` hoạt động như thế này.
@@ -2836,15 +2837,15 @@ Nhưng điều tôi có thể làm bây giờ là tôi có thể thêm một chu
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="'el1' + element">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -2852,7 +2853,8 @@ Mã JavaScript có thể là `el` rồi cộng để nối chuỗi này và sau 
 Bây giờ một `element` sẽ tham chiếu đến biến này trong vòng lặp của chúng ta ở đây vì một lần nữa nó được giải quyết một
 cách linh hoạt bởi `Vue.js`.
 
-Và nếu chúng tôi làm điều này và mở công cụ dành cho nhà phát triển và nhấn `Ctrl`, hãy nhập xóa bảng điều khiển để thoát
+Và nếu chúng tôi làm điều này và mở công cụ dành cho nhà phát triển và nhấn `Ctrl`, hãy nhập xóa bảng điều khiển để
+thoát
 khỏi lỗi cũ và đánh vào `New Element` thì không thấy lỗi nữa.
 
 Và nếu chúng tôi kiểm tra phần tử, chúng tôi thực sự thấy rằng chúng tôi có `id` động ở đây.
@@ -2871,16 +2873,16 @@ Vậy `number` ở đây là số lẻ hay số chẵn.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="'el1' + element"
-		    v-bind:style="">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -2892,7 +2894,8 @@ Hiện tại nó được kiểm soát bởi `vuejs` và để thiết lập `st
 trong đó `key` của thuộc tính xác định `style` nào sẽ được đặt, như `width`, `height`, `background color` và
 `value` là `style` thực tế.
 
-Vì đây hiện là một đối tượng JavaScript nên tất nhiên bây giờ chúng ta có thể thiết lập nó một cách linh hoạt để có thể đặt `background color`.
+Vì đây hiện là một đối tượng JavaScript nên tất nhiên bây giờ chúng ta có thể thiết lập nó một cách linh hoạt để có thể
+đặt `background color`.
 Và ở đây điều quan trọng là phải sử dụng ký hiệu `camelCase`.
 Vì vậy, `backgroundColor` JavaScript này.
 
@@ -2900,16 +2903,16 @@ Vì vậy, `backgroundColor` JavaScript này.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="'el1' + element"
-		    v-bind:style="{backgroundColor}">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor}">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -2920,16 +2923,16 @@ không phải là ký tự được hỗ trợ trong tên thuộc tính,
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="'el1' + element"
-		    v-bind:style="{'background-color'}">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{'background-color'}">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -2964,7 +2967,8 @@ Vì vậy, ở đây tôi mong đợi lấy `number` làm đối số và sau đ
 vì vậy tôi có thể chỉ cần nói số trả về, sau đó là modulus (toán tử chia lấy dư) `% 2`.
 
 Và nếu điều đó mang lại cho chúng ta thứ gì đó, chúng ta biết là số lẻ vì chúng ta còn dư.
-Nếu nó bằng 0, những gì chúng ta nhận được thì điều đó `true` vì khi đó phép chia có thể được thực hiện mà không cần phần nào còn lại.
+Nếu nó bằng 0, những gì chúng ta nhận được thì điều đó `true` vì khi đó phép chia có thể được thực hiện mà không cần
+phần nào còn lại.
 
 Vì vậy, nếu số trả về `== 0` thì chúng ta biết đó là số chẵn.
 Vậy chúng ta có thể thì đó chỉ là một biểu thức bậc ba `? :`.
@@ -2977,23 +2981,25 @@ Sau đó, nếu điều kiện `true`, trả về giá trị và nếu điều k
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p>{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="'el1' + element"
-		    v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
-		</li>
-	</ul>
+    <p>{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
-Bây giờ chúng ta có thể sử dụng `getColor` ở đây trong binding style, lấy màu và chỉ cần chuyển `element`, điều này chỉ là
+Bây giờ chúng ta có thể sử dụng `getColor` ở đây trong binding style, lấy màu và chỉ cần chuyển `element`, điều này chỉ
+là
 một số làm đối số.
 
-Nếu chúng ta làm điều này và nhấn nút điều khiển, nhập và thêm các phần tử mới, bạn sẽ thấy màu đỏ với số lẻ, thậm chí là màu xanh lá cây với số chẵn và
+Nếu chúng ta làm điều này và nhấn nút điều khiển, nhập và thêm các phần tử mới, bạn sẽ thấy màu đỏ với số lẻ, thậm chí
+là màu xanh lá cây với số chẵn và
 sớm. Và tôi đoán điều đó thật tuyệt vời vì việc thiết lập kiểu động có dễ dàng không?
 Và tất nhiên, bạn có thể sử dụng bất kỳ logic nào bạn muốn để thiết lập kiểu động.
 
@@ -3024,16 +3030,16 @@ Vì vậy, tôi có thể sử dụng lại `v-bind` và bây giờ là `class`.
 
 <script src="https://unpkg.com/vue"></script>
 <div id="app">
-	<p v-bind:class="{'updated': name == 'Max' ? false : true}">{{name}}</p>
-	<p v-if="name == 'Max' ? false : true">Name updated!</p>
-	<button v-on:click="changeName">Change Name</button>
-	<button v-on:click="addElement">New Element</button>
-	<ul>
-		<li v-for="element in elements"
-		    v-bind:id="'el1' + element"
-		    v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
-		</li>
-	</ul>
+    <p v-bind:class="{'updated': name == 'Max' ? false : true}">{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
+        </li>
+    </ul>
 </div>
 ```
 
@@ -3042,7 +3048,8 @@ Trên đối tượng này bây giờ chúng ta định nghĩa là tên thuộc 
 Vì vậy, `updated`.
 Trong trường hợp này, bạn cũng có thể đặt nó trong dấu ngoặc đơn.
 Nếu bạn đang sử dụng các ký tự bị cấm như dấu gạch ngang trong tên CSS.
-Và sau đó, dưới dạng giá trị, chúng ta có điều kiện `true` hoặc `false` để quyết định xem điều này có đúng không được thêm vào hay không.
+Và sau đó, dưới dạng giá trị, chúng ta có điều kiện `true` hoặc `false` để quyết định xem điều này có đúng không được
+thêm vào hay không.
 
 Vì vậy, ở đây tôi sẽ chỉ sử dụng điều kiện tương tự như ở đây khi tôi hiển thị đoạn này để kiểm tra xem tên có
 Đã được thay đổi.
@@ -3052,5 +3059,84 @@ Nếu tôi có thể nhấn điều khiển, hãy nhập và tôi nhấp vào `C
 Bây giờ nó có màu vàng và trắng, nên tôi đoán là không dễ đọc lắm, nhưng bạn có thể thấy rõ rằng nó đã thay đổi
 điều này chỉ vì chúng tôi đã cập nhật tên.
 
+### Using Shorthands for v-bind and v-on
 
+Cho đến nay (và cả phần còn lại của khóa học này), chúng ta đã sử dụng v-bind để liên kết với các thuộc tính và thuộc
+tính HTML và v-on để liên kết với các sự kiện.
 
+Tuy nhiên, có **tốc ký** bạn có thể sử dụng cho các chỉ thị phổ biến này.
+
+`v-bind:PROPERTY` => `:PROPERTY`
+
+Example: `v-bind:style="..."`  => `:style="..."`
+
+`v-on:EVENT`  => `@EVENT`
+
+Example: `v-on:click="..."`  => `@click="..."`
+
+### Using Multiple Vue Instances
+
+Bạn sẽ học được rất nhiều về cú pháp cơ bản `Vue.js` cung cấp.
+Tất nhiên còn nhiều điều hơn nữa, nhưng đây chỉ là phần giới thiệu về nó.
+Để giúp bạn hiểu rõ hơn về cách hoạt động của `Vue.js` và liệu bạn có thấy thú vị khi tìm hiểu sâu hơn không vào đó.
+Một điều quan trọng tôi muốn lưu ý ngay bây giờ là chúng tôi luôn sử dụng `div` duy nhất này để chứa `app` của chúng tôi
+ở đây
+và chúng tôi có `view instance` duy nhất này.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <!--...-->
+</div>
+```
+
+Bạn không bị giới hạn ở một `view instance`.
+Bạn có thể có `div` thứ hai ở đây với `id="app"` thứ hai hoặc bất kỳ `ID` nào bạn thích và ở đó chúng ta có thể có một đoạn
+`second view instance` thứ hai và sau đó có thể sẽ có một đoạn khác bên dưới nó, nơi chúng tôi xuất ra một số `message`.
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <!--...-->
+</div>
+<div id="app2">
+    <p>Second vue instance</p>
+    <p>{{message}}</p>
+</div>
+```
+Và để điều này hoạt động, tất nhiên tôi sẽ thêm một phiên bản chế độ xem mới.
+
+```javascript
+new Vue({
+    el: '#app2'
+});
+```
+
+Vì vậy, đây là bên ngoài cái đầu tiên.
+Truyền bộ đối tượng JavaScript của tôi `el`.
+Tất nhiên tôi muốn kiểm soát `app2`.
+Xin lưu ý thêm, nếu bạn cố gắng kiểm soát ứng dụng ở đây, thì chỉ một trong hai ứng dụng sẽ hoạt động.
+Bạn không thể kiểm soát cùng một phần mã với hai `view instance` khác nhau.
+
+Vì vậy, hãy kiểm soát ứng dụng thứ hai bằng thẻ bắt đầu bằng `#`.
+Vì vậy, để chọn nó theo `id` 
+và sau đó trong `data`, tôi sẽ đặt `message` vì đây là nội dung tôi sẽ cố gắng xuất ở đây.
+`Hello there`.
+Và nếu bây giờ chúng ta nhấn control enter, bạn sẽ thấy.
+
+```javascript
+new Vue({
+    el: '#app2',
+    data: {
+        message: 'Hello there'
+    }
+});
+```
+
+Xin chào.
+Nhưng đó thực sự là một phần của `view instance` thứ hai của chúng tôi.
+Vì vậy, không có gì sai với điều đó.
+Thực tế không có gì lạ khi bạn kiểm soát các phần khác nhau trong ứng dụng của mình bằng các `view instance` khác nhau.
+
+### Limitations of Multiple Vue Instances
