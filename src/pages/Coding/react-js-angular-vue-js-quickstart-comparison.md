@@ -3140,3 +3140,123 @@ Vì vậy, không có gì sai với điều đó.
 Thực tế không có gì lạ khi bạn kiểm soát các phần khác nhau trong ứng dụng của mình bằng các `view instance` khác nhau.
 
 ### Limitations of Multiple Vue Instances
+
+Trong bài giảng trước, tôi đã nói với bạn rằng bạn có thể tạo nhiều phiên bản khung nhìn và kiểm soát các phần khác nhau
+trên trang của bạn.
+Và điều đó đúng và điều đó hoàn toàn ổn.
+Tuy nhiên, cách tiếp cận này có một nhược điểm tiềm ẩn.
+
+Điều gì sẽ xảy ra nếu bạn muốn sử dụng lại `view instance` của mình?
+Hiện tại chúng tôi đang kiểm soát phần này và thế là xong, phải không?
+Chúng tôi kiểm soát nó bằng `id` và do đó chúng tôi chỉ kiểm soát phần này.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <!--...-->
+</div>
+<div id="app2">
+    <p>Second vue instance</p>
+    <p>{{message}}</p>
+</div>
+<div class="username">{{ username }}</div>
+<div class="username">{{ username }}</div>
+```
+
+Bây giờ chúng ta có thể cố gắng tỏ ra thông minh.
+Chúng ta có thể tạo một `div` mới trong đó chúng ta có một `class` là tên `username`.
+Và sau đó giả sử tôi sẽ thử xuất `username` ở đây và bây giờ tôi sẽ sao chép mã này, thêm nó lần thứ hai
+và tôi sẽ thêm phiên bản thứ ba ở dưới đó.
+
+```javascript
+new Vue({
+    el: '.username',
+    data: {
+        username: 'Max'
+    }
+});
+```
+
+Và trong trường hợp khung nhìn này, tôi sẽ truyền một đối tượng.
+Tôi sẽ kiểm soát `el`.
+Bây giờ được chọn với `.username`.
+Vì vậy, theo lớp không phải theo `id` và trong thuộc tính `data`.
+Bây giờ tôi cố gắng đặt `username` bằng `Max`.
+Bây giờ hy vọng sẽ được gặp `Max` hai lần ở cuối trang của chúng tôi.
+Nhưng nếu tôi nhấn control enter, chúng tôi chỉ nhìn thấy nó một lần và lần thứ hai chúng tôi thấy `{{usrename}}`.
+
+```text
+Max
+{{username}}
+```
+
+Vì vậy, `div` thứ hai ở đây rõ ràng không được `Vue.js` kiểm soát và đó là hành vi mặc định và có chủ đích.
+Nó sẽ chỉ chọn và kiểm soát lần xuất hiện đầu tiên của bộ chọn này mà nó tìm thấy nên `div` đầu tiên có
+lớp này, do đó lớp thứ hai bị bỏ qua.
+Một `Vue instance` chỉ có thể kiểm soát một phần mã của bạn chứ không thể kiểm soát nhiều phần.
+Nhưng có một giải pháp thực sự cho phép chúng tôi đạt được những gì chúng tôi muốn bằng cách sử dụng các `components`.
+Vì vậy chúng ta hãy xem xét các `components` trong bài giảng tiếp theo.
+
+### Creating and Using Components
+
+Trong bài giảng trước, chúng ta đã thấy rằng mình sẽ gặp khó khăn nếu cố gắng tạo các đoạn mã có thể tái sử dụng bằng `Vue.js`.
+Nhưng tất nhiên nếu có một tính năng như vậy thì sẽ rất tuyệt và do đó `Vue.js` cung cấp các `components`.
+Và đó không chỉ là một phần thưởng nhỏ.
+Đây thực sự là một phần rất lớn của `Vue.js` và nó sẽ càng trở nên quan trọng hơn khi chúng ta đi sâu vào phần này.
+cách tiếp cận ứng dụng trang đơn.
+Vì vậy, giả sử tôi muốn có một thành phần về cơ bản xuất ra tên người dùng của tôi, thành phần này có thể sử dụng lại được, vì vậy
+Tôi sẽ loại bỏ phiên bản chế độ xem thứ ba này và div này tại đây.
+Thay vào đó, tôi muốn xác định một thành phần Vue mà tôi có thể sử dụng trong các mẫu hiện có của mình, trong Vue hiện có của tôi.
+trường hợp.
+Vì vậy, tôi sẽ làm điều đó ở đầu tệp của mình để tôi có thể sử dụng nó trong tất cả các mã bên dưới nó.
+Chúng tôi xác định một thành phần mới bằng cách truy cập phiên bản Vue mà không có dấu ngoặc đơn mới và không có dấu ngoặc đơn.
+Nhưng ở đó chúng tôi gọi phương thức thành phần tĩnh.
+Phương thức này có hai đối số.
+Cái đầu tiên là bộ chọn của thành phần và cái này lại là bộ chọn CSS.
+Nhưng thông thường ở đây bạn chọn kiểu thẻ.
+Vì vậy, ví dụ: tên người dùng ứng dụng.
+Điều này cho phép bạn bây giờ sử dụng thành phần này, giả sử ngay ở đây, ở đầu phần đầu của chúng tôi
+phiên bản Vue đầu tiên bằng cách thêm tên người dùng ứng dụng, rõ ràng không phải là thành phần HTML mà bạn có thể tùy ý sử dụng bằng cách
+mặc định nhưng hiện được Vue.js công nhận.
+Vì chúng tôi đăng ký đây là thành phần của riêng chúng tôi ở đây.
+Bây giờ đối số thứ hai là một đối tượng JavaScript nơi chúng ta định cấu hình thành phần giống như chúng ta định cấu hình
+một phiên bản Vue bình thường có hai điểm khác biệt quan trọng.
+Sự khác biệt quan trọng đầu tiên là chúng tôi không thiết lập, chúng tôi không cần phải làm điều đó vì ở đây chúng tôi không kiểm soát
+các bộ phận của Dom.
+Thay vào đó, ở đây chúng ta đã có một bộ chọn.
+Chúng tôi đã cho Vuejs biết nơi chúng tôi muốn chèn thành phần này.
+Phần quan trọng thứ hai là dữ liệu.
+Ở đây, dữ liệu không phải là một đối tượng mà là một hàm.
+Trả về đối tượng, sau đó giữ dữ liệu thực tế.
+Vì vậy hãy quay lại và sau đó giả sử tên người dùng Max.
+Đây là điều liên quan đến nội bộ về cách hoạt động của Vue.js.
+Nếu chúng ta có một đối tượng ở đây, nó thực sự sẽ ghi đè lên đối tượng của các cách sử dụng khác tương tự
+thành phần.
+Vì vậy, chúng ta phải gói gọn đối tượng của mình trong một hàm quan trọng.
+Nhưng bạn có thể nhận ra một điều tất cả đều tốt đẹp.
+Chúng ta có thể sử dụng thành phần của mình, nhưng chúng ta xác định mã HTML của thành phần này ở đâu?
+Chà, để làm được điều đó, chúng ta có một thuộc tính khác mà chúng ta có thể sử dụng và đó là mẫu.
+Mẫu thường dành cho phiên bản Vue bình thường được Vue.js tạo tự động.
+Như tôi đã nói với bạn, bằng cách chọn nó với phần tử này và sau đó tự động biên dịch phần tử này thành JavaScript.
+Bây giờ, vì các thành phần hoạt động theo cách khác nên chúng ta phải xác định mẫu của mình ở đây và mẫu
+là một chuỗi.
+Và điều này tất nhiên có nghĩa là chúng ta có một số điều tốt cần chú ý.
+Ví dụ: không dễ tạo chuỗi nhiều dòng, đặc biệt là với các tính năng ES6
+như các biểu thức chuỗi.
+Nhưng ở đây, không phải là siêu dễ dàng.
+Tuy nhiên, chúng ta sẽ sớm tìm hiểu cách tạo thành phần dễ dàng hơn nhiều.
+Hãy sử dụng cách đơn giản này ở đây.
+Giả sử chúng ta muốn có một đoạn văn.
+Vì vậy, hãy tạo đoạn văn của chúng tôi ở đây, nơi chúng tôi xuất tên người dùng.
+Vậy hãy sử dụng phép nội suy chuỗi, các tính năng bạn tìm hiểu về lắng nghe sự kiện, nội suy v bind
+v.
+Nếu v cũng làm việc ở đây trong mẫu này.
+Vì vậy ở đây tôi muốn xuất tên người dùng đề cập đến tên người dùng của thành phần này.
+Nếu bây giờ tôi nhấn control enter.
+Do đó chúng tôi thấy Max ở đây.
+Đó là thành phần của chúng tôi.
+Hãy đổi tên nó thành Chris để thấy điều đó rõ ràng hơn.
+Chris Và điều tuyệt vời bây giờ là nếu chúng ta sử dụng lại cái này, thì ngay khi tôi nhấn control enter, chúng ta có
+hai Chris ở đây.
+Bây giờ chúng ta có một thành phần có thể tái sử dụng mà chúng ta có thể sử dụng trong bất kỳ phiên bản Vue nào của mình.
