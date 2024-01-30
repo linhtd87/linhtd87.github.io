@@ -155,7 +155,7 @@ Bất cứ khi nào bạn thấy một phương thức mở ra trên một trang
 trang đó thay đổi trong thời gian chạy, có khả năng cao là JavaScript chịu trách nhiệm cho việc này, rằng bạn thực sự
 máy chủ không nhận được trang mới mà thay vào đó các phần của trang đó đã được thay đổi bởi JavaScript.
 
-Một số lớp CSS có thể đã được thay đổi hoặc các thành phần hoàn toàn mới đã được thêm vào hoặc xóa khỏi Dom.
+Một số lớp CSS có thể đã được thay đổi hoặc các `component` hoàn toàn mới đã được thêm vào hoặc xóa khỏi `Dom`.
 
 Đây là những gì JavaScript làm và nó được sử dụng như thế này khi chúng tôi có thiết lập phía máy chủ gửi lại cho chúng
 tôi các trang nơi chúng tôi sử dụng JavaScript để nâng cao trải nghiệm người dùng hoặc và chúng tôi sẽ xem xét ở phần
@@ -210,7 +210,8 @@ Vì vậy, hãy bắt đầu tạo ứng dụng này trong bài giảng tiếp t
 Vì vậy, trong trình soạn thảo jsfiddle này, tôi muốn tạo một ứng dụng Todo cơ bản.
 Vì vậy, hãy thêm đầu vào.
 
-Và điều thú vị về jsfiddle là chúng ta có thể chỉ cần nhập dữ liệu đầu vào rồi nhấn enter để tạo phần tử đầu vào gõ văn
+Và điều thú vị về jsfiddle là chúng ta có thể chỉ cần nhập dữ liệu đầu vào rồi nhấn enter để tạo `element` đầu vào gõ
+văn
 bản là được.
 
 Chúng tôi cũng cần một nút để có thể gửi nút này để thêm vào việc cần làm.
@@ -227,14 +228,15 @@ việc cần làm có lẽ là trong một danh sách không có thứ tự.
 
 Đó là tất cả mã HTML tôi cần bây giờ.
 
-Bây giờ, trong JavaScript, chúng ta cần có quyền truy cập vào tất cả các phần tử này, tạo các mục danh sách mới và thêm
+Bây giờ, trong JavaScript, chúng ta cần có quyền truy cập vào tất cả các `element` này, tạo các mục danh sách mới và
+thêm
 chúng vào danh sách.
 
 Vì vậy chúng ta hãy làm như vậy.
 
 Bây giờ tôi sẽ tạo một biến ở đây mà tôi sẽ đặt tên là inputEl Tên tùy thuộc vào bạn. Tôi sẽ sử dụng
-Document.queryselector một phương thức tích hợp mà JavaScript cung cấp cho phép tôi chọn một phần tử bằng bộ chọn CSS
-của nó và tôi chỉ có thể sử dụng đầu vào ở đây để chọn phần tử này phần tử đầu vào.
+Document.queryselector một phương thức tích hợp mà JavaScript cung cấp cho phép tôi chọn một `element` bằng bộ chọn CSS
+của nó và tôi chỉ có thể sử dụng đầu vào ở đây để chọn `element` này `element` đầu vào.
 
 ```javascript
 var inputEl = document.querySelector('input');
@@ -784,7 +786,8 @@ function removeTodo(event) {
 }
 ```
 
-Ký hiệu `$` chỉ cần chọn các thành phần trong Dom bằng cách sử dụng bộ chọn CSS như `document.querySelector` đã làm. Tuy
+Ký hiệu `$` chỉ cần chọn các `component` trong Dom bằng cách sử dụng bộ chọn CSS như `document.querySelector` đã làm.
+Tuy
 nhiên, nếu chúng ta sử dụng ký hiệu `$` thì thứ chúng ta lưu trữ trong `buttonEl`, v.v., không còn là thông thường nữa.
 Phần tử HTML JavaScript để mã khác không hoạt động nữa. Hiện nay. Bạn có thể nói rằng thay vào đó nó là một đối tượng
 jQuery với một số thông tin siêu dữ liệu bổ sung. Vì vậy, chúng tôi đã có quyền truy cập ở đây. Như tôi đã nói, đoạn mã
@@ -1134,7 +1137,7 @@ những thứ này.
 
 Chúng tôi chỉ sử dụng thư viện và thư viện là khung. Tôi sẽ quay lại với sự khác biệt trong giây lát. Chúng tôi vẫn có
 thể cải thiện ứng dụng của mình ở đây vì mặc dù nó gọn gàng hơn và chúng tôi sử dụng ít mã hơn ở đây nhưng chúng tôi vẫn
-phải viết khá nhiều mã để chỉ cần thêm và xóa một số thành phần vào và ra khỏi Dom và quản lý trạng thái lưu trữ `id`
+phải viết khá nhiều mã để chỉ cần thêm và xóa một số `component` vào và ra khỏi Dom và quản lý trạng thái lưu trữ `id`
 này trong Dom. Và điều này hoàn toàn phù hợp với các ứng dụng nhỏ hơn hoặc nếu bạn chỉ muốn nâng cao những điều nhỏ nhặt
 về các ứng dụng hiện có Các trang HTML, nhưng đối với các ứng dụng lớn hơn, bạn vẫn có thể chạm vào đường viền khiến
 việc này trở nên quá cồng kềnh và việc quản lý nhà nước của chúng ta trở nên rất khó khăn. Đó là một trong những vấn đề
@@ -1156,7 +1159,7 @@ thực tế ở mức độ thấp mà bạn sẽ phải làm theo cách khác.
 Ví dụ: thêm hoặc xóa các mục vào và ra khỏi Dom.
 
 Đó là một nhiệm vụ thường được khung thực hiện tự động để bạn vẫn có JavaScript cơ bản làm cơ sở mã mà là một cấu trúc
-nhất định về cách viết mã của bạn để dễ dàng nhận được các tính năng như thêm và loại bỏ các thành phần để bạn có thể
+nhất định về cách viết mã của bạn để dễ dàng nhận được các tính năng như thêm và loại bỏ các `component` để bạn có thể
 tập trung hơn nữa vào logic kinh doanh của mình. Hãy xem nó hoạt động như thế nào và bạn sẽ nhanh chóng hiểu được những
 lợi ích mà khung này mang lại cho bạn.
 
@@ -2889,7 +2892,7 @@ Vậy `number` ở đây là số lẻ hay số chẵn.
 Chà, chúng ta có thể làm điều này bằng cách sử dụng `v-bind` một lần nữa và liên kết với `style`.
 Vì vậy, thuộc tính `style` bình thường này, mỗi phần tử HTML đều hỗ trợ điều này.
 
-Bây giờ mong đợi nhận được một đối tượng `JavaScript` vì nó không còn là thành phần `style` mặc định nữa.
+Bây giờ mong đợi nhận được một đối tượng `JavaScript` vì nó không còn là `component` `style` mặc định nữa.
 Hiện tại nó được kiểm soát bởi `vuejs` và để thiết lập `style`, `Vuejs` hiện mong đợi có được một đối tượng JavaScript
 trong đó `key` của thuộc tính xác định `style` nào sẽ được đặt, như `width`, `height`, `background color` và
 `value` là `style` thực tế.
@@ -3092,8 +3095,10 @@ và chúng tôi có `view instance` duy nhất này.
 ```
 
 Bạn không bị giới hạn ở một `view instance`.
-Bạn có thể có `div` thứ hai ở đây với `id="app"` thứ hai hoặc bất kỳ `ID` nào bạn thích và ở đó chúng ta có thể có một đoạn
+Bạn có thể có `div` thứ hai ở đây với `id="app"` thứ hai hoặc bất kỳ `ID` nào bạn thích và ở đó chúng ta có thể có một
+đoạn
 `second view instance` thứ hai và sau đó có thể sẽ có một đoạn khác bên dưới nó, nơi chúng tôi xuất ra một số `message`.
+
 ```html
 
 <script src="https://unpkg.com/vue"></script>
@@ -3105,6 +3110,7 @@ Bạn có thể có `div` thứ hai ở đây với `id="app"` thứ hai hoặc 
     <p>{{message}}</p>
 </div>
 ```
+
 Và để điều này hoạt động, tất nhiên tôi sẽ thêm một phiên bản chế độ xem mới.
 
 ```javascript
@@ -3120,7 +3126,7 @@ Xin lưu ý thêm, nếu bạn cố gắng kiểm soát ứng dụng ở đây, 
 Bạn không thể kiểm soát cùng một phần mã với hai `view instance` khác nhau.
 
 Vì vậy, hãy kiểm soát ứng dụng thứ hai bằng thẻ bắt đầu bằng `#`.
-Vì vậy, để chọn nó theo `id` 
+Vì vậy, để chọn nó theo `id`
 và sau đó trong `data`, tôi sẽ đặt `message` vì đây là nội dung tôi sẽ cố gắng xuất ở đây.
 `Hello there`.
 Và nếu bây giờ chúng ta nhấn control enter, bạn sẽ thấy.
@@ -3200,63 +3206,1122 @@ Vì vậy chúng ta hãy xem xét các `components` trong bài giảng tiếp th
 
 ### Creating and Using Components
 
-Trong bài giảng trước, chúng ta đã thấy rằng mình sẽ gặp khó khăn nếu cố gắng tạo các đoạn mã có thể tái sử dụng bằng `Vue.js`.
+https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/learn/lecture/7036670#notes
+
+Trong bài giảng trước, chúng ta đã thấy rằng mình sẽ gặp khó khăn nếu cố gắng tạo các đoạn mã có thể tái sử dụng
+bằng `Vue.js`.
 Nhưng tất nhiên nếu có một tính năng như vậy thì sẽ rất tuyệt và do đó `Vue.js` cung cấp các `components`.
 Và đó không chỉ là một phần thưởng nhỏ.
+
 Đây thực sự là một phần rất lớn của `Vue.js` và nó sẽ càng trở nên quan trọng hơn khi chúng ta đi sâu vào phần này.
-cách tiếp cận ứng dụng trang đơn.
-Vì vậy, giả sử tôi muốn có một thành phần về cơ bản xuất ra tên người dùng của tôi, thành phần này có thể sử dụng lại được, vì vậy
-Tôi sẽ loại bỏ phiên bản chế độ xem thứ ba này và div này tại đây.
-Thay vào đó, tôi muốn xác định một thành phần Vue mà tôi có thể sử dụng trong các mẫu hiện có của mình, trong Vue hiện có của tôi.
+cách tiếp cận `single-page application`.
+
+Vì vậy, giả sử tôi muốn có một `component` về cơ bản xuất ra `username` của tôi, `component` này có thể sử dụng lại
+được,
+vì vậy
+Tôi sẽ loại bỏ `view instance` thứ ba này và `div` này tại đây.
+
+Thay vào đó, tôi muốn xác định một `component` `Vue` mà tôi có thể sử dụng trong các `template` hiện có của mình,
+trong `Vue`
+hiện có của tôi.
 trường hợp.
+
+```javascript
+Vue.component('app-username', {})
+```
+
 Vì vậy, tôi sẽ làm điều đó ở đầu tệp của mình để tôi có thể sử dụng nó trong tất cả các mã bên dưới nó.
-Chúng tôi xác định một thành phần mới bằng cách truy cập phiên bản Vue mà không có dấu ngoặc đơn mới và không có dấu ngoặc đơn.
-Nhưng ở đó chúng tôi gọi phương thức thành phần tĩnh.
+Chúng tôi xác định một `component` mới bằng cách truy cập phiên bản `Vue` mà không có `new` và không có dấu ngoặc
+đơn `{}`.
+
+Nhưng ở đó chúng tôi gọi phương thức `component` tĩnh.
 Phương thức này có hai đối số.
-Cái đầu tiên là bộ chọn của thành phần và cái này lại là bộ chọn CSS.
+Cái đầu tiên là bộ chọn của `component` và cái này lại là bộ chọn CSS.
 Nhưng thông thường ở đây bạn chọn kiểu thẻ.
-Vì vậy, ví dụ: tên người dùng ứng dụng.
-Điều này cho phép bạn bây giờ sử dụng thành phần này, giả sử ngay ở đây, ở đầu phần đầu của chúng tôi
-phiên bản Vue đầu tiên bằng cách thêm tên người dùng ứng dụng, rõ ràng không phải là thành phần HTML mà bạn có thể tùy ý sử dụng bằng cách
-mặc định nhưng hiện được Vue.js công nhận.
-Vì chúng tôi đăng ký đây là thành phần của riêng chúng tôi ở đây.
-Bây giờ đối số thứ hai là một đối tượng JavaScript nơi chúng ta định cấu hình thành phần giống như chúng ta định cấu hình
-một phiên bản Vue bình thường có hai điểm khác biệt quan trọng.
-Sự khác biệt quan trọng đầu tiên là chúng tôi không thiết lập, chúng tôi không cần phải làm điều đó vì ở đây chúng tôi không kiểm soát
-các bộ phận của Dom.
+Vì vậy, ví dụ: `app-username`.
+
+```javascript
+Vue.component('app-username', {})
+```
+
+Điều này cho phép bạn bây giờ sử dụng `component` này, giả sử ngay ở đây, ở đầu phần đầu của chúng tôi
+phiên bản `Vue` đầu tiên bằng cách thêm `<app-username></app-username>`, rõ ràng không phải là `element HTML` mà bạn có
+thể tùy ý sử
+dụng bằng cách mặc định
+nhưng hiện được `Vue.js` công nhận.
+Vì chúng tôi đăng ký đây là `component` của riêng chúng tôi ở đây.
+
+Bây giờ đối số thứ hai là một đối tượng JavaScript nơi chúng ta định cấu hình `component` giống như chúng ta định cấu
+hình một phiên bản `Vue` bình thường có hai điểm khác biệt quan trọng.
+Sự khác biệt quan trọng đầu tiên là chúng tôi không thiết lập, chúng tôi không cần phải làm điều đó vì ở đây chúng tôi
+không kiểm soát các bộ phận của `Dom`.
 Thay vào đó, ở đây chúng ta đã có một bộ chọn.
-Chúng tôi đã cho Vuejs biết nơi chúng tôi muốn chèn thành phần này.
-Phần quan trọng thứ hai là dữ liệu.
-Ở đây, dữ liệu không phải là một đối tượng mà là một hàm.
-Trả về đối tượng, sau đó giữ dữ liệu thực tế.
-Vì vậy hãy quay lại và sau đó giả sử tên người dùng Max.
-Đây là điều liên quan đến nội bộ về cách hoạt động của Vue.js.
-Nếu chúng ta có một đối tượng ở đây, nó thực sự sẽ ghi đè lên đối tượng của các cách sử dụng khác tương tự
-thành phần.
-Vì vậy, chúng ta phải gói gọn đối tượng của mình trong một hàm quan trọng.
+
+Chúng tôi đã cho `Vuejs` biết nơi chúng tôi muốn chèn `component` này.
+
+```javascript
+Vue.component('app-username', {
+    data: function () {
+        return {
+            username: 'Max'
+        }
+    }
+})
+
+// ...
+```
+
+Phần quan trọng thứ hai là `data`.
+Ở đây, `data` không phải là một `object` mà là một `function`.
+Trả về `object`, giữ dữ liệu thực tế.
+Vì vậy hãy quay lại và sau đó giả sử tên `username: Max`.
+
+Đây là điều liên quan đến nội bộ về cách hoạt động của `Vue.js`.
+Nếu chúng ta có một `object` ở đây, nó thực sự sẽ ghi đè lên đối tượng của các cách sử dụng khác tương tự `component`.
+Vì vậy, chúng ta phải gói gọn `object` của mình trong một `function`, điều đó quan trọng.
 Nhưng bạn có thể nhận ra một điều tất cả đều tốt đẹp.
-Chúng ta có thể sử dụng thành phần của mình, nhưng chúng ta xác định mã HTML của thành phần này ở đâu?
-Chà, để làm được điều đó, chúng ta có một thuộc tính khác mà chúng ta có thể sử dụng và đó là mẫu.
-Mẫu thường dành cho phiên bản Vue bình thường được Vue.js tạo tự động.
-Như tôi đã nói với bạn, bằng cách chọn nó với phần tử này và sau đó tự động biên dịch phần tử này thành JavaScript.
-Bây giờ, vì các thành phần hoạt động theo cách khác nên chúng ta phải xác định mẫu của mình ở đây và mẫu
+Chúng ta có thể sử dụng `component` của mình, nhưng chúng ta xác định mã HTML của `component` này ở đâu?
+Chà, để làm được điều đó, chúng ta có một thuộc tính khác mà chúng ta có thể sử dụng và đó là `template`.
+Mẫu thường dành cho phiên bản Vue bình thường được `Vue.js` tạo tự động.
+Như tôi đã nói với bạn, bằng cách chọn nó với `element` này và sau đó tự động biên dịch `element` này thành JavaScript.
+
+Bây giờ, vì các `component` hoạt động theo cách khác nên chúng ta phải xác định `template` của mình ở đây và `template`
 là một chuỗi.
 Và điều này tất nhiên có nghĩa là chúng ta có một số điều tốt cần chú ý.
-Ví dụ: không dễ tạo chuỗi nhiều dòng, đặc biệt là với các tính năng ES6
-như các biểu thức chuỗi.
+Ví dụ: không dễ tạo chuỗi nhiều dòng, đặc biệt là với các tính năng `ES6` như các biểu thức chuỗi.
 Nhưng ở đây, không phải là siêu dễ dàng.
-Tuy nhiên, chúng ta sẽ sớm tìm hiểu cách tạo thành phần dễ dàng hơn nhiều.
+
+Tuy nhiên, chúng ta sẽ sớm tìm hiểu cách tạo `component` dễ dàng hơn nhiều.
 Hãy sử dụng cách đơn giản này ở đây.
+
+```javascript
+Vue.component('app-username', {
+    data: function () {
+        return {
+            username: 'Max'
+        }
+    },
+    template: '<p>{{username}}</p>'
+})
+
+// ...
+```
+
 Giả sử chúng ta muốn có một đoạn văn.
-Vì vậy, hãy tạo đoạn văn của chúng tôi ở đây, nơi chúng tôi xuất tên người dùng.
-Vậy hãy sử dụng phép nội suy chuỗi, các tính năng bạn tìm hiểu về lắng nghe sự kiện, nội suy v bind
-v.
-Nếu v cũng làm việc ở đây trong mẫu này.
-Vì vậy ở đây tôi muốn xuất tên người dùng đề cập đến tên người dùng của thành phần này.
+Vì vậy, hãy tạo đoạn văn của chúng tôi ở đây, nơi chúng tôi xuất `username`.
+Vậy hãy sử dụng phép nội suy chuỗi `{{}}`, các tính năng bạn tìm hiểu về `event listener`, nội suy `v-bind`, `v-if`
+, `v-for`.
+cũng làm việc ở đây trong `template` này.
+
+Vì vậy ở đây tôi muốn xuất `username` đề cập đến tên người dùng của `component` này.
 Nếu bây giờ tôi nhấn control enter.
-Do đó chúng tôi thấy Max ở đây.
-Đó là thành phần của chúng tôi.
-Hãy đổi tên nó thành Chris để thấy điều đó rõ ràng hơn.
-Chris Và điều tuyệt vời bây giờ là nếu chúng ta sử dụng lại cái này, thì ngay khi tôi nhấn control enter, chúng ta có
-hai Chris ở đây.
-Bây giờ chúng ta có một thành phần có thể tái sử dụng mà chúng ta có thể sử dụng trong bất kỳ phiên bản Vue nào của mình.
+Do đó chúng tôi thấy `Max` ở đây.
+Đó là `component` của chúng tôi.
+
+Hãy đổi tên nó thành `Chris` để thấy điều đó rõ ràng hơn.
+`Chris`
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <app-username></app-username>
+    <app-username></app-username>
+    <p v-bind:class="{'updated': name == 'Max' ? false : true}">{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
+        </li>
+    </ul>
+</div>
+```
+
+Và điều tuyệt vời bây giờ là nếu chúng ta sử dụng lại cái này, thì ngay khi tôi nhấn control enter, chúng ta có
+hai `Chris` ở đây.
+Bây giờ chúng ta có một `component` có thể tái sử dụng mà chúng ta có thể sử dụng trong bất kỳ `Vue instance` nào của
+mình.
+
+### Passing Data into Components
+
+Ở bài giảng trước các bạn đã được giới thiệu cơ bản về các `component` và các `component` hoạt động khá giống nhau
+để xem các trường hợp.
+Bạn cũng có thể xác định các `method` ở đó và những thứ khác mà `Vue.js` hỗ trợ, nhưng bạn có thể sử dụng lại chúng.
+
+Bây giờ, cũng sẽ rất thú vị khi có thể truyền dữ liệu đến các `component` của chính chúng ta phải không?
+Và chúng ta có thể làm điều này bằng cách thêm một thuộc tính đặc biệt khác vào `view component` của mình.
+Tôi sẽ thêm nó vào đây ở trên cùng, nhưng vị trí không quan trọng, đó gọi là `props`.
+
+```javascript
+
+Vue.component('app-username', {
+    props: ['username']
+    data: function () {
+        return {
+            // username: 'Max'
+        }
+    },
+    template: '<p>{{username}}</p>'
+})
+
+// ...
+```
+
+Bây giờ `props` là một mảng các thuộc tính.
+Ví dụ: chúng tôi muốn tạo liên kết từ bên ngoài.
+Đó có thể là `username` chuỗi.
+Điều này hiện cho phép tôi nhận xét tên người dùng của mình ở đây để chúng tôi cũng có thể xóa toàn bộ chức năng dữ
+liệu.
+Và bây giờ chúng tôi vẫn có tên người dùng.
+
+Bạn có thể truy cập nó giống như một thuộc tính được định nghĩa trong đối tượng `data` của bạn hoặc ở đây trong đối
+tượng hàm `data` của bạn.
+
+Nhưng bây giờ bạn có thể thiết lập nó từ bên ngoài.
+Làm thế nào để bạn thiết lập nó?
+Rất dễ dàng, chỉ với `v-bind` và sau đó là thuộc tính `username`.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <app-username v-bind:username="'Chris'"></app-username>
+    <app-username v-bind:username="'Anna'"></app-username>
+    <p v-bind:class="{'updated': name == 'Max' ? false : true}">{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
+        </li>
+    </ul>
+</div>
+```
+
+Điều này cho phép tôi chuyển `Chris` dưới dạng chuỗi sang lần sử dụng đầu tiên của `component` này.
+Và ở cái thứ hai, tôi sẽ chỉ buộc `Anna` vào đây bằng một `string` nếu bây giờ tôi nhấn nút điều khiển.
+
+```text
+Chris
+Anna
+```
+
+Bạn thấy `Chris` và `Anna` ở đây nhưng bây giờ và điều đó thật lớn lao.
+Chúng tôi có thể tự động đặt giá trị này từ bên ngoài.
+
+### Emitting Custom Events in Components
+
+Trong bài giảng trước, chúng ta đã học cách truyền dữ liệu vào `component` của bạn, chúng ta không bị giới hạn ở điều
+đó.
+
+Chúng ta cũng có thể phát ra `event` của riêng mình ra thế giới bên ngoài.
+Vì vậy, giả sử rằng nếu chúng ta nhấp vào đoạn này ở đây, chúng ta thực sự muốn phát ra một `event` mà chúng ta có thể
+xử lý trong trường hợp khác khi chúng ta sử dụng `component` này,
+
+```javascript
+
+Vue.component('app-username', {
+    props: ['username']
+    data: function () {
+        return {
+            // username: 'Max'
+        }
+    },
+    template: '<p v-on:click="usernameClicked">{{username}}</p>',
+})
+
+// ...
+```
+
+à, chúng ta có thể chỉ cần sử dụng `v-on:click`, tôi đã nói với bạn, bạn cũng có thể sử dụng tất cả các tính năng,
+bạn biết đấy, và ở đó bạn có thể chỉ cần gọi bất kỳ `method`.
+Vì vậy, giả sử `usernameClicked`.
+
+```javascript
+
+Vue.component('app-username', {
+    props: ['username']
+    data: function () {
+        return {
+            // username: 'Max'
+        }
+    },
+    template: '<p v-on:click="usernameClicked">{{username}}</p>',
+    methods: {
+        usernameClicked() { // es6
+            this.$
+        }
+    }
+})
+
+// ...
+```
+
+Và tất nhiên, `method` này phải được thêm vào `component` của bạn.
+Vì vậy, hãy thêm đối tượng `methods` của chúng ta giống như trong một thể hiện `view` thông thường,
+chúng ta nên đặt tên tên người dùng cho phương thức này
+được nhấp vào vì đó là những gì chúng tôi cố gắng gọi.
+Và ở đây chúng ta có thể sử dụng `this`.
+Và bây giờ là một chức năng đặc biệt.
+`Beukes` đưa cho bạn một ký hiệu `$`.
+
+Bạn có thể biết rằng một chức năng được cung cấp bởi `Vue.js`, bởi thực tế là nó có ký hiệu `$` nếu bạn sử dụng
+nó bên trong một `component` hoặc một thể hiện.
+
+`$emit()`.
+
+Điều này đưa ra hai tham số.
+Đầu tiên là tên mà bạn có thể nghe `event` này.
+Vì vậy, chúng tôi có thể đặt tên là `usrClicked` vào như thế này.
+Tên hoàn toàn tùy thuộc vào bạn.
+
+```javascript
+
+Vue.component('app-username', {
+    props: ['username']
+    data: function () {
+        return {
+            // username: 'Max'
+        }
+    },
+    template: '<p v-on:click="usernameClicked">{{username}}</p>',
+    methods: {
+        usernameClicked() { // es6
+            this.$emit('usrClicked', this.username)
+        }
+    }
+})
+
+// ...
+```
+
+Đối số thứ hai có thể là bất kỳ dữ liệu nào, `object`, một `string` bạn muốn truyền.
+Vì vậy, ở đây chúng ta có thể chuyển `this.username`.
+
+Bây giờ với điều đó, chúng ta có thể `listen event` này, giả sử ở đây là `component` đầu tiên.
+Tất nhiên, chúng ta có thể nghe nó trên cả hai `component`.
+Tôi chỉ chia phần này thành nhiều dòng ở đây để dễ đọc hơn một chút.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <app-username
+            v-bind:username="'Chris'"
+            v-on:usrClicked=""></app-username>
+    <app-username v-bind:username="'Anna'"></app-username>
+    <p v-bind:class="{'updated': name == 'Max' ? false : true}">{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
+        </li>
+    </ul>
+</div>
+```
+
+Bằng cách thêm `v-on` vào `component` của chính chúng tôi và hiện đang lắng nghe `event` của chính chúng tôi,
+vì vậy người dùng đã nhấp và vào đây
+bây giờ chúng ta có thể thực thi mã của mình.
+Vì vậy, ở đây tôi muốn thực hiện `userWasClicked`.
+
+Và tôi sẽ thông qua một đối số `$event`, tôi bảo lưu biến mà chúng ta có thể sử dụng ở đây, biến này sẽ
+luôn giữ dữ liệu `event` đã được gửi.
+Vì vậy, tương lai sẽ cung cấp cho chúng ta dữ liệu `event` này thông qua tên biến dự trữ này.
+
+Bây giờ, `userWasClicked` là một `method` nên tất nhiên tôi phải thêm.
+Vì vậy, tôi sẽ thêm nó vào `view instance` đầu tiên của tôi ở đây, có thể bên dưới sẽ `getColor` ở đây.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        name: 'Max',
+        elements: [],
+    },
+    methods: {
+        changeName: function () {
+            this.name = 'Anna';
+        },
+        addElement: function () {
+            this.elements.push(this.elements.length + 1);
+        },
+        getColor: function (number) {
+            return number % 2 == 0 ? 'green' : 'red';
+        },
+        userWasClicked: function (name) {
+
+        }
+    }
+});
+```
+
+Tôi biết rằng tôi nhận được dữ liệu `event` và chúng tôi biết rằng dữ liệu `event` sẽ chỉ là một `string`, đúng không.
+`this.username`, những gì chúng tôi phát ra ở đây.
+Vì vậy, tôi biết rằng đây sẽ chỉ là `name` và tôi có thể chỉ cần, chẳng hạn,
+sau đó `alert(name)` nếu bây giờ tôi có quyền kiểm soát,
+
+hãy nhập và tôi nhấp vào đây.
+Chẳng có gì xảy ra.
+Tại sao?
+Chà, đó là thứ chúng ta sẽ xem xét sau một giây để làm cho nó hoạt động.
+Chúng tôi chỉ cần đảm bảo rằng chúng tôi đổi tên `event` của mình ở đây thành Chữ thường `usrclicked` và thêm
+vào bản mẫu.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <app-username
+            v-bind:username="'Chris'"
+            v-on:usrclicked=""></app-username>
+    <app-username v-bind:username="'Anna'"></app-username>
+    <p v-bind:class="{'updated': name == 'Max' ? false : true}">{{name}}</p>
+    <p v-if="name == 'Max' ? false : true">Name updated!</p>
+    <button v-on:click="changeName">Change Name</button>
+    <button v-on:click="addElement">New Element</button>
+    <ul>
+        <li v-for="element in elements"
+            v-bind:id="'el1' + element"
+            v-bind:style="{backgroundColor: getColor(element)}">Element {{element}}
+        </li>
+    </ul>
+</div>
+```
+
+```javascript
+
+Vue.component('app-username', {
+    props: ['username']
+    data: function () {
+        return {
+            // username: 'Max'
+        }
+    },
+    template: '<p v-on:click="usernameClicked">{{username}}</p>',
+    methods: {
+        usernameClicked() { // es6
+            this.$emit('usrclicked', this.username)
+        }
+    }
+})
+
+// ...
+```
+
+Chúng tôi cũng lắng nghe người dùng nhấp vào.
+Bây giờ nếu điều khiển nhập và nhấp vào,
+
+`Chris`, chúng ta sẽ thấy điều đó.
+
+Nhưng tại sao chúng ta phải thực hiện sự thay đổi đó?
+
+### Template Restrictions
+
+Trong bài giảng trước, chúng ta đã phát ra một `event` thành công,
+nhưng chỉ sau khi chúng ta chắc chắn rằng `event` đó
+chúng tôi phát ra và lắng nghe đều là chữ thường.
+Lý do cho điều này là cách bạn làm việc với các mẫu, cách `HTML` hoạt động.
+Dom theo mặc định không phân biệt chữ hoa chữ thường.
+
+```html
+
+<app-username
+        v-bind:username="'Chris'"
+        v-on:usrClicked=""></app-username>
+```
+
+Vì vậy, người dùng đã nhấp vào như thế này không hoạt động vì ở đây chúng tôi phát ra người dùng đã nhấp vào bằng
+chữ `C`
+viết hoa,
+nhưng trong `Dom`,
+chúng tôi thực sự chỉ có thể nghe những cái tên không phân biệt chữ hoa chữ thường.
+Vì vậy,
+người dùng nhấp vào đã được tạo ra bằng chữ `C` viết hoa vì chúng tôi đã thực hiện điều này trong `JavaScript`,
+tất nhiên là phân biệt chữ hoa chữ thường,
+nhưng trong `template` ở đây điều này không tồn tại.
+Vì vậy, chúng tôi không thể nghe nó và đó thực sự là một hạn chế mà chúng tôi sẽ loại bỏ sau này trong
+khi chúng ta đi sâu vào một cách khác để làm việc với điều này.
+
+Khi chúng tôi rời khỏi.
+`JSfiddle` và làm việc với một quy trình làm việc khác.
+Nhưng hiện tại đó chỉ là một hạn chế, loại mẫu này ở đây và có một loại khác mà chúng tôi sẽ
+có một cái nhìn vào sau đó có.
+Vì vậy, chỉ cần đảm bảo rằng các `event` bạn đang phát ra ở đây và đang lắng nghe không phân biệt chữ hoa chữ thường
+hoặc tất cả đều là chữ thường.
+Vì vậy cuối cùng.
+
+Nhưng với điều đó,
+chúng tôi có thể lắng nghe các `event` của chính mình, gửi dữ liệu của riêng mình đến các `component`
+và sử dụng các `component`.
+Một lần nữa, một cách tốt hơn và dễ dàng hơn để sử dụng chúng sẽ sớm được trình bày.
+
+### Two-Way-Binding to Input Fields
+
+Chúng ta gần như đã hoàn thành phần đầu tiên của phần này
+và tôi có thể tưởng tượng rằng đầu bạn gần như muốn nổ tung
+trước khi đến phần luyện tập để các bạn có thể luyện tập những điều đã học.
+
+Có một điều chúng tôi chưa đề cập đến và đó là cách chúng tôi thực sự có thể tìm nạp thông tin đầu vào của người dùng.
+Chúng tôi có thể nghe các sự kiện, nhưng có một số việc chúng tôi đã làm trong `Get started`.
+chúng tôi chưa xem xét phần này.
+
+Và đó là điều gì sẽ xảy ra nếu chúng ta có một trường nhập liệu và muốn phản ứng với những gì người dùng nhập vào?
+Hãy làm điều đó.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <!--...-->
+</div>
+<div id="app2">
+    <p>Second vue instance</p>
+    <input type="text"/>
+    <p>{{message}}</p>
+</div>
+```
+
+Trong `view instance` thứ hai của chúng tôi ở đây,
+giả sử chúng tôi có đầu vào và chúng tôi muốn cho phép người dùng tự động
+thay đổi tin nhắn ở đây.
+Chà, điều đó cực kỳ dễ làm.
+Chúng ta có thể sử dụng một chỉ thị khác `v-model`
+và `v-model` cho phép chúng tôi thiết lập liên kết hai chiều và điều đó đơn giản có nghĩa là nó xuất ra bất cứ thứ gì
+chúng tôi liên kết ở đây có giá trị bằng giá trị của đầu vào này.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <!--...-->
+</div>
+<div id="app2">
+    <p>Second vue instance</p>
+    <input type="text" v-model="message"/>
+    <p>{{message}}</p>
+</div>
+```
+
+```javascript
+new Vue({
+    el: '#app2',
+    data: {
+        message: 'Hello there'
+    }
+});
+```
+
+Nhưng bất cứ khi nào chúng tôi thay đổi nó,
+nó cũng sẽ cập nhật nó trong dữ liệu của chúng tôi.
+Vì vậy, ở đây chúng tôi có `message`.
+Nếu tôi liên kết mô hình với v và tôi nhấn control enter.
+Bạn thấy đấy.
+
+```text
+Hello there
+```
+
+Ở đây cũng vậy trong trường đầu vào này.
+Đó là một hướng ràng buộc.
+Nhưng nếu tôi thay đổi điều này, bạn sẽ thấy nó cũng cập nhật bên dưới trường nhập liệu.
+Đó là hướng ràng buộc khác.
+Nó nhận ra sự thay đổi này và sau đó tự động cập nhật thuộc tính dữ liệu cũng như mọi nơi trong này
+mẫu nơi chúng tôi sử dụng thuộc tính này, nơi chúng tôi xuất thuộc tính này như ở đây với dấu ngoặc nhọn.
+Vì vậy, liên kết dữ liệu hai chiều của `ViewModel`.
+Tuyệt vời.
+
+Nếu bạn có các trường nhập mà bạn muốn phản ứng với bất kỳ thay đổi nào của người dùng hoặc những gì người dùng nhập vào
+rồi cập nhật động thuộc tính dữ liệu của bạn thành.
+
+### Time to Practice - Vue.js - Problem
+
+Đã đến lúc thực hành tất cả những điều bạn học về `Vue.js`
+để những điều cơ bản về `Vue.js` thực sự `set`.
+
+Dưới đây là một số bài tập tôi đã chuẩn bị cho bạn.
+Chỉ những điều bạn đã học được cho đến nay.
+
+Tôi muốn bạn bắt đầu dễ dàng và tạo một `div` mà sau đó bạn có thể kiểm soát bằng một `Vue instance`.
+Bạn sẽ tìm hiểu tất cả về điều đó.
+
+Bước thứ hai,
+tôi muốn bạn xuất ra một loạt `hobby` dưới dạng danh sách,
+một danh sách không có thứ tự có thể ở dạng
+`div` này và bạn có thể muốn điền trước mảng `hobby` của mình bằng một số giá trị bắt đầu.
+
+Sau đó,
+tôi muốn bạn thêm nút `hobby` mới và trường nhập phía trên danh sách này,
+nơi bạn tìm nạp giá trị
+của danh sách đầu vào và thêm `hobby` mới với giá trị đó bất cứ khi nào nút này được nhấp vào.
+
+Bạn có thể thêm xác thực để kiểm tra xem đầu vào có trống hay không,
+nhưng đó hoàn toàn là tùy chọn.
+
+Sau đó,
+tôi muốn bạn làm cho những `hobby` này có thể nhấp vào được để sau khi bạn nhấp vào một `hobby`,
+`hobby` đó thực sự là bị loại bỏ khỏi mảng.
+
+Và sau đó tôi muốn bạn thêm một đoạn văn `hobby`, có thể xóa nó bên dưới danh sách, nó chỉ được hiển thị
+một lần.
+Ít nhất một `hobby` đã bị xóa.
+
+Hãy sáng tạo về cách bạn có thể theo dõi điều này.
+Có thể với một số `hobby` boolean đã bị xóa, điều này ban đầu là sai và sau đó bạn đặt thành đúng ở một số điểm
+thời điểm sau đó.
+
+Thêm bộ đếm `hobby` phía trên danh sách `hobby`.
+Đây chỉ đơn giản là một đoạn văn trong đó bạn sử dụng phép nội suy chuỗi để đưa ra số lượng `hobby` mà bạn có
+trong mảng của bạn.
+
+Và bước tiếp theo,
+tôi muốn bạn tạo kiểu linh hoạt cho bộ đếm này.
+Ví dụ:
+với kiểu dáng động và hoặc các tệp đính kèm lớp CSS động,
+chẳng hạn như
+thay đổi vẻ bề ngoài đoạn này,
+bất cứ khi nào bạn có nhiều hơn hoặc ít hơn ba `hobby`.
+
+Cuối cùng,
+lấy mã `hobby` đó và đặt nó vào thành phần riêng của nó.
+Vì vậy,
+chỉ những mục trong danh sách riêng lẻ mà bạn lặp qua và đảm bảo rằng mọi thứ vẫn hoạt động.
+Đó có lẽ là bước khó khăn nhất nhưng bạn có thể thực hiện nó trong giải pháp cùng mình.
+Tôi sẽ chỉ cho bạn cách tiếp cận của tôi và hy vọng sau đó sẽ giải quyết được một số nhầm lẫn nếu bạn gặp khó khăn ở một
+số điểm.
+của những điểm này.
+hobby
+
+### Time to Practice - Vue.js - Solution
+
+Vậy bạn đã thành công chưa?
+Chúng ta hãy cùng nhau giải quyết nhiệm vụ này.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app"></div>
+```
+
+Tôi sẽ để lại hướng dẫn ở đây và tôi sẽ bắt đầu với `div`, tôi sẽ chỉ định `id="app"`.
+Xin nhắc lại,
+ứng dụng không nhất thiết phải là tên bạn chọn ở đây.
+
+```javascript
+new Vue({
+    el: '#app'
+});
+```
+
+Sau đó hãy sử dụng `new Vue`.
+`Vue.js` đã được nhập vào đây và đặt `el` thành `#app`.
+Hãy kiểm soát `div` này và nhiệm vụ thứ nhất đã được giải quyết.
+
+Bây giờ, hãy thêm một danh sách các `hobby` và để làm được điều đó,
+tôi cần thuộc tính `data` của mình,
+một đối tượng JavaScript.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        hobbies: ['Sport', 'Cooking'],
+    }
+});
+```
+
+Và vì chúng ta không ở trong một `component` nên giờ đây đây không phải là một `function` mà chỉ là một `object`.
+Ở đây tôi sẽ có `hobby` của mình.
+Đó là một mảng.
+
+Và tôi sẽ thêm môn `'Sport'` và `'Cooking'` vào đây.
+
+Và tôi muốn xuất mảng này.
+Vì vậy, tôi sẽ thêm một danh sách không có thứ tự với một mục danh sách và chúng ta đã học được nó.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <ul>
+        <li
+                v-for="hobby in hobbies">
+            {{hobby}}
+        </li>
+    </ul>
+</div>
+```
+
+Chúng ta có thể sử dụng `v-for` để lặp qua các phần tử trong danh sách.
+Vì vậy, ở đây tôi có thể lặp qua tất cả các `hobby` của mình trong mảng `hobbies` đề cập đến mảng này và tôi có thể xuất
+ra
+`hobby` cá nhân bây giờ là thế này.
+Nếu tôi nhấn điều khiển, chúng tôi thấy hai `hobby` ở đó bây giờ thật tuyệt.
+Và đó cũng là phần hai đã được giải quyết.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text"/>
+    <button>New hobby</button>
+    <ul>
+        <li
+                v-for="hobby in hobbies">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Phần ba là thêm nút `New hobby`.
+Vì vậy, phía trên danh sách không có thứ tự của tôi, tôi sẽ thêm một `<input>` để người dùng có thể nhập nội dung nào
+đó
+và một nút nơi tôi sẽ nói `New hobby` mới như thế.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <ul>
+        <li
+                v-for="hobby in hobbies">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Sau đó, tôi muốn thêm trình nghe lượt nhấp chuột và tôi thực hiện việc này bằng cách bật rồi nhấp vào.
+Vì vậy bây giờ ở đây tôi sẽ đặt tên cho `hobby` này.
+
+Và tôi sẽ thêm thuộc tính `methods` của mình vào `view instance`
+vì bạn sẽ tìm hiểu nó để đăng ký các `method` mà chúng ta có thể gọi từ `template`.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        hobbies: ['Sport', 'Cooking'],
+        userHobby: ''
+    },
+    methods: {
+        addHobby: function () {
+            this.hobbies.push(this.userHobby);
+        }
+    }
+});
+```
+
+Vì thế ở đây `addHobby` là tên của hàm vì đó là những gì tôi thiết lập ở đây.
+Thêm chức năng `hobby` và tôi muốn thêm `hobby` mới của mình vào đây.
+Để làm được điều đó,
+tôi cần thêm một thuộc tính khác `userHobby`,
+bất kỳ tên nào bạn thích,
+ban đầu là một chuỗi trống,
+nhưng quan trọng hơn,
+điều mà bây giờ tôi liên kết thông qua `v-model` mà bạn đã học.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text" v-model="userHobby"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <ul>
+        <li
+                v-for="hobby in hobbies">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Bây giờ `hobby` của người dùng sẽ được cập nhật bất cứ khi nào tôi gõ nội dung nào đó vào đây.
+Vì vậy,
+khi tôi nhấp vào nút,
+bây giờ tôi có thể tìm nạp giá trị mà người dùng đã nhập lần cuối để tôi có thể liên hệ
+với `hobby`
+và đẩy một mục mới vào mảng này
+và về cơ bản thúc đẩy `hobby` của người dùng này.
+
+Và bạn có thể thêm một số mã để kiểm tra xem đây có phải là chuỗi rỗng hay không.
+Tôi sẽ chỉ đi theo cách tiếp cận đơn giản này.
+
+Bây giờ,
+nếu tôi nhấn điều khiển,
+hãy nhập và tôi nhập `Reading` ở đây và nhấn `New hobby` , điều đó được thêm vào.
+Tất nhiên tôi có thể thêm nó nhiều lần, nhưng điều đó không thành vấn đề ở đây.
+Đây là nhiệm vụ thứ ba đã được giải quyết.
+
+Nhiệm vụ thứ tư có chút khó khăn.
+Chúng tôi muốn làm cho những `hobby` này có thể nhấp vào được và để có thể tháo bỏ được.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text" v-model="userHobby"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <ul>
+        <li
+                v-for="hobby in hobbies"
+                v-on:click="removeHobby(hobby)">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Tôi sẽ thêm dòng này vào một dòng mới để dễ đọc hơn ở đây, tôi sẽ thêm nút bật và nhấp vào vì
+Tôi muốn phản ứng với một cú nhấp chuột vào `hobby` này và tôi muốn thực hiện `removeHobby` trong trường hợp này.
+Bây giờ ở đây tôi cần chuyển `hobby` mà tôi muốn loại bỏ làm đối số
+và sau đó tôi có thể chuyển sang các `methods` của mình và
+thêm `removeHobby` ở đây vào một `function`.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        hobbies: ['Sport', 'Cooking'],
+        userHobby: ''
+    },
+    methods: {
+        addHobby: function () {
+            this.hobbies.push(this.userHobby);
+        },
+        removeHobby: function (hobby) {
+            var position = this.hobbies.indexOf(hobby);
+            this.hobbies.splice(position, 1);
+        }
+    }
+});
+```
+
+Tôi biết rằng tôi sẽ lấy `hobby` mà tôi muốn loại bỏ làm tham số, và bây giờ tôi có thể tìm thấy `hobby` này
+bằng cách giành được vị trí.
+Vì vậy,
+`var position`
+Bằng cách tiếp cận chỉ số `hobby` này.
+Đó là một hàm dựng sẵn mà JavaScript cung cấp để nó có thể tìm kiếm một phần tử trong mảng này.
+Và vì tôi lặp qua mảng này nên các phần tử tôi lưu trữ ở đây trong `hobby` sẽ được lấy từ
+mảng đó và do đó tôi có thể tìm thấy chúng trong mảng.
+Vậy là bây giờ,
+với vị trí đã tìm được,
+tôi lại có thể tiếp cận với `hobbies` gọi `splice` và `splice` phần tử ở vị trí này và chỉ phần tử này.
+Vì vậy `Splice` bây giờ sẽ loại bỏ phần tử này khỏi mảng.
+Nếu chúng ta nhấn enter lần nữa và tôi thêm việc `Reading` và có thể tổ chức `Party` gì đó,
+và tôi nhấp vào `Cooking`,
+thì đó là bị xóa,
+`Reading` bị xóa.
+Và nếu mở bảng điều khiển ra, chúng tôi không thấy có lỗi nào ở đây.
+Vậy là mọi thứ đã ổn.
+
+Vì vậy,
+tôi nên nói rằng đó là một yếu tố khác bị loại bỏ hoặc một nhiệm vụ khác đã được giải quyết.
+Làm cho các `hobby` có thể nhấp vào được và loại bỏ chúng.
+Bây giờ phần tiếp theo là hiển thị có điều kiện `hobby` đã bị xóa ngay khi `hobby` bị xóa.
+Vâng,
+điều kiện chúng tôi đã học về điều đó.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text" v-model="userHobby"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <p v-if="hobbyWasDeleted">Hobby was deleted!</p>
+    <ul>
+        <li
+                v-for="hobby in hobbies"
+                v-on:click="removeHobby(hobby)">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Hãy thêm một đoạn khác phía trên danh sách không có thứ tự.
+`Hobby was deleted!`, đại loại như vậy.
+
+Và bây giờ chúng tôi muốn sử dụng `v-if` bạn đã tìm hiểu về điều đó, `v-if` cho phép bạn kiểm soát liệu điều gì đó
+có nên được hiển thị hay không, thực tế là liệu có nên thêm thứ gì đó vào `Dom` hay không.
+Vậy hãy thiết lập `v-if` ở đây và tôi sẽ đề cập đến `hobbyWasDeleted`.
+Bây giờ đó là gì?
+Đó là thuộc tính mà tôi chưa phải xác định và tôi sẽ thực hiện điều này trong thuộc tính `data` nơi chúng tôi lưu trữ
+tất cả dữ liệu chúng tôi muốn sử dụng.
+
+```javascript
+new Vue({
+    el: '#app',
+    data: {
+        hobbies: ['Sport', 'Cooking'],
+        userHobby: '',
+        hobbyWasDeleted: false,
+    },
+    methods: {
+        addHobby: function () {
+            this.hobbies.push(this.userHobby);
+        },
+        removeHobby: function (hobby) {
+            var position = this.hobbies.indexOf(hobby);
+            this.hobbies.splice(position, 1);
+            this.hobbyWasDeleted = true;
+        }
+    }
+});
+```
+
+`hobbyWasDeleted` và ban đầu điều này là `false` vì ban đầu chúng tôi không xóa bất kỳ `hobby` nào.
+Nhưng trong việc `removeHobby` được gọi là,
+ngay khi tôi muốn loại bỏ một `hobby`,
+bây giờ tôi có thể thực hiện hoặc
+tôi có thể bây giờ được thiết lập `this.hobbyWasDeleted`
+Vì vậy, tài sản này ở đây.
+Bây giờ tôi có thể đặt nó thành `true`.
+
+Và do đó nếu tôi nhấn control, hãy nhập.
+Chúng tôi không thấy văn bản này,
+nhưng nếu tôi thêm thứ gì đó và thậm chí tôi không cần phải thêm thứ gì đó để nó hoạt động
+và tôi loại bỏ bất kỳ `hobby` nào.
+Bây giờ chúng tôi thấy `hobby` đã bị xóa và bây giờ `hobby` này sẽ ở lại đây vì chúng tôi không có cách nào biến nó
+thành trở lại `false`.
+Sở thích này đã bị xóa tài sản.
+
+Nếu chúng ta biến nó trở lại `hobby` đã bị xóa sai lầm, cũng sẽ biến mất.
+
+Nhưng bây giờ nhiệm vụ tiếp theo đã được giải quyết.
+Hiển thị `hobby` đã bị xóa hoặc `hobby` đã bị xóa ở đây.
+Hãy thêm một bộ đếm không quá khó.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text" v-model="userHobby"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <p v-if="hobbyWasDeleted">Hobby was deleted!</p>
+    <p>Hobbies: {{ hobbies.length }}</p>
+    <ul>
+        <li
+                v-for="hobby in hobbies"
+                v-on:click="removeHobby(hobby)">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Nếu chúng ta thêm một đoạn văn khác phía trên danh sách không có thứ tự và bây giờ chúng ta có `hobby`,
+chúng ta có thể sử dụng chuỗi nội suy để xuất ra một số hoặc một văn bản ở đây.
+Câu hỏi đặt ra là làm sao chúng ta biết được mình có bao nhiêu `hobby` trong mảng đó?
+Chà,
+JavaScript cung cấp cho chúng ta một số công cụ tích hợp sẵn.
+Chúng ta chỉ có thể sử dụng mảng `hobby` của mình, mảng chúng ta cũng sử dụng ở đây trong vòng lặp và sau đó là `length`
+được xây dựng sẵn thuộc tính để lấy số lượng phần tử trong mảng này.
+
+Nếu tôi nhấn điều khiển, hãy nhập.
+Chúng tôi đã thấy hai ở đây và nếu tôi bổ sung thêm.
+Chà, điều này rõ ràng đang phát triển vì một lần nữa `Vue.js` lại tự động theo dõi điều này và cập nhật
+Hãy ở vị trí này bất cứ khi nào được yêu cầu khi nội dung chúng tôi xuất ở đây thay đổi.
+Vậy là nhiệm vụ tiếp theo đã được giải quyết, đó là thêm bộ đếm `hobby`.
+
+Bây giờ chúng tôi muốn tạo kiểu cho bộ đếm này một cách linh hoạt và hoàn toàn tùy thuộc vào bạn kiểu nào và cách tiếp
+cận nào bạn chọn ở đây.
+Tôi sẽ chỉ cho bạn cả ràng buộc `style` và ràng buộc `class`.
+
+Hãy bắt đầu với `style` ràng buộc.
+Tôi sẽ sử dụng kiểu `v-style` ở đây.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text" v-model="userHobby"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <p v-if="hobbyWasDeleted">Hobby was deleted!</p>
+    <p v-bind:style="{color: hobbies.length > 3 ? 'red' : 'black'}">Hobbies: {{ hobbies.length }}</p>
+    <ul>
+        <li
+                v-for="hobby in hobbies"
+                v-on:click="removeHobby(hobby)">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Để thiết lập phong cách riêng của tôi.
+Vì vậy,
+ở đây tôi sẽ truyền một đối tượng `JavaScript` mà chúng ta phải làm để `Vue.js` có thể hiểu được điều này.
+Và tôi muốn thiết lập một phong cách.
+
+Giả sử tôi muốn đặt màu của văn bản và chọn lại bất kỳ thứ gì bạn muốn tạo kiểu.
+Ở đây,
+tôi sẽ đặt màu của văn bản và tôi muốn đặt nó thành màu đỏ nếu chúng ta có nhiều hơn ba `hobby`.
+Vì vậy,
+ở đây tôi có thể kiểm tra xem độ dài `hobbies.length` có lớn hơn `3` hay không và bạn có thể thuê ngoài phương pháp này
+bạn gọi tới đây.
+
+Như bạn đã thấy ở bài giảng trước,
+tôi sẽ sử dụng cách diễn đạt ba ngôi.
+Vì vậy,
+nếu `hobbies.length` lớn hơn `3` thì màu sắc và đây phải là một chuỗi.
+Nếu không,
+Vue.js sẽ tìm thuộc tính dữ liệu phù hợp với bất kỳ thứ gì bạn nhập ở đây.
+Vì vậy,
+nếu nó lớn hơn ba thì tôi muốn đặt màu thành chẳng hạn như rất tiếc, `red` và các màu khác
+Tôi muốn đặt nó thành `black`.
+
+Vì vậy, hãy để mặc định và tôi sẽ làm cho nó rộng hơn một chút để chúng ta có thể thấy điều này.
+Nếu tôi nhấn Ctrl enter now và tôi nhập `Reading` thêm hai lần thì `hobby` sẽ chuyển sang màu đỏ.
+Vậy thì tốt quá.
+Và nếu tôi loại bỏ một cái thì nó có màu đen, nên kiểu dáng năng động sẽ hoạt động.
+
+Bây giờ tôi cũng sẽ thêm một lớp ở đây và tôi sẽ đặt tên cho lớp này.
+
+```css
+.multiple-hobbies {
+    border: 1px solid red;
+}
+```
+
+Và ở đây tôi muốn tạo đường viền cho cái này.
+
+Vì vậy, đường viền có một pixel đồng nhất và cũng có màu đỏ nếu chúng ta có nhiều hơn ba `hobby`.
+
+Vì vậy, ở đây tôi sẽ đưa dòng này vào một dòng mới một lần nữa để dễ đọc hơn một chút.
+Tuy nhiên, nó vẫn ở trên cùng một đoạn.
+
+```html
+
+<script src="https://unpkg.com/vue"></script>
+<div id="app">
+    <input type="text" v-model="userHobby"/>
+    <button v-on:click="addHobby">New hobby</button>
+    <p v-if="hobbyWasDeleted">Hobby was deleted!</p>
+    <p 
+        v-bind:style="{color: hobbies.length > 3 ? 'red' : 'black'}"
+        v-bind:class="{'multiple-hobbies': hobbies.length > 3}"
+        >Hobbies: {{ hobbies.length }}</p>
+    <ul>
+        <li
+                v-for="hobby in hobbies"
+                v-on:click="removeHobby(hobby)">
+            {{hobby}}
+        </li>
+    </ul>
+
+</div>
+```
+
+Tôi sẽ thêm một câu lệnh `v-bind` khác hiện đang ràng buộc với một `class` ở đây khi bạn đã học nó.
+Chúng ta cũng truyền một đối tượng JavaScript và bây giờ chúng ta cần xác định tên `class` làm thuộc tính.
+Vì vậy, ở đây sẽ có `multiple-hobbies`.
+Và trong lớp học đa `multiple-hobbies` này, tôi cần sử dụng dấu ngoặc đơn do ký tự không hợp lệ này.
+Dấu gạch ngang.
+Điều này nên được đính kèm.
+Bây giờ nếu tốt, nếu `hobbies.length > 3` và tôi không cần phải `return`.
+`true` hay `false` vì đây đã là một kiểm tra ở đây.
+Phải?
+Vì vậy, bạn có thể nói nếu số đó lớn hơn ba thì điều này `true`.
+Nếu không thì điều này là `false`.
+Nhưng bạn không cần phải làm điều đó.
+Đây đã là một điều kiện sẽ `return`.
+`true` hay `false`?
+
+Nếu tôi nhấn enter control, 
+hãy nhập ngay và tôi lại thêm phần đọc.
+Không có gì xảy ra nếu tôi thêm lại.
+Bạn thấy đấy, 
+bây giờ chúng ta có đường viền này bắt nguồn từ lớp `CSS` này.
+Vì vậy, 
+đây là cách chúng ta có thể sử dụng kiểu dáng động và các lớp mà bạn đã học.
+Bây giờ chúng tôi đã đạt được nhiệm vụ cuối cùng.
+
+Gia công các mục danh sách này ở đây thành thành phần riêng của chúng.
+Và tất nhiên, điều đó cũng có nghĩa là chúng tôi sẽ phải đảm bảo rằng trình nghe nhấp chuột, v.v. vẫn
+làm.
+Vì vậy tôi sẽ thêm một thành phần mới với thành phần view như bạn đã học.
+Bây giờ chúng ta nên sử dụng bộ chọn và tất nhiên bộ chọn phải là thứ không gây cản trở
+với một phần tử HTML hiện có.
+Do đó, bạn nên chọn thứ gì đó được đảm bảo 100% hoặc đảm bảo 99% là duy nhất
+như `hobby` ứng dụng thêm tiền tố vào dấu gạch ngang ứng dụng là một cách tuyệt vời để đảm bảo rằng bạn không ghi đè
+Ví dụ: phần tử HTML có thể tồn tại trong tương lai.
+Và ở đó chúng tôi vượt qua đối tượng của chúng tôi.
+Bây giờ chúng tôi muốn lấy `hobby` từ bên ngoài vì chúng tôi sẽ lặp qua thành phần này và nhân rộng
+nó thường xuyên khi cần thiết và hàng loạt `hobby` nằm ngoài thành phần này.
+Vì vậy, tôi sẽ thêm đạo cụ và tôi biết rằng tôi sẽ có được `hobby` cá nhân của mình ở đây và bây giờ bằng cái này, chúng
+ta có thể thay thế
+mục danh sách này ở đây.
+Với `hobby` ứng dụng như thế và vượt qua `hobby`.
+Nhưng trước hết chúng ta cần thiết lập V4 để vẫn lặp lại những `hobby` của mình như vậy.
+Và sau đó.
+Hãy để tôi tóm tắt điều này thành một dòng, sau đó tôi sẽ kết nối chúng ta với `hobby`.
+Vì vậy, `hobby` chúng tôi xác định ở đây.
+Có lẽ chúng ta hãy làm điều này dễ dàng hơn.
+Hãy đổi tên nó thành HB.
+HB.
+Vì vậy, HP sau đó được chuyển sang `hobby` hoặc tài sản mà chúng ta ràng buộc trong thành phần này.
+Nếu chúng ta làm tốt điều này thì ứng dụng của chúng ta sẽ bị hỏng.
+Tất nhiên, lý do cho điều này là vì chúng ta cần xác định một mẫu, phải không?
+Vì vậy, hãy thêm một mẫu vào co của chúng tôisố.
+Mẫu này là một chuỗi.
+Tất nhiên, nó sẽ chứa mục danh sách của chúng tôi.
+Và trong mục danh sách, tôi sẽ sử dụng phép nội suy chuỗi để xuất ra `hobby`, một lần nữa được đặt từ bên ngoài.
+Bây giờ, nếu chúng ta nhấn nút điều khiển, chúng ta sẽ thấy thể thao và nấu ăn và chúng ta có thể thêm lại việc đọc.
+Tất cả đều hiệu quả, nhưng chúng tôi cần làm cho trình nghe nhấp chuột đó hoạt động vì hiện tại không có gì xảy ra vì
+không còn trình nghe nhấp chuột vào mục danh sách này nữa.
+Hãy giới thiệu lại điều đó.
+Vì vậy, với nhấp chuột, chúng ta có thể nghe các nhấp chuột trong thành phần này và tôi muốn thực hiện xóa `hobby`
+sau đó và do đó bây giờ tôi cần phải có một phương pháp.
+Vì vậy, trong thuộc tính phương thức, tôi sẽ thêm loại bỏ `hobby` làm một hàm.
+Và nhân tiện, đó là cú pháp ES6.
+Dạng dài es5 sẽ là dạng bạn đã thấy trước khi loại bỏ `hobby` như vậy.
+Vì vậy hãy loại bỏ `hobby`.
+Và bây giờ, như bạn đã học, chúng ta cần phát ra sự kiện của riêng mình.
+Chúng ta có thể nghe trong thành phần gốc hoặc trong mẫu gốc.
+Vì vậy, nơi chúng tôi sử dụng `hobby` này ở đây.
+Vì vậy, ở đây tôi sẽ gọi đây là phát ra.
+Bây giờ hãy đặt cho nó bất kỳ tên sự kiện nào bạn muốn, chẳng hạn như xóa `hobby`.
+Và hãy nhớ rằng điều này phải phân biệt chữ hoa chữ thường, vì vậy đừng thử loại bỏ `hobby` ngay bây giờ.
+Và ở đây tôi phải vượt qua `hobby` đã bị loại bỏ.
+Vì vậy, tôi sẽ chỉ chuyển `hobby` sang chỗ dựa ở đây.
+Sở thích này do đó bây giờ đề cập đến chỗ dựa của chúng tôi.
+Bây giờ với điều đó, chúng ta có thể nghe sự kiện này trên thành phần của chính chúng ta ở đây.
+Vì vậy, hãy sử dụng trên và lắng nghe `hobby`.
+Xóa sự kiện chúng tôi đã xác định ở đây.
+Và ở đó chúng tôi biết rằng chúng tôi lấy `hobby` này làm lý lẽ.
+Vì vậy bây giờ chúng ta có thể gọi là loại bỏ `hobby`.
+Hàm chúng tôi đã xác định trong phiên bản chế độ xem này để điều khiển lệnh gọi mẫu này, loại bỏ `hobby` và vượt qua
+sự kiện ký hiệu đô la, chỉ để đưa điều này trở lại bộ nhớ của bạn sẽ luôn tự động được điền
+với dữ liệu sự kiện bạn phát ra ở đây dữ liệu sự kiện này.
+Bây giờ với điều đó, mã của chúng tôi sẽ hoạt động trở lại.
+Nếu tôi thêm tính năng đọc ở đây hoạt động và nếu tôi xóa nó, nó thực sự bị xóa và chúng tôi không thấy bất kỳ lỗi nào ở
+đây.
+Vì vậy, đó là thiết lập cơ bản ở đây.
+Bây giờ có những thứ chúng tôi có thể cải thiện.
+Có rất nhiều thứ chúng ta có thể tìm hiểu sâu hơn.
+Nhưng để có cái nhìn tổng quan đầu tiên, điều này thực sự tuyệt vời.
+Bây giờ chúng tôi đã giải quyết được tất cả các nhiệm vụ.
+Đã đến lúc xem xét cách chúng ta có thể sử dụng Vue.js trong một ứng dụng một trang vì mã này có thể có
+trước đây cũng bị bỏ trong bất kỳ ứng dụng nhiều trang nào vào các trang riêng lẻ của ứng dụng đó
+sau đó chúng tôi rời Vue.js sau khi xem qua ứng dụng một trang để xem ứng dụng khác
+khuôn khổ.
