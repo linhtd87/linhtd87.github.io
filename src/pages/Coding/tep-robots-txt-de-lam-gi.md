@@ -2,7 +2,7 @@
 # This is the title of the article
 title: Tệp robots.txt để làm gì?
 # You can customize cover image
-cover: /assets/images/cover-coding.jpg
+cover: /assets/images/cover-coding.webp
 # This is the icon of the page
 icon: file
 # This control sidebar order

@@ -6,7 +6,7 @@ title: Change risk anti-patterns
 
 # You can customize cover image
 
-cover: /assets/images/cover-coding.jpg
+cover: /assets/images/cover-coding.webp
 
 # This is the icon of the page
 

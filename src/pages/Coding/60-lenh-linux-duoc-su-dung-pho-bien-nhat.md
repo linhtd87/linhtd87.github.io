@@ -2,7 +2,7 @@
 # This is the title of the article
 title: 60 lệnh linux được sử dụng phổ biến nhất
 # You can customize cover image
-cover: /assets/images/cover-coding.jpg
+cover: /assets/images/cover-cli.webp
 # This is the icon of the page
 icon: file
 # This control sidebar order
