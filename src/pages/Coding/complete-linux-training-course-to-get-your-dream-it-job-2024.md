@@ -353,4 +353,7 @@ Và cuối cùng nhưng không kém phần quan trọng, nó mang lại cho bạ
 Đó là lý do tại sao chúng tôi ở đây học Linux để chúng tôi có thể nâng cấp sự nghiệp của mình hoặc có được công việc CNTT mơ ước đó.
 
 ### History of Linux
+### Linux vs Unix
+### Linux flavors
+### Linux Users
 
