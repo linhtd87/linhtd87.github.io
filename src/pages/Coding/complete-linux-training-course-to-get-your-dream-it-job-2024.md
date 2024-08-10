@@ -351,3 +351,6 @@ nó cung cấp cho bạn sự hỗ trợ cộng đồng.
 Ngoài ra, việc học Linux cũng sẽ cung cấp cho bạn sự hiểu biết về các hệ điều hành khác. 
 Và cuối cùng nhưng không kém phần quan trọng, nó mang lại cho bạn nhiều cơ hội nghề nghiệp hơn. 
 Đó là lý do tại sao chúng tôi ở đây học Linux để chúng tôi có thể nâng cấp sự nghiệp của mình hoặc có được công việc CNTT mơ ước đó.
+
+### History of Linux
+
