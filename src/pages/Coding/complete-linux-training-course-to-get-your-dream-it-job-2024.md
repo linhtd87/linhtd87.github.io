@@ -193,11 +193,6 @@ Vì vậy, vui lòng tiếp tục và nhấp vào đăng ký, và bạn sẽ tì
 
 Chúc may mắn.
 
-### Tải về Syllabus
-
-![Tải về Syllabus](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-11.pdf)
-
-
 ## Section 2: Module 1 - Introduction to Linux
 
 ### Everyday Linux
@@ -353,7 +348,216 @@ Và cuối cùng nhưng không kém phần quan trọng, nó mang lại cho bạ
 Đó là lý do tại sao chúng tôi ở đây học Linux để chúng tôi có thể nâng cấp sự nghiệp của mình hoặc có được công việc CNTT mơ ước đó.
 
 ### History of Linux
-### Linux vs Unix
-### Linux flavors
-### Linux Users
 
+Người hướng dẫn: Này các bạn. 
+
+Trong video này, chúng ta sẽ đề cập đến lịch sử của Linux. Vì vậy chúng ta sẽ bắt đầu lại từ đầu. Có gì ở đó trước Linux?
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-17.png)
+
+Trước Linux, nó là một hệ điều hành được gọi là UNIX, và nhân tiện, nó vẫn tồn tại, được phát triển vào năm 1970 tại AT&T Bell Labs bởi Ken Thompson và Dennis Ritchie. 
+UNIX là một hệ điều hành mang tính cách mạng vào thời điểm đó, giới thiệu nhiều tính năng sẽ trở thành tiêu chuẩn. 
+
+Tuy nhiên, 
+UNIX không có sẵn miễn phí và có nhiều phiên bản độc quyền khác nhau. 
+
+Sau đó là Dự án GNU.
+Năm 1983, Richard Stallman ra mắt dự án GNU, GNU it's Not UNIX, với mục đích tạo ra một hệ điều hành giống UNIX miễn phí. 
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-18.png)
+
+Trong khi nhiều công cụ và tiện ích được phát triển theo dự án GNU, một hệ điều hành miễn phí hoàn chỉnh đã thiếu một hạt nhân. 
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-19.png)
+
+Sau đó Linux ra đời vào năm 1991, một sinh viên Phần Lan 21 tuổi tên là Linus Torvalds, bắt đầu phát triển một nhân hệ điều hành miễn phí như một dự án sở thích. 
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-20.png)
+
+Vào ngày 25 tháng 8 năm 1991, Linus đã công bố dự án của mình trên MINIX Newsgroup với những từ nổi tiếng, 
+> "Tôi đang làm một hệ điều hành miễn phí. Chỉ là một sở thích, sẽ không lớn và chuyên nghiệp như GNU."
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-21.png)
+
+Được rồi, sau đó, Phiên bản 0.01, được phát hành vào tháng 9 năm 1991. 
+Phiên bản này, phiên bản nhân Linux đầu tiên của chúng tôi, không hoạt động, nhưng đã được phát hành cho công chúng để xem và bình luận. 
+
+Sau đó là Phiên bản 0.02, được phát hành sau đó vào năm 1991. 
+Phiên bản này có chức năng và kết hợp với các tiện ích từ dự án GNU. Nó tạo thành một hệ điều hành hoàn toàn miễn phí. Sự kết hợp giữa nhân Linux với các công cụ từ dự án GNU thường được gọi là Linux, mặc dù một số người ủng hộ nó được gọi là GNU/Linux. 
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-22.png)
+
+Được rồi, hãy xem sự phát triển và phát triển của Linux. 
+
+Vào đầu những năm 1990, Linux đã phát triển nhanh chóng thông qua sự hợp tác trên Internet. Các bản phân phối thường được gọi là các bản phân phối như `Slackware` và `Debian` xuất hiện, giúp người dùng dễ dàng có được một hệ điều hành dựa trên Linux hoàn chỉnh. 
+
+Sau đó vào năm 1994, Phiên bản 1.0 được phát hành với 176.000 dòng mã. 
+
+Sau đó vào cuối những năm 1990, sự quan tâm thương mại đối với Linux tăng lên. Các công ty như `Red Hat` và `SUSE` đã cung cấp hỗ trợ thương mại cho Linux, làm cho nó khả thi để sử dụng cho doanh nghiệp. 
+
+Sau đó vào năm 2000, Linux đã được áp dụng đáng kể trong thị trường máy chủ. Nó đã trở thành hệ điều hành được lựa chọn cho các thị trường mới nổi khác nhau như hệ thống nhúng và siêu máy tính. 
+
+Sau đó, Android, vào năm 2007, Google đã phát hành hệ điều hành Android cho các thiết bị di động, dựa trên nhân Linux. Điều này đã mang lại cho Linux một sự thúc đẩy to lớn trong thị trường di động.
+
+Được rồi, hãy xem nào. 
+
+Hôm nay nó đang làm gì? Linux đã phát triển từ một dự án có sở thích thành một lực lượng mạnh mẽ trong máy tính, cung cấp năng lượng cho mọi thứ từ thiết bị di động, máy tính cá nhân và máy chủ đến máy tính lớn và siêu máy tính.
+
+Các nguyên tắc của nguồn mở dựa trên Linux cũng đã ảnh hưởng đến sự phát triển của nhiều dự án phần mềm khác và thậm chí cả các lĩnh vực bên ngoài phần mềm. 
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-23.png)
+
+Nói một cách đơn giản, câu chuyện về Linux không phải là về một hệ thống máy tính. 
+Đó là về những người tuyệt vời từ khắp nơi trên thế giới làm việc cùng nhau và biến đây thành một hệ điều hành mã nguồn mở, đáng tin cậy, an toàn. 
+Rất cám ơn họ.
+
+### Linux vs Unix
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-24.png)
+
+### Linux flavors
+
+Trong video này, chúng ta sẽ xem xét các `Linux Flavors` được sử dụng nhiều nhất. Khi mọi người đề cập đến Linux Flavors, họ thường có nghĩa là các bản phân phối Linux hoặc `Distros`. 
+
+Chúng tôi có tất cả các bản phân phối khác nhau để phục vụ các nhu cầu và sở thích khác nhau của người dùng. 
+Đây là tổng quan về một số bản phân phối Linux phổ biến. 
+
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-25.png)
+
+Cái đầu tiên là `Ubuntu`, hoặc đôi khi mọi người gọi nó là `Ubuntu`, một trong những bản phân phối phổ biến nhất, đặc biệt là đối với những người mới sử dụng Linux. Nó dựa trên `Debian`, nó cung cấp trải nghiệm thân thiện với người dùng và được hỗ trợ bởi `Canonical Limited`. 
+
+Sau đó, cái tiếp theo là `Fedora`, được tài trợ bởi `Red Hat`, nó được biết đến với các tính năng và đổi mới tiên tiến. `Fedora Workstation` được sử dụng cho người dùng máy tính để bàn, `Fedora Server` và `Fedora Silverblue`, được sử dụng như một phiên bản không thay đổi, đây là một số hương vị của nó. 
+
+Sau đó, `Debian`, một dự án hướng đến cộng đồng được biết đến với sự ổn định của nó, cung cấp nền tảng cho nhiều bản phân phối khác, bao gồm cả `Ubuntu`. 
+
+Sau đó, chúng tôi có `Red Hat Enterprise Linux`, tóm lại, `RHEL`, một bản phân phối thường được hỗ trợ từ `Red Hat` được thiết kế cho các doanh nghiệp và doanh nghiệp. Cung cấp hỗ trợ lâu dài, tính ổn định và các tính năng cấp doanh nghiệp. Rất nhiều công ty, tôi sẽ nói về, khoảng 70 đến 80% môi trường doanh nghiệp sử dụng `RHEL`. 
+
+Sau đó, chúng tôi có `CentOS` hoặc `CentOS`, một bản sao mã nguồn mở và miễn phí của `RHEL`, được thiết kế để cung cấp trải nghiệm tương tự mà không phải trả chi phí liên quan. Tuy nhiên, hướng của nó đã thay đổi sau `CentOS 8`, với sự ra đời của `CentOS Stream`. 
+
+Sau đó là `Arch Linux`, một hệ thống phát hành liên tục được biết đến với sự đơn giản và tùy chỉnh. Người dùng xây dựng hệ thống của họ từ đầu, chọn các thành phần mà họ mong muốn. Nó có một tên phiên bản nổi tiếng `Manjaro`, cố gắng làm cho việc sử dụng Arch đơn giản hơn. 
+
+Sau đó, phiên bản tiếp theo là `openSUSE`, nó có hai phiên bản chính, `Tumbleweed`, là bản phát hành liên tục và `Leap`, bản phát hành thường xuyên và được tài trợ bởi `SUSE Linux`. 
+
+Cái tiếp theo là `Linux Mint`. Dựa trên `Ubuntu`, nó cung cấp trải nghiệm máy tính để bàn truyền thống và chi tiết hơn. Nó đi kèm với các công cụ đặc biệt tích hợp để phát phương tiện. 
+
+Sau đó, phần tiếp theo là `Gentoo`, một bản phân phối dựa trên nguồn, nơi người dùng biên dịch phần mềm từ mã nguồn, có khả năng tùy chỉnh cao và được tối ưu hóa cho phần cứng cụ thể của người dùng. 
+
+Sau đó đến cái tiếp theo, đó là `Slackware`. Một trong những bản phân phối lâu đời nhất được biết đến với sự đơn giản và tối giản. 
+
+Cái tiếp theo là `Alpine Linux`, một bản phân phối nhẹ được thiết kế để bảo mật, đơn giản và hiệu quả tài nguyên, khiến nó trở nên phổ biến cho các ứng dụng được đóng gói. 
+
+Sau đó là cái cuối cùng, nhưng không phải là cái nhỏ nhất, bởi vì còn nhiều hơn thế nữa, `Kali Linux` một bản phân phối được thiết kế cho pháp y kỹ thuật số và kiểm tra thâm nhập. 
+
+Đây chỉ là một số trong nhiều bản phân phối Linux có sẵn. Mỗi bản phân phối có các tính năng, điểm mạnh, đối tượng mục tiêu và triết lý độc đáo. Phân phối phù hợp cho người dùng, thường phụ thuộc vào nhu cầu, sở thích và trường hợp sử dụng dự định của họ. Bây giờ, nếu bạn đang sử dụng Linux và bạn thực sự muốn, mục tiêu cuối cùng của bạn là có được một công việc trong Linux, trong thế giới doanh nghiệp, thì tôi thực sự khuyên bạn nên sử dụng `CentOS`, đây là bản sao chính xác của `Red Hat Enterprise Linux`, và chủ yếu được sử dụng trong tất cả thế giới doanh nghiệp.
+
+### Linux Users
+ 
+Này các bạn. 
+
+Trong video này, chúng ta sẽ tìm hiểu ai là người dùng Linux lớn nhất. 
+
+Vì vậy, Linux được sử dụng bởi nhiều người dùng và tổ chức do tính linh hoạt, ổn định và bản chất nguồn mở mà chúng tôi cũng đã thảo luận trước đó. 
+
+Bây giờ người đầu tiên là các nhà phát triển. 
+Các lập trình viên và nhà phát triển thường sử dụng Linux để mã hóa vì nó hỗ trợ một loạt các ngôn ngữ lập trình và công cụ phát triển. 
+
+![Linux Users](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-26.png)
+
+Sau đó chúng tôi có các cơ sở giáo dục. 
+Các trường học và đại học thường sử dụng Linux cho khoa học máy tính và nghiên cứu giáo dục.
+
+Vậy thì hãy nói về các cơ quan chính phủ. 
+Có rất nhiều cơ quan chính phủ trên toàn thế giới sử dụng Linux, đặc biệt là cho các nhiệm vụ đòi hỏi sự ổn định và bảo mật. 
+Hiện nay, ở Mỹ, nhiều cơ quan dựa vào Linux như Bộ Quốc phòng, Cơ quan An ninh Quốc gia, Cục Hàng không Liên bang, NASA, FBI, v.v. 
+
+Sau đó là doanh nghiệp và doanh nghiệp. 
+Nhiều doanh nghiệp, từ các công ty nhỏ đến một tập đoàn lớn, sử dụng Linux cho máy chủ, máy tính để bàn và trung tâm dữ liệu của họ.
+Ở Mỹ, các doanh nghiệp như Walmart, Boeing, McDonald's, Bank of America, Sở giao dịch chứng khoán New York, General Motors, Pfizer và nhiều doanh nghiệp khác đều sử dụng Linux. 
+
+Sau đó chúng tôi có các công ty công nghệ. 
+Tất nhiên, nhiều công ty công nghệ sử dụng Linux chủ yếu. 
+Những người đó là ai? Giống như Google, Facebook, Amazon, Microsoft, Oracle, Intel, IBM, và nhiều hơn nữa. 
+
+Sau đó là đám mây và máy chủ web. 
+Linux thống trị thị trường máy chủ web, phân phối máy chủ phổ biến như máy chủ `Ubuntu`, `Santos`, `Red Hat` doanh nghiệp Linux.
+
+Sau đó chúng tôi có siêu máy tính và các cơ sở nghiên cứu.
+Hầu hết các cơ sở nghiên cứu thường sử dụng Linux cho các nhiệm vụ phức tạp và tính toán.
+Sau đó chúng ta có viễn thông và mạng lưới.
+Linux được sử dụng bởi các công ty mạng và viễn thông, chẳng hạn như AT&T, Nokia, Vodafone, và T-Mobile, v.v. 
+
+Được rồi, và cái cuối cùng là phương tiện truyền thông và giải trí, nhưng tất nhiên còn rất, rất nhiều nữa.
+Tôi nói với bạn điều đó, tôi chỉ liệt kê một vài. 
+Linux cũng được sử dụng trong ngành công nghiệp điện ảnh và truyền thông, đặc biệt là sản xuất đồ họa và hoạt hình. 
+Các công ty như Pixar, Dreamworks, Sony Pictures, Netflix đều sử dụng Linux. 
+
+Bây giờ, lý do tôi đã xem qua tất cả những người dùng và tổ chức khác nhau này là bởi vì, vì, bạn sẽ biết rằng Linux được sử dụng ở mọi nơi, và khi bạn học xong khóa học này, bạn sẽ rất có giá trị đối với tất cả các công ty đang tìm kiếm các cá nhân Linux mỗi ngày.
+
+### Linux vs Windows
+
+![Linux vs Windows](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-27.png)
+
+### Quiz 1: Module 1 Quiz
+
+Question 1:
+
+What is Linux?
+
+### Module 1: Homework 
+
+Đọc tài liệu phát tay Mô-đun 1
+Làm quen với sự khác biệt giữa Linux và Unix
+
+## Section 3: Module 2 - Download, Install and Configure
+
+### Lab Design
+
+Trong video này, chúng ta sẽ đi qua thiết kế phòng thí nghiệm của mình, phòng thí nghiệm mà chúng ta cần thực hành tất cả các video và bài giảng trong suốt khóa học này.
+
+![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-28.png)
+
+Vì vậy, chúng tôi có hai lựa chọn để thiết kế phòng thí nghiệm của mình. 
+
+Lựa chọn thứ nhất là bạn có máy tính, máy tính để bàn hoặc máy tính xách tay ở nhà.
+Máy tính đó có thể đang chạy hệ điều hành Windows hoặc hệ điều hành Mac.
+Vậy thì bạn làm gì? Bạn cài đặt một phần mềm ảo hóa trên đó. Vì vậy, theo cách này, bạn không cần phải mất hệ điều hành máy chủ chính hiện đang chạy trên máy tính của mình. Phần mềm ảo hóa cho phép bạn chạy nhiều hệ điều hành trên hệ điều hành chính của mình. 
+
+Vì vậy, phần mềm ảo hóa, có rất nhiều trong số chúng. Hai cái chính là VMware Player và Oracle VirtualBox. Đây là hai phần mềm ảo hóa miễn phí mà bạn có thể sử dụng để thiết lập phòng thí nghiệm của mình. Khi bạn đã tải xuống, cài đặt bất kỳ một trong hai cái đó, thì chúng tôi sẽ tiếp tục và tạo máy ảo của chúng tôi trên đó.
+
+![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-29.png)
+
+Máy ảo đó sẽ cho phép chúng tôi tạo và cài đặt hệ điều hành Linux của chúng tôi trên đó. Vì vậy, đó là lựa chọn đầu tiên đơn giản của chúng tôi. 
+
+Tùy chọn thứ hai mà bạn có thể sử dụng giống như cách bạn có máy tính để bàn hoặc máy tính xách tay ở nhà chạy Windows hoặc Mac. 
+Và sau đó thay vì cài đặt phần mềm ảo hóa trên máy tính của bạn, bạn thực sự có thể tạo một tài khoản trên một trong những dịch vụ đám mây ngoài kia. 
+Các dịch vụ đám mây có thể là AWS hoặc Google Cloud hoặc bất kỳ dịch vụ đám mây nào cung cấp cho bạn tài khoản miễn phí hoặc quyền truy cập miễn phí để tạo máy ảo với các tài nguyên mà bạn cần. Vì vậy, một khi bạn có điều đó, thì chúng ta nên đi theo con đường tương tự. 
+
+![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-30.png)
+
+Chúng tôi sẽ tạo một máy ảo trên các dịch vụ đám mây, và sau đó chúng tôi sẽ cài đặt hệ điều hành Linux trên máy ảo đó.
+
+Vậy đây là hai lựa chọn bạn có. 
+
+Bạn có thể chọn một trong hai cho khóa học này, và bất kỳ cái nào trong số đó sẽ hoạt động. Nhưng nếu bạn muốn làm theo chính xác từng bước mà tôi đang trải qua, tôi sẽ chọn tùy chọn một. Nhưng tôi đã cung cấp hướng dẫn cho mọi bước mà tôi đã liệt kê ở đây.
+
+### What is Oracle Virtualbox
+
+Tutor: Oracle VirtualBox là gì?
+
+Và, tất nhiên, tại sao chúng ta cần biết về VirtualBox?
+
+Chà, đối với khóa học này, bạn cần cài đặt Hệ điều hành CentOS Linux trên máy tính của mình và có hai cách bạn có thể cài đặt nó.
+
+Một, bạn có thể xóa hệ điều hành hiện có mà bạn có trên máy tính của mình hoặc bạn có thể cài đặt VirtualBox trên hệ điều hành Windows hoặc Mac hiện tại của mình, và sau đó bạn có thể cài đặt CentOS để theo cách này, bạn sẽ không mất bất cứ thứ gì.
+
+Vì vậy, về cơ bản, VirtualBox là một trình siêu giám sát mã nguồn mở và miễn phí cho các máy tính X86 hiện đang được phát triển bởi Tập đoàn Oracle. 
+
+![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-31.png)
+
+Nó cài đặt trên các máy tính dựa trên Intel hoặc AMD hiện tại của bạn, cho dù chúng đang chạy Windows, Mac, Linux hay Solaris. Nó mở rộng khả năng của máy tính hiện tại của bạn để nó có thể chạy nhiều hệ điều hành trên một phần cứng cùng một lúc. 
+
+Hãy xem nó hoạt động như thế nào. Vì vậy, bạn có lớp phần cứng, và sau đó trên nó bạn cài đặt hệ điều hành, tất nhiên, đó có thể là bất kỳ ai bạn có đó là Windows hoặc Mac, và sau đó bạn cài đặt Oracle VirtualBox. Nó chỉ là một chương trình, một phần mềm mà bạn cài đặt trên máy của mình giống như bất kỳ phần mềm nào khác mà bạn sẽ cài đặt. 
+
+![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-32.png)
+
+Khi bạn đã cài đặt Oracle VirtualBox, sau đó bạn có thể cài đặt Linux trên nó dưới dạng một phiên bản riêng biệt, nhỏ và của hệ điều hành, bạn có thể có Windows trên đó hoặc bạn có thể có Mac trên đó. Vì vậy, cái này, VirtualBox này, cho phép bạn có nhiều hệ điều hành trên cùng một phần cứng.
