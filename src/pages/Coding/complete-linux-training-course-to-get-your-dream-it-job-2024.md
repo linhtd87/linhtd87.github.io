@@ -561,3 +561,129 @@ Hãy xem nó hoạt động như thế nào. Vì vậy, bạn có lớp phần c
 ![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-32.png)
 
 Khi bạn đã cài đặt Oracle VirtualBox, sau đó bạn có thể cài đặt Linux trên nó dưới dạng một phiên bản riêng biệt, nhỏ và của hệ điều hành, bạn có thể có Windows trên đó hoặc bạn có thể có Mac trên đó. Vì vậy, cái này, VirtualBox này, cho phép bạn có nhiều hệ điều hành trên cùng một phần cứng.
+
+### Downloading and Installing Oracle VirtualBox
+
+Này, các bạn, và chào mừng trở lại. 
+
+Trong video này, chúng ta sẽ tải xuống và cài đặt phần mềm Oracle VirtualBox. Vì vậy, nếu bạn thực hiện từng bước, bước đầu tiên, tất nhiên, chúng tôi phải mở trình duyệt internet của bạn và truy cập www.virtualbox.org. 
+
+Sau đó, bước tiếp theo là truy cập trang tải xuống của nó và tìm trang tải xuống ở đâu trên thanh điều hướng, và sau đó bạn sẽ thấy phần mềm gần đây nhất mà bạn có thể tải xuống. Được rồi, một khi phần mềm được tải xuống, bước tiếp theo, tất nhiên, là thực thi nó và thực hiện quy trình cài đặt và cấu hình của phần mềm. 
+
+Được rồi, rất đơn giản và dễ hiểu. Vậy hãy khởi động trình duyệt của chúng ta. Bây giờ, tất nhiên, hãy chọn trình duyệt bạn chọn. Tôi sẽ sử dụng Google Chrome. Vì vậy, tôi sẽ đi gõ chrome. 
+
+Và ở đây tôi sẽ gõ nó vào www.oracle, xin lỗi, virtualbox.org và nó sẽ đưa tôi đến trang này. Hãy để tôi di chuyển cái này lên. Được rồi, trang này sẽ chào mừng bạn đến với VirtualBox.org. Một số thông tin về nó. Tôi muốn bạn vào ngăn điều hướng và ngay tại đây, nhấp vào Tải xuống. 
+
+Được rồi, khi bạn đang ở trên trang tải xuống, ngay tại đây cho biết các gói nền tảng VirtualBox 7.0.10. Bây giờ tùy thuộc vào thời điểm bạn đang xem video này, phiên bản có thể đã thay đổi, vì vậy sẽ không thực sự quan trọng nếu phiên bản được thay đổi thành phiên bản cao hơn. Tất cả những gì bạn phải làm là tải xuống phần mềm ảo này, phần mềm mới nhất. 
+
+![Downloading and Installing Oracle VirtualBox 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-33.png)
+
+Được rồi, vậy thì nền tảng nào? Bạn có đang sử dụng Windows trên máy mà bạn sẽ tải xuống cái này không? Sau đó có, nhấp vào cái này. Bạn có đang sử dụng Mac không? Bạn đang sử dụng bản phân phối Linux khác hay bản phân phối Solaris? Vì vậy, đối với chúng tôi, trong trường hợp của chúng tôi, chúng tôi có một máy Windows. Vậy chúng ta sẽ nhấp vào máy chủ Windows, được chứ? Một khi bạn nhấp vào nó, nó sẽ bắt đầu tải xuống. Và tất nhiên quá trình tải xuống rất nhanh. Nó đã được tải xuống.
+
+Xem ngay tại đây. Và nó tải xuống máy tính để bàn của tôi. Được rồi, vậy bây giờ máy tính để bàn của tôi ở đâu? Vậy hãy, hãy đi đến máy tính để bàn của tôi. Được rồi, ngay tại đây trên máy tính để bàn của tôi, bạn thấy đây là tệp thực thi mà nó đã tải xuống. 
+
+Bây giờ hãy tiếp tục và nhấp đúp vào nó để nó có thể bắt đầu quy trình cài đặt. (tiếng chuông máy tính) 
+
+![Downloading and Installing Oracle VirtualBox 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-34.png)
+
+Được rồi, điều đầu tiên là, bạn có cho phép không, bạn có muốn cho phép ứng dụng này thay đổi thiết bị của mình không? Vâng, tất nhiên, bởi vì chúng tôi muốn nó được cài đặt. Được rồi, bước tiếp theo là Chào mừng bạn đến với Trình hướng dẫn cài đặt phiên bản Oracle VM VirtualBox. Trình hướng dẫn thiết lập này sẽ cài đặt Oracle VM và v.v.
+
+Nhấp vào Tiếp theo.
+
+Được rồi, chọn cách bạn muốn các tính năng được cài đặt. Tôi muốn bạn để mọi thứ mặc định. 
+
+Bây giờ, bạn có thể tùy chỉnh nó tùy thuộc vào yêu cầu của bạn, nhưng một lần nữa, vì chúng tôi đang làm điều đó lần đầu tiên và điều này dành cho phòng thí nghiệm của chúng tôi, chúng tôi sẽ để mọi thứ như hiện tại và chỉ cần nhấp vào Tiếp theo.
+
+Cảnh báo: Giao diện mạng. 
+
+Cài đặt Tính năng Mạng Oracle VM VirtualBox sẽ đặt lại kết nối mạng của bạn và tạm thời ngắt kết nối bạn khỏi internet. 
+
+Tiến hành cài đặt ngay bây giờ? 
+
+Bây giờ trước khi bạn nhấp vào Có, hãy đảm bảo rằng bạn không chạy bất kỳ loại tải xuống quan trọng nào hoặc một chương trình trong nền sẽ làm gián đoạn kết nối mạng.
+
+Nếu có, hãy dừng nó lại, và sau đó quay lại, và sau đó nhấp vào Có. 
+
+Nhưng tất nhiên một lần nữa, đây là một phòng thí nghiệm, chúng tôi biết rằng chúng tôi không chạy bất cứ thứ gì. 
+
+Vì vậy, hãy tiếp tục và nhấp vào Có. Thiếu phụ thuộc Python Core. 
+
+Nếu bạn nhận được những tin nhắn này, không sao cả, nó cũng sẽ cài đặt những phụ thuộc này. Vì vậy hãy nhấp vào Có. 
+
+Được rồi, bắt đầu cài đặt. Sẵn sàng để cài đặt chưa? Có, hãy tiếp tục và nhấp vào Có hoặc Cài đặt.
+
+Được rồi, Oracle VM VirtualBox 7.0.10. Vui lòng đợi trong khi cài đặt cài đặt Oracle VM VirtualBox. Việc này có thể mất một thời gian .
+Tất nhiên, đối với tôi, nó thực sự mất khoảng 15 giây. Được rồi, cài đặt Oracle VM VirtualBox đã hoàn tất.
+
+Nhấp vào Kết thúc. 
+
+![Downloading and Installing Oracle VirtualBox 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-35.png)
+
+Khởi động Oracle VirtualBox, nếu nó được kiểm tra, thì nó sẽ khởi động chương trình ngay lập tức. 
+
+Vì vậy, hãy nhấp vào Kết thúc và nó sẽ khởi động ứng dụng Oracle VirtualBox ngay bây giờ.
+
+Được rồi, hãy xem nó đang chạy trên khay của chúng tôi hay trình quản lý tác vụ của chúng tôi. 
+
+Đúng vậy. Thấy không, ngay tại đây, nó đang chạy. 
+
+Được rồi, vậy nó đây, Oracle VM VirtualBox.
+
+Đây là cách Oracle VirtualBox, sau khi cài đặt, cổng thông tin sẽ trông như thế nào.
+
+Bây giờ cổng thông tin này cho phép bạn tạo một máy ảo mới, thêm những máy hiện có nếu bạn đã có, nhập, xuất và tất cả các tính năng này, bạn có thể xem qua từng cái một và hiểu.
+
+Nhưng tất nhiên trọng tâm chính của khóa học này không phải là học phần mềm ảo hóa, mà là thực sự học Linux. 
+
+Vì vậy, tôi sẽ để lại phần học tập nhỏ đó với bạn.
+
+Nếu bạn muốn khám phá nhiều hơn, hãy xem qua nó và học nó. Nhưng bây giờ, chúng ta sẽ dừng lại ở đây và chúng ta sẽ chuyển sang video tiếp theo. Trong video tiếp theo, chúng tôi sẽ tiếp tục và tạo ra một máy ảo mới để máy ảo có thể có hệ điều hành Linux trên đó cho môi trường phòng thí nghiệm của chúng tôi để chúng tôi có thể thực hành các lệnh Linux trên đó.
+
+### Download and Install VMWare Player (Optional)
+
+Xin chào lần nữa. 
+
+Trong video này, chúng ta sẽ tải xuống và cài đặt VMware Workstation Player.
+
+VMware Workstation Player là một phần mềm ảo hóa giống như Oracle VirtualBox, và tôi đang tải xuống và cài đặt cho Workstation Player cho những người thích sử dụng máy trạm VMware. 
+
+![Download and Install VMWare Player](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-36.png)
+
+Việc tải xuống và cài đặt VMware Player này hoàn toàn là tùy chọn. Nếu bạn đã cài đặt Oracle VirtualBox và đó là những gì bạn muốn sử dụng, bạn có thể chỉ cần tiếp tục và bỏ qua toàn bộ video này. Nhưng nếu bạn quyết định sử dụng VMware Player, thì hãy ở lại. Tôi sẽ đi cùng nhau để cài đặt. Nhân tiện, như tôi đã nói trước đây, tôi sẽ sử dụng Oracle VirtualBox cho toàn bộ khóa học này. Được rồi, không cần quảng cáo thêm, hãy tiếp tục và khởi động trình duyệt của chúng tôi. Tôi đã mở Firefox và tôi đang ở trên Google, và bây giờ chỉ cần nhập tải xuống VMware Workstation Player. Được rồi, và sau đó bạn sẽ nhận được liên kết đầu tiên, rất có thể, tải xuống trình phát VMware Workstation. Nhấp vào nó, tải xuống, đi xuống và bạn thấy thử trình phát Workstation 16 cho Windows. Nếu bạn đang xem video này một năm kể từ bây giờ, có thể một vài tháng kể từ bây giờ, bạn có thể thấy rằng phiên bản có thể đã thay đổi hoặc tăng lên. Vì vậy, nó không thực sự quan trọng. Điều quan trọng là chúng tôi đang tải xuống và cài đặt phần mềm ảo hóa. Hãy tiếp tục và nhấp vào tải xuống ngay bây giờ. Lưu tệp. Xem ở đây, nó đang tải xuống. Tải xuống đã hoàn tất. Bạn có thể nhấp vào nó và chạy chương trình ngay từ đây. Được rồi, trình hướng dẫn người chơi Workstation 16 đang bắt đầu. Nó có thể mất bất cứ nơi nào, một lần nữa, từ 30 giây đến hai đến năm phút, tùy thuộc vào tốc độ hệ thống máy tính của bạn. Được rồi, nhấp vào tiếp theo. Chấp nhận giấy phép, tiếp theo. Trình điều khiển bàn phím nâng cao. Nếu bạn muốn điều đó, máy tính của bạn sẽ được khởi động lại. Tôi không muốn nó ngay bây giờ. Thêm các công cụ bảng điều khiển VMware Workstation vào đường dẫn. Không sao đâu, để mặc định, nhấp vào tiếp theo. Kiểm tra các bản cập nhật, tôi không muốn điều đó và tham gia trải nghiệm khách hàng VMware, tôi không muốn điều đó ngay bây giờ. Nhấp vào tiếp theo. Tạo một phím tắt trên màn hình nền, menu phím tắt trên các chương trình. Tôi chỉ không muốn trên máy tính để bàn. Tôi có thể để nó trên thư mục chương trình menu bắt đầu. Nhấp vào tiếp theo và cài đặt. Được rồi, đã hoàn thành trình hướng dẫn thiết lập VMware Workstation 16 Player. Nhấp vào kết thúc. Và nếu bạn bắt đầu và bạn nhập VMware Workstation Player, hãy nhấp vào nó. Bây giờ, nó nói VMware Workstation 16 Player. Sử dụng VMware Workstation 16 Player miễn phí cho mục đích phi thương mại. Chúng tôi đang sử dụng nó cho mục đích phi thương mại, vì vậy bạn có thể giữ tùy chọn đó và nhấp vào tiếp tục và kết thúc. Và đây là cách VMware Workstation trông như thế nào. Như bạn có thể thấy ngay tại đây, nó chỉ cho bạn biết mục đích sử dụng phi thương mại. Vì vậy, hãy đảm bảo rằng bạn không sử dụng nó cho bất kỳ mục đích nào khác, chỉ cho mục đích giáo dục, và sau đó bạn có thể tiếp tục và tạo các máy ảo mới trong máy trạm này và cài đặt bất kỳ hệ điều hành nào. Tôi sẽ gặp bạn trong bài giảng tiếp theo.
+
+### CentOS vs. CentOS Stream
+
+Này các bạn. Trong video này, tôi sẽ đề cập đến `CentOS` so với `CentOS Stream`. 
+
+Rất nhiều người có sự nhầm lẫn này và có rất nhiều câu hỏi đang diễn ra xung quanh. 
+
+CentOS Stream là gì? CentOS có sắp chết không? Có hỗ trợ nào cho CentOS không? 
+
+Vì vậy, những gì tôi sẽ làm là tôi sẽ rất ngắn gọn và chính xác để trả lời câu hỏi này. 
+
+Vì vậy, điều đầu tiên là, hãy nói về một lịch sử ngắn gọn của `CentOS`, nó đến từ đâu. 
+
+![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-37.png)
+
+`CentOS` là một Hệ điều hành Doanh nghiệp Cộng đồng, có nghĩa là có một nhóm tình nguyện viên thực sự làm việc cùng nhau để tạo ra hệ điều hành đó. 
+
+Vì vậy, quay trở lại lịch sử vào năm 2004, có một anh chàng tên là Greg Kurtzer. Anh ấy thực sự đã lấy mã từ Hệ điều hành `Red Hat` vì Hệ điều hành `Red Hat` là một mã nguồn mở, có sẵn cho công chúng. Vì vậy, những gì anh ấy đã làm là lấy mã nguồn, và nó thực sự đặt một thương hiệu khác vào đó, và anh ấy gọi hệ điều hành mới đó là `CentOS`. Và sau đó rất nhiều người, thực sự là rất nhiều tình nguyện viên, bắt đầu đóng góp cho dự án nguồn mở `CentOS` đó.
+
+![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-38.png)
+
+Sau đó vào năm 2014, `Red Hat` thực sự đã trở lại và mua lại Cộng đồng Hệ điều hành `CentOS`. Và mã của họ giống như một-một. Mọi thứ họ có trong Hệ điều hành `Red Hat` họ có trong `CentOS`. 
+
+Vì vậy, trước tháng 2 năm 2021, cách nó được nhỏ giọt, là từ `Fedora`. `Fedora` cũng là một dự án mã nguồn mở khác của `Red Hat`. Vì vậy, họ tạo ra dự án này, mã nguồn này của hệ điều hành.
+Sau đó, họ đẩy nó xuống hệ điều hành `Red Hat Enterprise Linux`. Và sau đó họ đẩy nó xuống `CentOS`. 
+Bây giờ những gì sẽ xảy ra là sau tháng Hai, năm 2021, nó sẽ thay đổi trình tự của nó. 
+
+![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-39.png)
+
+Cách nó phát trực tuyến, nó sẽ là `Fedora`. 
+Sau đó từ Fedora, nó sẽ đi thẳng đến `CentOS Stream`, và sau đó từ một `Stream`, nó sẽ đi đến `Red Hat Enterprise Linux`. 
+
+Vì vậy, nói cách khác, cho đến `CentOS 8`, tất cả các bản cập nhật sẽ được đẩy xuống từ `Red Hat 8`. Với `CentOS Stream`, các bản cập nhật sẽ được đẩy xuống từ `CentOS` xuống `Red Hat`. Đó là lý do tại sao `CentOS` bây giờ được gọi là thượng nguồn, thay vì hạ lưu. 
+
+Được rồi, vậy câu hỏi lớn hơn bây giờ là, nó có đáng để học hệ điều hành `CentOS` không? Và câu trả lời là tuyệt đối. Bạn sẽ cần hỗ trợ `CentOS` hoặc `Red Hat`, không thực sự quan trọng. Phiên bản mà bạn sẽ hỗ trợ là 4, 5, 6, 7, 8. Tất cả đều giống hệt nhau. `Red Hat` và `CentOS` giống hệt nhau và trên Red. `CentOS Stream` sẽ giống như `Red Hat`. Do đó, bất kể `Red Hat` đến trước hay `CentOS`, bạn sẽ cần phải học `Linux`. Và không có hương vị `Linux` miễn phí nào tốt nhất ngoài `CentOS`.
+
+### Different Ways to Install Linux
