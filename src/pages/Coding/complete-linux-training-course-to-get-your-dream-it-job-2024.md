@@ -687,3 +687,139 @@ Vì vậy, nói cách khác, cho đến `CentOS 8`, tất cả các bản cập 
 Được rồi, vậy câu hỏi lớn hơn bây giờ là, nó có đáng để học hệ điều hành `CentOS` không? Và câu trả lời là tuyệt đối. Bạn sẽ cần hỗ trợ `CentOS` hoặc `Red Hat`, không thực sự quan trọng. Phiên bản mà bạn sẽ hỗ trợ là 4, 5, 6, 7, 8. Tất cả đều giống hệt nhau. `Red Hat` và `CentOS` giống hệt nhau và trên Red. `CentOS Stream` sẽ giống như `Red Hat`. Do đó, bất kể `Red Hat` đến trước hay `CentOS`, bạn sẽ cần phải học `Linux`. Và không có hương vị `Linux` miễn phí nào tốt nhất ngoài `CentOS`.
 
 ### Different Ways to Install Linux
+
+Different Ways to Install Linux
+
+### Create a Virtual Machine
+
+Trong video này, chúng ta sẽ tiếp tục tạo một máy ảo trên phần mềm ảo hóa của mình.
+
+Vì vậy, chúng tôi có máy tính xách tay hoặc máy tính để bàn chạy Windows hoặc Mac.
+Chúng tôi đã cài đặt phần mềm ảo hóa và chúng tôi đã chọn `VMware Player` hoặc `Oracle VirtualBox`.
+
+Bây giờ là lúc để tạo một máy ảo trên các phần mềm ảo hóa này, vì vậy chúng tôi sẽ sử dụng `Oracle VirtualBox`. Đây là `Oracle VirtualBox` mà chúng tôi sẽ sử dụng trong suốt khóa học này.
+
+Được rồi, bây giờ hãy tiếp tục và khởi động phần mềm `Oracle VirtualBox` của chúng tôi.
+
+![Create a Virtual Machine](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-40.png)
+
+Bạn có thể nhấp vào menu tìm kiếm bắt đầu của mình và chỉ cần nhập Oracle và nó sẽ khớp với bất kỳ thứ gì đi kèm với ứng dụng Oracle.
+Vì vậy, chúng tôi chỉ có một ứng dụng Oracle, đó là Oracle VM VirtualBox. Hãy tiếp tục và chọn cái này, nhấp vào nó và nó sẽ khởi động Trình quản lý VirtualBox của Oracle VM.
+
+Vì vậy, hãy tiếp tục và nhấp vào Mới ngay tại đây. Tùy chọn đầu tiên là xác định tên và hệ điều hành.
+
+Vì vậy, hãy chọn một tên cho máy ảo của bạn. Đây không phải là tên hệ điều hành Linux của bạn. Tên máy chủ Tên máy chủ chúng tôi sẽ xác định sau trong quá trình cài đặt.
+
+Đây chỉ là tên của một máy ảo ở đây.
+
+Thư mục sẽ lưu các tệp và thư mục cho máy ảo đó. Bạn sẽ để mặc định đó.
+
+Hình ảnh `ISO` không được chọn vì chúng tôi chưa tải xuống hình ảnh ISO của hệ điều hành, vì vậy chúng tôi sẽ để loại đó ở đây là Microsoft Windows vì chúng tôi chưa chọn bất kỳ hệ điều hành nào.
+
+Vì vậy, ngay bây giờ, hãy quay lại và nhập tên mà bạn muốn chọn cho hệ điều hành của mình.
+
+Tôi khuyên bạn nên chọn chiếc Linux đầu tiên của tôi.
+
+Nhân vật phản diện chỉ là một cái tên, nhưng hãy nhìn vào đó.
+
+Phần mềm Oracle VirtualBox đủ thông minh để ngay khi bạn nhập Linux, nó thực sự khớp với loại hệ điều hành và chọn Linux cho bạn.
+
+Nếu bạn nghĩ rằng đó không phải là hệ điều hành phù hợp, bạn hoàn toàn có thể truy cập và thay đổi sang bất kỳ hệ điều hành nào bạn chọn mà bạn đang cài đặt.
+Nhưng tất nhiên chúng tôi sẽ sử dụng Linux, vì vậy chúng tôi sẽ để nguyên như vậy.
+
+Sau đó, phiên bản sẽ chọn phiên bản mới nhất, là phiên bản 5. 64bit.
+
+Bạn có thể chọn một phiên bản khác tùy thuộc vào việc bạn đang sử dụng Debian hay nếu bạn đang sử dụng `Oracle`, `VirtualBox`, `Red Hat` hoặc bất kỳ thứ gì hoặc bất kỳ hương vị nào.
+
+Nhưng bây giờ chúng ta sẽ để tùy chọn này là tùy chọn tiếp theo là cài đặt không giám sát, hãy để nguyên tùy chọn đó vào
+
+lúc này.
+
+Sau đó, cái tiếp theo mở rộng về phần cứng và phần cứng.
+
+Tùy chọn đầu tiên là bộ nhớ cơ sở, là ram của máy ảo của bạn.
+
+Điều này lại giống như thể bạn đang xây dựng máy tính của mình từ đầu, như thể bạn là một dây chuyền lắp ráp.
+
+Bạn đang đặt các bộ phận bên trong máy tính của mình.
+
+Được chứ?
+
+Theo mặc định, nó cung cấp cho chúng tôi một hợp đồng biểu diễn, tức là `1024 megabyte`.
+Chúng tôi sẽ thay đổi thành hai gig bằng cách trượt bộ xử lý này sang bộ xử lý `2048` theo mặc định là một CPU.
+
+Chúng ta có thể để nó như vậy.
+
+Chúng tôi cũng có thể thay đổi nó bất cứ lúc nào sau đó.
+
+Bây giờ tùy chọn cuối cùng tiếp theo là đĩa cứng.
+Mở rộng về điều đó và nó cung cấp cho chúng tôi đĩa cứng theo mặc định ở tốc độ `8 GiB`. Chúng tôi sẽ thay đổi điều đó thành `20 GiB`. Bạn có thể thay đổi nó thành `40 GiB`, `60 GiB`, tùy thuộc vào ổ đĩa mà bạn có sẵn trên máy chủ của mình. Nhưng một lần nữa, đối với video này hoặc cho khóa đào tạo này, 20 hợp đồng biểu diễn là quá đủ. Chúng tôi sẽ thay đổi điều đó thành `20 GiB`.
+
+Phần còn lại chúng ta sẽ để nguyên như vậy và mặc định và bấm vào Kết thúc.
+Bây giờ ở đây bạn đã tạo máy ảo của mình.
+
+![Create a Virtual Machine 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-41.png)
+
+Tên ở ngay đây. Nó bị tắt nguồn.
+
+Nếu bạn nhìn về phía bên tay phải, đây là tất cả thông tin được liên kết hoặc tài nguyên được gán cho máy ảo của bạn.
+
+Một điều bạn phải làm là vào setting.
+Và bấm vào mạng. Và ngay tại đây nó báo `Enable network adapter attachment` to `Nat`. Tôi muốn bạn thay đổi nó thành bộ điều hợp bắc cầu.
+
+Lý do tôi yêu cầu bạn làm điều này ngay bây giờ vì khi bạn cài đặt hệ điều hành Linux sau này, nó sẽ tự động phát hiện mạng qua mạng Wi-Fi của bạn và bạn có thể kết nối với Internet.
+
+Được rồi. Vì vậy, đó là khá nhiều nó. 
+Bấm vào.
+Được rồi.
+Của bạn đi.
+
+Vì vậy, bây giờ máy ảo của bạn đã sẵn sàng và bạn có thể tải xuống hình ảnh `ISO` của hệ điều hành Linux của mình, chúng tôi sẽ thực hiện việc này trong các bài học tiếp theo và chúng tôi sẽ đính kèm tệp đó vào máy ảo này và tiến hành cài đặt hệ điều hành `Linux`.
+
+Nhưng bây giờ nếu bạn đang sử dụng trình phát `VMware Workstation`, thì bạn có thể tiếp tục và chúng tôi sẽ chỉ cho bạn cách bạn có thể tạo một máy ảo trong `VMware Workstation`. Vì vậy, ở đây bạn có trang chủ chính trên bảng điều khiển. Chỉ cần nhấp vào Tạo máy ảo mới. Bạn đã cài đặt từ ba tùy chọn, chỉ cần chọn sẽ cài đặt hệ điều hành sau. Bấm tiếp.
+
+Hệ điều hành khách Linux và chọn phiên bản từ danh sách thả xuống mà bạn sẽ thấy.
+
+Bạn sẽ tìm thấy rất nhiều phân phối trong danh sách này.
+
+Vì vậy, nếu bạn đang sử dụng `CentOS 7`, đây sẽ là trọng tâm chính của tôi trong khóa học này, nhưng một lần nữa, xin lỗi hệ điều hành nào, bạn chọn bản phân phối nào không quan trọng, bạn có thể chọn bất kỳ bản phân phối Linux nào từ danh sách này.
+
+Những gì chúng ta đang tìm hiểu ở đây là hệ điều hành Linux.
+Chúng tôi không học `CentOS`, `Debian`, `Red Hat`, `Ubuntu` hay bất cứ thứ gì.
+
+Vì vậy, trọng tâm chính của chúng tôi là `Linux`. Vì vậy, dù sao, bạn chọn bất cứ điều gì.
+Giả sử nếu bạn quyết định chọn `CentOS 9`, xin lỗi, trung tâm bảy, bạn có thể chỉ cần chọn cái này.
+
+Và nếu bạn chọn `CentOS 9`, nó không có trong danh sách, bạn thấy đấy, nó không có trong danh sách.
+Sau đó, bạn có thể đến đây và chỉ cần chọn Linux khác.
+hạt nhân năm điểm x 64 bit.
+Vì vậy, điều đó sẽ hoạt động hoàn hảo với luồng `CentOS 9`.
+Vì vậy, dù sao đi nữa, đối với trung tâm thứ bảy, chỉ cần nhấp vào cái này, nhấp vào tiếp theo.
+Đây là tên của máy ảo, máy ảo Linux của tôi.
+
+Bấm tiếp.
+Được rồi.
+
+Đĩa tối thiểu, kích thước 20.
+Vì vậy, nếu bạn đang chọn 7, bạn có thể đổi nó thành số 10 nếu muốn.
+Nhưng nếu bạn đang sử dụng phiên bản cao hơn, hãy để nó là 20.
+Nhưng bạn càng có nhiều đĩa thì càng tốt.
+Lưu đĩa ảo dưới dạng một tệp duy nhất.
+Vâng, chọn cái đó.
+Bấm tiếp.
+Được rồi.
+Tùy chỉnh phần cứng.
+
+Trước khi click, xong cái này thì click vào Customization Hardware.
+Tôi muốn bạn truy cập bộ điều hợp mạng ngay tại đây.
+Như bạn thấy, đây là cùng một cài đặt mà chúng tôi đã có trong `Oracle VirtualBox`.
+Hãy tiếp tục và thay đổi bộ điều hợp cầu nối.
+Bấm đóng.
+Được rồi, vì vậy hãy nhấp vào Kết thúc.
+Hoàn hảo.
+
+Vì vậy, bạn thấy máy ảo của mình và bây giờ đã được tạo.
+Bây giờ, trong video tiếp theo của chúng tôi, chúng tôi sẽ tiếp tục và tải xuống hình ảnh ISO của hệ điều hành Linux của chúng tôi và chúng tôi sẽ quay lại máy ảo này đã đính kèm hình ảnh ISO ISO vào máy ảo này và thực hiện cài đặt.
+
+### Download and Install Linux (CentOS 7)
+
