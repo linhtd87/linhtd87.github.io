@@ -70,7 +70,7 @@ Người hướng dẫn: Xin chào mọi người. Tôi thực sự yêu cầu b
 
 Được rồi, tôi thực sự đã chia nhỏ toàn bộ khóa học của mình thành 10 mô-đun khác nhau. Mô-đun đầu tiên là về việc hiểu các khái niệm Linux. 
 
-![Tổng quan về giáo trình 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-1.png)
+![Tổng quan về giáo trình 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-1.webp)
 
 Chúng tôi sẽ đề cập đến `Linux`, `Unix` so với `Linux`, và nhận thấy một điều.
 
@@ -78,7 +78,7 @@ Mỗi mô-đun tôi có, tôi đã bao gồm các câu đố để bạn làm, b
 
 Chuyển sang mô-đun hai, 
 
-![Tổng quan về giáo trình 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-2.png)
+![Tổng quan về giáo trình 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-2.webp)
 
 nơi chúng tôi sẽ tải xuống, cài đặt và cấu hình, máy `Linux` thực tế. Vì vậy, chúng ta sẽ nói về máy ảo, tải xuống máy ảo đó. 
 
@@ -86,7 +86,7 @@ Chúng ta sẽ nói về những cách khác nhau để cài đặt máy `Linux`
 
 Chuyển sang mô-đun ba, 
 
-![Tổng quan về giáo trình 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-3.png)
+![Tổng quan về giáo trình 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-3.webp)
 
 đó là về truy cập hệ thống và hệ thống tệp, và đó là về dấu nhắc lệnh, truy cập hệ thống `Linux`, tải xuống và cài đặt Putty.
 
@@ -102,7 +102,7 @@ Danh sách thư mục, `touch`, sao chép lệnh `cp`, tìm tệp và thư mục
 
 Sau đó, mô-đun bốn là về cú pháp lệnh cơ bản của Linux. 
 
-![Tổng quan về giáo trình 4](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-4.png)
+![Tổng quan về giáo trình 4](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-4.webp)
 
 Thay đổi mod. 
 
@@ -116,7 +116,7 @@ Và kết hợp và tách các tệp, `Linux` so với `Windows`, và tất nhi�
 
 Mô-đun năm, quản trị hệ thống. 
 
-![Tổng quan về giáo trình 5](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-5.png)
+![Tổng quan về giáo trình 5](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-5.webp)
 
 Tham gia nhiều hơn vào phần quản trị thực tế. Chúng ta sẽ nói về cách chúng ta có thể `VI` một tệp, sự khác biệt giữa `VI` và `vim`, `sed`, là một lệnh thay thế.
 
@@ -128,7 +128,7 @@ Sau đó, chúng ta sẽ nói về các lệnh tiện ích hệ thống, các l�
 
 Chuyển sang mô-đun sáu.
 
-![Tổng quan về giáo trình 6](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-6.png)
+![Tổng quan về giáo trình 6](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-6.webp)
 
 Chúng ta sẽ nói về, tất cả về `shell scripting`. 
 
@@ -136,7 +136,7 @@ Tôi sẽ chỉ cho bạn nếu/sau đó script, cho các tập lệnh `for`, sc
 
 Mô-đun bảy, 
 
-![Tổng quan về giáo trình 7](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-7.png)
+![Tổng quan về giáo trình 7](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-7.webp)
 
 mạng, máy chủ và cập nhật hệ thống. 
 
@@ -149,7 +149,7 @@ Tôi thực sự sẽ làm việc với bạn để tiếp tục tải xuống, 
 
 Sau đó điều chế là tất cả về quản lý đĩa. 
 
-![Tổng quan về giáo trình 8](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-8.png)
+![Tổng quan về giáo trình 8](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-8.webp)
 
 Chúng ta sẽ nói về các cấp độ chạy, chúng ta sẽ nói về các phân vùng đĩa.
 
@@ -165,13 +165,13 @@ Mô-đun chín.
 
 Tôi thực sự đang nắm tay bạn và đưa bạn đến mô-đun chín về cách bạn nên có sơ yếu lý lịch của mình. 
 
-![Tổng quan về giáo trình 9](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-9.png)
+![Tổng quan về giáo trình 9](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-9.webp)
 
 Chúng tôi sẽ có một hội thảo sơ yếu lý lịch, thư xin việc, tiếp xúc với các công nghệ khác, bài tập về nhà, tài liệu phát tay. 
 
 Sau đó, mô-đun 10,
 
-![Tổng quan về giáo trình 10](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-10.png)
+![Tổng quan về giáo trình 10](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-10.webp)
 
 giống như sơ yếu lý lịch, tôi sẽ đưa bạn đến cấp độ tiếp theo, nơi tôi sẽ cho bạn biết bạn nên chuẩn bị như thế nào cho các cuộc phỏng vấn Linux của mình, và đó là điều gì đó về Linux.
 
@@ -199,7 +199,7 @@ Chúc may mắn.
 
 Người hướng dẫn: Các ví dụ hàng ngày về Linux. 
 
-![Everyday Linux 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-12.png)
+![Everyday Linux 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-12.webp)
 
 Tại đây, bạn sẽ tìm hiểu cách hệ điều hành Linux được sử dụng ở mọi nơi xung quanh bạn. 
 
@@ -238,7 +238,7 @@ Nó cung cấp một giao diện người dùng và điều khiển phần cứn
 Vâng, vì vậy nó là một loại phương tiện giữa bạn khi bạn gõ một cái gì đó trên bàn phím của mình và bạn muốn thực hiện một chức năng nhất định đối với phần cứng. 
 Vì vậy hệ điều hành này sẽ giúp bạn làm điều đó.
 
-![What is Operating System? 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-13.png)
+![What is Operating System? 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-13.webp)
 
 Hiện tại, có rất nhiều loại hệ điều hành khác nhau. Cái đầu tiên là hệ điều hành máy tính để bàn.
 Ví dụ, bạn có Microsoft Windows trên máy tính macOS cho Apple và Linux như Ubuntu.
@@ -299,7 +299,7 @@ Vậy bạn làm gì là đính kèm ảnh ISO vào máy tính của mình và s
 
 Vì vậy, trình hướng dẫn cài đặt bắt đầu và bạn thực hiện một số cấu hình nhất định.
 
-![What is Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-14.png)
+![What is Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-14.webp)
 
 Khi kết thúc quá trình cài đặt, họ gửi cho bạn một thông báo, chào mừng bạn đến với Linux. 
 Đẹp.
@@ -310,12 +310,12 @@ Một số lệnh có thể giống như,
 
 Này, in một cái gì đó trên máy in và hệ điều hành của bạn đưa lệnh đó cho máy in và nó in trên máy in hoặc máy tính của bạn và hệ điều hành của bạn yêu cầu máy tính tiếp tục và mở trình duyệt để bạn có thể trực tuyến.
 
-![What is Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-15.png)
+![What is Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-15.webp)
 
 Một điều nữa là tại sao lại học Linux hoặc tại sao điều quan trọng là chúng ta đang học Linux ngày nay? 
 Được rồi, tôi sẽ vượt qua điều đó thật nhanh.
 
-![What is Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-16.png)
+![What is Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-16.webp)
 
 Chà, Linux được sử dụng rộng rãi trong các máy chủ và điện toán đám mây. 
 
@@ -353,7 +353,7 @@ Người hướng dẫn: Này các bạn.
 
 Trong video này, chúng ta sẽ đề cập đến lịch sử của Linux. Vì vậy chúng ta sẽ bắt đầu lại từ đầu. Có gì ở đó trước Linux?
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-17.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-17.webp)
 
 Trước Linux, nó là một hệ điều hành được gọi là UNIX, và nhân tiện, nó vẫn tồn tại, được phát triển vào năm 1970 tại AT&T Bell Labs bởi Ken Thompson và Dennis Ritchie. 
 UNIX là một hệ điều hành mang tính cách mạng vào thời điểm đó, giới thiệu nhiều tính năng sẽ trở thành tiêu chuẩn. 
@@ -364,20 +364,20 @@ UNIX không có sẵn miễn phí và có nhiều phiên bản độc quyền kh
 Sau đó là Dự án GNU.
 Năm 1983, Richard Stallman ra mắt dự án GNU, GNU it's Not UNIX, với mục đích tạo ra một hệ điều hành giống UNIX miễn phí. 
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-18.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-18.webp)
 
 Trong khi nhiều công cụ và tiện ích được phát triển theo dự án GNU, một hệ điều hành miễn phí hoàn chỉnh đã thiếu một hạt nhân. 
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-19.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-19.webp)
 
 Sau đó Linux ra đời vào năm 1991, một sinh viên Phần Lan 21 tuổi tên là Linus Torvalds, bắt đầu phát triển một nhân hệ điều hành miễn phí như một dự án sở thích. 
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-20.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-20.webp)
 
 Vào ngày 25 tháng 8 năm 1991, Linus đã công bố dự án của mình trên MINIX Newsgroup với những từ nổi tiếng, 
 > "Tôi đang làm một hệ điều hành miễn phí. Chỉ là một sở thích, sẽ không lớn và chuyên nghiệp như GNU."
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-21.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-21.webp)
 
 Được rồi, sau đó, Phiên bản 0.01, được phát hành vào tháng 9 năm 1991. 
 Phiên bản này, phiên bản nhân Linux đầu tiên của chúng tôi, không hoạt động, nhưng đã được phát hành cho công chúng để xem và bình luận. 
@@ -385,7 +385,7 @@ Phiên bản này, phiên bản nhân Linux đầu tiên của chúng tôi, khô
 Sau đó là Phiên bản 0.02, được phát hành sau đó vào năm 1991. 
 Phiên bản này có chức năng và kết hợp với các tiện ích từ dự án GNU. Nó tạo thành một hệ điều hành hoàn toàn miễn phí. Sự kết hợp giữa nhân Linux với các công cụ từ dự án GNU thường được gọi là Linux, mặc dù một số người ủng hộ nó được gọi là GNU/Linux. 
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-22.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-22.webp)
 
 Được rồi, hãy xem sự phát triển và phát triển của Linux. 
 
@@ -405,7 +405,7 @@ Hôm nay nó đang làm gì? Linux đã phát triển từ một dự án có s�
 
 Các nguyên tắc của nguồn mở dựa trên Linux cũng đã ảnh hưởng đến sự phát triển của nhiều dự án phần mềm khác và thậm chí cả các lĩnh vực bên ngoài phần mềm. 
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-23.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-23.webp)
 
 Nói một cách đơn giản, câu chuyện về Linux không phải là về một hệ thống máy tính. 
 Đó là về những người tuyệt vời từ khắp nơi trên thế giới làm việc cùng nhau và biến đây thành một hệ điều hành mã nguồn mở, đáng tin cậy, an toàn. 
@@ -413,7 +413,7 @@ Rất cám ơn họ.
 
 ### Linux vs Unix
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-24.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-24.webp)
 
 ### Linux flavors
 
@@ -422,7 +422,7 @@ Trong video này, chúng ta sẽ xem xét các `Linux Flavors` được sử d�
 Chúng tôi có tất cả các bản phân phối khác nhau để phục vụ các nhu cầu và sở thích khác nhau của người dùng. 
 Đây là tổng quan về một số bản phân phối Linux phổ biến. 
 
-![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-25.png)
+![History of Linux?](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-25.webp)
 
 Cái đầu tiên là `Ubuntu`, hoặc đôi khi mọi người gọi nó là `Ubuntu`, một trong những bản phân phối phổ biến nhất, đặc biệt là đối với những người mới sử dụng Linux. Nó dựa trên `Debian`, nó cung cấp trải nghiệm thân thiện với người dùng và được hỗ trợ bởi `Canonical Limited`. 
 
@@ -461,7 +461,7 @@ Vì vậy, Linux được sử dụng bởi nhiều người dùng và tổ ch�
 Bây giờ người đầu tiên là các nhà phát triển. 
 Các lập trình viên và nhà phát triển thường sử dụng Linux để mã hóa vì nó hỗ trợ một loạt các ngôn ngữ lập trình và công cụ phát triển. 
 
-![Linux Users](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-26.png)
+![Linux Users](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-26.webp)
 
 Sau đó chúng tôi có các cơ sở giáo dục. 
 Các trường học và đại học thường sử dụng Linux cho khoa học máy tính và nghiên cứu giáo dục.
@@ -495,7 +495,7 @@ Bây giờ, lý do tôi đã xem qua tất cả những người dùng và tổ 
 
 ### Linux vs Windows
 
-![Linux vs Windows](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-27.png)
+![Linux vs Windows](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-27.webp)
 
 ### Quiz 1: Module 1 Quiz
 
@@ -514,7 +514,7 @@ Làm quen với sự khác biệt giữa Linux và Unix
 
 Trong video này, chúng ta sẽ đi qua thiết kế phòng thí nghiệm của mình, phòng thí nghiệm mà chúng ta cần thực hành tất cả các video và bài giảng trong suốt khóa học này.
 
-![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-28.png)
+![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-28.webp)
 
 Vì vậy, chúng tôi có hai lựa chọn để thiết kế phòng thí nghiệm của mình. 
 
@@ -524,7 +524,7 @@ Vậy thì bạn làm gì? Bạn cài đặt một phần mềm ảo hóa trên 
 
 Vì vậy, phần mềm ảo hóa, có rất nhiều trong số chúng. Hai cái chính là VMware Player và Oracle VirtualBox. Đây là hai phần mềm ảo hóa miễn phí mà bạn có thể sử dụng để thiết lập phòng thí nghiệm của mình. Khi bạn đã tải xuống, cài đặt bất kỳ một trong hai cái đó, thì chúng tôi sẽ tiếp tục và tạo máy ảo của chúng tôi trên đó.
 
-![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-29.png)
+![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-29.webp)
 
 Máy ảo đó sẽ cho phép chúng tôi tạo và cài đặt hệ điều hành Linux của chúng tôi trên đó. Vì vậy, đó là lựa chọn đầu tiên đơn giản của chúng tôi. 
 
@@ -532,7 +532,7 @@ Tùy chọn thứ hai mà bạn có thể sử dụng giống như cách bạn c
 Và sau đó thay vì cài đặt phần mềm ảo hóa trên máy tính của bạn, bạn thực sự có thể tạo một tài khoản trên một trong những dịch vụ đám mây ngoài kia. 
 Các dịch vụ đám mây có thể là AWS hoặc Google Cloud hoặc bất kỳ dịch vụ đám mây nào cung cấp cho bạn tài khoản miễn phí hoặc quyền truy cập miễn phí để tạo máy ảo với các tài nguyên mà bạn cần. Vì vậy, một khi bạn có điều đó, thì chúng ta nên đi theo con đường tương tự. 
 
-![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-30.png)
+![Lab Design](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-30.webp)
 
 Chúng tôi sẽ tạo một máy ảo trên các dịch vụ đám mây, và sau đó chúng tôi sẽ cài đặt hệ điều hành Linux trên máy ảo đó.
 
@@ -552,13 +552,13 @@ Một, bạn có thể xóa hệ điều hành hiện có mà bạn có trên m�
 
 Vì vậy, về cơ bản, VirtualBox là một trình siêu giám sát mã nguồn mở và miễn phí cho các máy tính X86 hiện đang được phát triển bởi Tập đoàn Oracle. 
 
-![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-31.png)
+![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-31.webp)
 
 Nó cài đặt trên các máy tính dựa trên Intel hoặc AMD hiện tại của bạn, cho dù chúng đang chạy Windows, Mac, Linux hay Solaris. Nó mở rộng khả năng của máy tính hiện tại của bạn để nó có thể chạy nhiều hệ điều hành trên một phần cứng cùng một lúc. 
 
 Hãy xem nó hoạt động như thế nào. Vì vậy, bạn có lớp phần cứng, và sau đó trên nó bạn cài đặt hệ điều hành, tất nhiên, đó có thể là bất kỳ ai bạn có đó là Windows hoặc Mac, và sau đó bạn cài đặt Oracle VirtualBox. Nó chỉ là một chương trình, một phần mềm mà bạn cài đặt trên máy của mình giống như bất kỳ phần mềm nào khác mà bạn sẽ cài đặt. 
 
-![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-32.png)
+![What is Oracle Virtualbox](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-32.webp)
 
 Khi bạn đã cài đặt Oracle VirtualBox, sau đó bạn có thể cài đặt Linux trên nó dưới dạng một phiên bản riêng biệt, nhỏ và của hệ điều hành, bạn có thể có Windows trên đó hoặc bạn có thể có Mac trên đó. Vì vậy, cái này, VirtualBox này, cho phép bạn có nhiều hệ điều hành trên cùng một phần cứng.
 
@@ -576,7 +576,7 @@ Và ở đây tôi sẽ gõ nó vào www.oracle, xin lỗi, virtualbox.org và n
 
 Được rồi, khi bạn đang ở trên trang tải xuống, ngay tại đây cho biết các gói nền tảng VirtualBox 7.0.10. Bây giờ tùy thuộc vào thời điểm bạn đang xem video này, phiên bản có thể đã thay đổi, vì vậy sẽ không thực sự quan trọng nếu phiên bản được thay đổi thành phiên bản cao hơn. Tất cả những gì bạn phải làm là tải xuống phần mềm ảo này, phần mềm mới nhất. 
 
-![Downloading and Installing Oracle VirtualBox 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-33.png)
+![Downloading and Installing Oracle VirtualBox 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-33.webp)
 
 Được rồi, vậy thì nền tảng nào? Bạn có đang sử dụng Windows trên máy mà bạn sẽ tải xuống cái này không? Sau đó có, nhấp vào cái này. Bạn có đang sử dụng Mac không? Bạn đang sử dụng bản phân phối Linux khác hay bản phân phối Solaris? Vì vậy, đối với chúng tôi, trong trường hợp của chúng tôi, chúng tôi có một máy Windows. Vậy chúng ta sẽ nhấp vào máy chủ Windows, được chứ? Một khi bạn nhấp vào nó, nó sẽ bắt đầu tải xuống. Và tất nhiên quá trình tải xuống rất nhanh. Nó đã được tải xuống.
 
@@ -584,7 +584,7 @@ Xem ngay tại đây. Và nó tải xuống máy tính để bàn của tôi. Đ
 
 Bây giờ hãy tiếp tục và nhấp đúp vào nó để nó có thể bắt đầu quy trình cài đặt. (tiếng chuông máy tính) 
 
-![Downloading and Installing Oracle VirtualBox 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-34.png)
+![Downloading and Installing Oracle VirtualBox 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-34.webp)
 
 Được rồi, điều đầu tiên là, bạn có cho phép không, bạn có muốn cho phép ứng dụng này thay đổi thiết bị của mình không? Vâng, tất nhiên, bởi vì chúng tôi muốn nó được cài đặt. Được rồi, bước tiếp theo là Chào mừng bạn đến với Trình hướng dẫn cài đặt phiên bản Oracle VM VirtualBox. Trình hướng dẫn thiết lập này sẽ cài đặt Oracle VM và v.v.
 
@@ -617,7 +617,7 @@ Tất nhiên, đối với tôi, nó thực sự mất khoảng 15 giây. Đư�
 
 Nhấp vào Kết thúc. 
 
-![Downloading and Installing Oracle VirtualBox 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-35.png)
+![Downloading and Installing Oracle VirtualBox 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-35.webp)
 
 Khởi động Oracle VirtualBox, nếu nó được kiểm tra, thì nó sẽ khởi động chương trình ngay lập tức. 
 
@@ -647,7 +647,7 @@ Trong video này, chúng ta sẽ tải xuống và cài đặt VMware Workstatio
 
 VMware Workstation Player là một phần mềm ảo hóa giống như Oracle VirtualBox, và tôi đang tải xuống và cài đặt cho Workstation Player cho những người thích sử dụng máy trạm VMware. 
 
-![Download and Install VMWare Player](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-36.png)
+![Download and Install VMWare Player](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-36.webp)
 
 Việc tải xuống và cài đặt VMware Player này hoàn toàn là tùy chọn. Nếu bạn đã cài đặt Oracle VirtualBox và đó là những gì bạn muốn sử dụng, bạn có thể chỉ cần tiếp tục và bỏ qua toàn bộ video này. Nhưng nếu bạn quyết định sử dụng VMware Player, thì hãy ở lại. Tôi sẽ đi cùng nhau để cài đặt. Nhân tiện, như tôi đã nói trước đây, tôi sẽ sử dụng Oracle VirtualBox cho toàn bộ khóa học này. Được rồi, không cần quảng cáo thêm, hãy tiếp tục và khởi động trình duyệt của chúng tôi. Tôi đã mở Firefox và tôi đang ở trên Google, và bây giờ chỉ cần nhập tải xuống VMware Workstation Player. Được rồi, và sau đó bạn sẽ nhận được liên kết đầu tiên, rất có thể, tải xuống trình phát VMware Workstation. Nhấp vào nó, tải xuống, đi xuống và bạn thấy thử trình phát Workstation 16 cho Windows. Nếu bạn đang xem video này một năm kể từ bây giờ, có thể một vài tháng kể từ bây giờ, bạn có thể thấy rằng phiên bản có thể đã thay đổi hoặc tăng lên. Vì vậy, nó không thực sự quan trọng. Điều quan trọng là chúng tôi đang tải xuống và cài đặt phần mềm ảo hóa. Hãy tiếp tục và nhấp vào tải xuống ngay bây giờ. Lưu tệp. Xem ở đây, nó đang tải xuống. Tải xuống đã hoàn tất. Bạn có thể nhấp vào nó và chạy chương trình ngay từ đây. Được rồi, trình hướng dẫn người chơi Workstation 16 đang bắt đầu. Nó có thể mất bất cứ nơi nào, một lần nữa, từ 30 giây đến hai đến năm phút, tùy thuộc vào tốc độ hệ thống máy tính của bạn. Được rồi, nhấp vào tiếp theo. Chấp nhận giấy phép, tiếp theo. Trình điều khiển bàn phím nâng cao. Nếu bạn muốn điều đó, máy tính của bạn sẽ được khởi động lại. Tôi không muốn nó ngay bây giờ. Thêm các công cụ bảng điều khiển VMware Workstation vào đường dẫn. Không sao đâu, để mặc định, nhấp vào tiếp theo. Kiểm tra các bản cập nhật, tôi không muốn điều đó và tham gia trải nghiệm khách hàng VMware, tôi không muốn điều đó ngay bây giờ. Nhấp vào tiếp theo. Tạo một phím tắt trên màn hình nền, menu phím tắt trên các chương trình. Tôi chỉ không muốn trên máy tính để bàn. Tôi có thể để nó trên thư mục chương trình menu bắt đầu. Nhấp vào tiếp theo và cài đặt. Được rồi, đã hoàn thành trình hướng dẫn thiết lập VMware Workstation 16 Player. Nhấp vào kết thúc. Và nếu bạn bắt đầu và bạn nhập VMware Workstation Player, hãy nhấp vào nó. Bây giờ, nó nói VMware Workstation 16 Player. Sử dụng VMware Workstation 16 Player miễn phí cho mục đích phi thương mại. Chúng tôi đang sử dụng nó cho mục đích phi thương mại, vì vậy bạn có thể giữ tùy chọn đó và nhấp vào tiếp tục và kết thúc. Và đây là cách VMware Workstation trông như thế nào. Như bạn có thể thấy ngay tại đây, nó chỉ cho bạn biết mục đích sử dụng phi thương mại. Vì vậy, hãy đảm bảo rằng bạn không sử dụng nó cho bất kỳ mục đích nào khác, chỉ cho mục đích giáo dục, và sau đó bạn có thể tiếp tục và tạo các máy ảo mới trong máy trạm này và cài đặt bất kỳ hệ điều hành nào. Tôi sẽ gặp bạn trong bài giảng tiếp theo.
 
@@ -663,13 +663,13 @@ Vì vậy, những gì tôi sẽ làm là tôi sẽ rất ngắn gọn và chín
 
 Vì vậy, điều đầu tiên là, hãy nói về một lịch sử ngắn gọn của `CentOS`, nó đến từ đâu. 
 
-![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-37.png)
+![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-37.webp)
 
 `CentOS` là một Hệ điều hành Doanh nghiệp Cộng đồng, có nghĩa là có một nhóm tình nguyện viên thực sự làm việc cùng nhau để tạo ra hệ điều hành đó. 
 
 Vì vậy, quay trở lại lịch sử vào năm 2004, có một anh chàng tên là Greg Kurtzer. Anh ấy thực sự đã lấy mã từ Hệ điều hành `Red Hat` vì Hệ điều hành `Red Hat` là một mã nguồn mở, có sẵn cho công chúng. Vì vậy, những gì anh ấy đã làm là lấy mã nguồn, và nó thực sự đặt một thương hiệu khác vào đó, và anh ấy gọi hệ điều hành mới đó là `CentOS`. Và sau đó rất nhiều người, thực sự là rất nhiều tình nguyện viên, bắt đầu đóng góp cho dự án nguồn mở `CentOS` đó.
 
-![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-38.png)
+![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-38.webp)
 
 Sau đó vào năm 2014, `Red Hat` thực sự đã trở lại và mua lại Cộng đồng Hệ điều hành `CentOS`. Và mã của họ giống như một-một. Mọi thứ họ có trong Hệ điều hành `Red Hat` họ có trong `CentOS`. 
 
@@ -677,7 +677,7 @@ Vì vậy, trước tháng 2 năm 2021, cách nó được nhỏ giọt, là t�
 Sau đó, họ đẩy nó xuống hệ điều hành `Red Hat Enterprise Linux`. Và sau đó họ đẩy nó xuống `CentOS`. 
 Bây giờ những gì sẽ xảy ra là sau tháng Hai, năm 2021, nó sẽ thay đổi trình tự của nó. 
 
-![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-39.png)
+![CentOS vs. CentOS Stream](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-39.webp)
 
 Cách nó phát trực tuyến, nó sẽ là `Fedora`. 
 Sau đó từ Fedora, nó sẽ đi thẳng đến `CentOS Stream`, và sau đó từ một `Stream`, nó sẽ đi đến `Red Hat Enterprise Linux`. 
@@ -701,7 +701,7 @@ Bây giờ là lúc để tạo một máy ảo trên các phần mềm ảo hó
 
 Được rồi, bây giờ hãy tiếp tục và khởi động phần mềm `Oracle VirtualBox` của chúng tôi.
 
-![Create a Virtual Machine](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-40.png)
+![Create a Virtual Machine](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-40.webp)
 
 Bạn có thể nhấp vào menu tìm kiếm bắt đầu của mình và chỉ cần nhập Oracle và nó sẽ khớp với bất kỳ thứ gì đi kèm với ứng dụng Oracle.
 Vì vậy, chúng tôi chỉ có một ứng dụng Oracle, đó là Oracle VM VirtualBox. Hãy tiếp tục và chọn cái này, nhấp vào nó và nó sẽ khởi động Trình quản lý VirtualBox của Oracle VM.
@@ -758,7 +758,7 @@ Mở rộng về điều đó và nó cung cấp cho chúng tôi đĩa cứng th
 Phần còn lại chúng ta sẽ để nguyên như vậy và mặc định và bấm vào Kết thúc.
 Bây giờ ở đây bạn đã tạo máy ảo của mình.
 
-![Create a Virtual Machine 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-41.png)
+![Create a Virtual Machine 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-41.webp)
 
 Tên ở ngay đây. Nó bị tắt nguồn.
 
