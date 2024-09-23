@@ -574,11 +574,13 @@ Sau đó, bước tiếp theo là truy cập trang tải xuống của nó và t
 
 Và ở đây tôi sẽ gõ nó vào www.oracle, xin lỗi, virtualbox.org và nó sẽ đưa tôi đến trang này. Hãy để tôi di chuyển cái này lên. Được rồi, trang này sẽ chào mừng bạn đến với VirtualBox.org. Một số thông tin về nó. Tôi muốn bạn vào ngăn điều hướng và ngay tại đây, nhấp vào Tải xuống. 
 
+![Downloading and Installing Oracle VirtualBox 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-60.png)
+
 Được rồi, khi bạn đang ở trên trang tải xuống, ngay tại đây cho biết các gói nền tảng VirtualBox 7.0.10. Bây giờ tùy thuộc vào thời điểm bạn đang xem video này, phiên bản có thể đã thay đổi, vì vậy sẽ không thực sự quan trọng nếu phiên bản được thay đổi thành phiên bản cao hơn. Tất cả những gì bạn phải làm là tải xuống phần mềm ảo này, phần mềm mới nhất. 
 
 ![Downloading and Installing Oracle VirtualBox 1](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-33.webp)
 
-Được rồi, vậy thì nền tảng nào? Bạn có đang sử dụng Windows trên máy mà bạn sẽ tải xuống cái này không? Sau đó có, nhấp vào cái này. Bạn có đang sử dụng Mac không? Bạn đang sử dụng bản phân phối Linux khác hay bản phân phối Solaris? Vì vậy, đối với chúng tôi, trong trường hợp của chúng tôi, chúng tôi có một máy Windows. Vậy chúng ta sẽ nhấp vào máy chủ Windows, được chứ? Một khi bạn nhấp vào nó, nó sẽ bắt đầu tải xuống. Và tất nhiên quá trình tải xuống rất nhanh. Nó đã được tải xuống.
+Được rồi, vậy thì nền tảng nào? Bạn có đang sử dụng `Windows` trên máy mà bạn sẽ tải xuống cái này không? Sau đó có, nhấp vào cái này. Bạn có đang sử dụng `Mac` không? Bạn đang sử dụng `bản phân phối Linux` khác hay bản phân phối `Solaris`? Vì vậy, đối với chúng tôi, trong trường hợp của chúng tôi, chúng tôi có một máy Windows. Vậy chúng ta sẽ nhấp vào máy chủ Windows, được chứ? Một khi bạn nhấp vào nó, nó sẽ bắt đầu tải xuống. Và tất nhiên quá trình tải xuống rất nhanh. Nó đã được tải xuống.
 
 Xem ngay tại đây. Và nó tải xuống máy tính để bàn của tôi. Được rồi, vậy bây giờ máy tính để bàn của tôi ở đâu? Vậy hãy, hãy đi đến máy tính để bàn của tôi. Được rồi, ngay tại đây trên máy tính để bàn của tôi, bạn thấy đây là tệp thực thi mà nó đã tải xuống. 
 
@@ -586,58 +588,43 @@ Bây giờ hãy tiếp tục và nhấp đúp vào nó để nó có thể bắt
 
 ![Downloading and Installing Oracle VirtualBox 2](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-34.webp)
 
-Được rồi, điều đầu tiên là, bạn có cho phép không, bạn có muốn cho phép ứng dụng này thay đổi thiết bị của mình không? Vâng, tất nhiên, bởi vì chúng tôi muốn nó được cài đặt. Được rồi, bước tiếp theo là Chào mừng bạn đến với Trình hướng dẫn cài đặt phiên bản Oracle VM VirtualBox. Trình hướng dẫn thiết lập này sẽ cài đặt Oracle VM và v.v.
-
+Được rồi, điều đầu tiên là, bạn có cho phép không, bạn có muốn cho phép ứng dụng này thay đổi thiết bị của mình không? Vâng, tất nhiên, bởi vì chúng tôi muốn nó được cài đặt. Được rồi, bước tiếp theo là Chào mừng bạn đến với Trình hướng dẫn cài đặt phiên bản `Oracle VM VirtualBox`. Trình hướng dẫn thiết lập này sẽ cài đặt `Oracle VM` và v.v.
 Nhấp vào Tiếp theo.
 
-Được rồi, chọn cách bạn muốn các tính năng được cài đặt. Tôi muốn bạn để mọi thứ mặc định. 
-
+Được rồi, chọn cách bạn muốn các tính năng được cài đặt. Tôi muốn bạn để mọi thứ mặc định.
 Bây giờ, bạn có thể tùy chỉnh nó tùy thuộc vào yêu cầu của bạn, nhưng một lần nữa, vì chúng tôi đang làm điều đó lần đầu tiên và điều này dành cho phòng thí nghiệm của chúng tôi, chúng tôi sẽ để mọi thứ như hiện tại và chỉ cần nhấp vào Tiếp theo.
 
-Cảnh báo: Giao diện mạng. 
-
-Cài đặt Tính năng Mạng Oracle VM VirtualBox sẽ đặt lại kết nối mạng của bạn và tạm thời ngắt kết nối bạn khỏi internet. 
-
-Tiến hành cài đặt ngay bây giờ? 
-
+Warning: Network Interface
+Cài đặt Tính năng Mạng `Oracle VM VirtualBox` sẽ đặt lại kết nối mạng của bạn và tạm thời ngắt kết nối bạn khỏi internet.
+Tiến hành cài đặt ngay bây giờ?
 Bây giờ trước khi bạn nhấp vào Có, hãy đảm bảo rằng bạn không chạy bất kỳ loại tải xuống quan trọng nào hoặc một chương trình trong nền sẽ làm gián đoạn kết nối mạng.
+Nếu có, hãy dừng nó lại, và sau đó quay lại, và sau đó nhấp vào Yes. 
 
-Nếu có, hãy dừng nó lại, và sau đó quay lại, và sau đó nhấp vào Có. 
+Nhưng tất nhiên một lần nữa, đây là một phòng thí nghiệm, chúng tôi biết rằng chúng tôi không chạy bất cứ thứ gì.
+Vì vậy, hãy tiếp tục và nhấp vào Yes. Thiếu phụ thuộc Python Core.
+Nếu bạn nhận được những tin nhắn này, không sao cả, nó cũng sẽ cài đặt những phụ thuộc này. Vì vậy hãy nhấp vào Yes.
+Được rồi, bắt đầu cài đặt. Sẵn sàng để cài đặt chưa? Có, hãy tiếp tục và nhấp vào Yes hoặc Cài đặt.
 
-Nhưng tất nhiên một lần nữa, đây là một phòng thí nghiệm, chúng tôi biết rằng chúng tôi không chạy bất cứ thứ gì. 
-
-Vì vậy, hãy tiếp tục và nhấp vào Có. Thiếu phụ thuộc Python Core. 
-
-Nếu bạn nhận được những tin nhắn này, không sao cả, nó cũng sẽ cài đặt những phụ thuộc này. Vì vậy hãy nhấp vào Có. 
-
-Được rồi, bắt đầu cài đặt. Sẵn sàng để cài đặt chưa? Có, hãy tiếp tục và nhấp vào Có hoặc Cài đặt.
-
-Được rồi, Oracle VM VirtualBox 7.0.10. Vui lòng đợi trong khi cài đặt cài đặt Oracle VM VirtualBox. Việc này có thể mất một thời gian .
+Được rồi, `Oracle VM VirtualBox 7.0.10`. Vui lòng đợi trong khi cài đặt cài đặt Oracle VM VirtualBox. Việc này có thể mất một thời gian .
 Tất nhiên, đối với tôi, nó thực sự mất khoảng 15 giây. Được rồi, cài đặt Oracle VM VirtualBox đã hoàn tất.
-
 Nhấp vào Kết thúc. 
 
 ![Downloading and Installing Oracle VirtualBox 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-35.webp)
 
-Khởi động Oracle VirtualBox, nếu nó được kiểm tra, thì nó sẽ khởi động chương trình ngay lập tức. 
-
+Khởi động Oracle VirtualBox, nếu nó được kiểm tra, thì nó sẽ khởi động chương trình ngay lập tức.
 Vì vậy, hãy nhấp vào Kết thúc và nó sẽ khởi động ứng dụng Oracle VirtualBox ngay bây giờ.
+Được rồi, hãy xem nó đang chạy trên khay của chúng tôi hay trình quản lý tác vụ của chúng tôi.
+Đúng vậy. Thấy không, ngay tại đây, nó đang chạy.
+Được rồi, vậy nó đây, `Oracle VM VirtualBox`.
 
-Được rồi, hãy xem nó đang chạy trên khay của chúng tôi hay trình quản lý tác vụ của chúng tôi. 
-
-Đúng vậy. Thấy không, ngay tại đây, nó đang chạy. 
-
-Được rồi, vậy nó đây, Oracle VM VirtualBox.
+![Downloading and Installing Oracle VirtualBox 3](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-61.png)
 
 Đây là cách Oracle VirtualBox, sau khi cài đặt, cổng thông tin sẽ trông như thế nào.
-
 Bây giờ cổng thông tin này cho phép bạn tạo một máy ảo mới, thêm những máy hiện có nếu bạn đã có, nhập, xuất và tất cả các tính năng này, bạn có thể xem qua từng cái một và hiểu.
 
-Nhưng tất nhiên trọng tâm chính của khóa học này không phải là học phần mềm ảo hóa, mà là thực sự học Linux. 
-
+Nhưng tất nhiên trọng tâm chính của khóa học này không phải là học phần mềm ảo hóa, mà là thực sự học `Linux`.
 Vì vậy, tôi sẽ để lại phần học tập nhỏ đó với bạn.
-
-Nếu bạn muốn khám phá nhiều hơn, hãy xem qua nó và học nó. Nhưng bây giờ, chúng ta sẽ dừng lại ở đây và chúng ta sẽ chuyển sang video tiếp theo. Trong video tiếp theo, chúng tôi sẽ tiếp tục và tạo ra một máy ảo mới để máy ảo có thể có hệ điều hành Linux trên đó cho môi trường phòng thí nghiệm của chúng tôi để chúng tôi có thể thực hành các lệnh Linux trên đó.
+Nếu bạn muốn khám phá nhiều hơn, hãy xem qua nó và học nó. Nhưng bây giờ, chúng ta sẽ dừng lại ở đây và chúng ta sẽ chuyển sang video tiếp theo. Trong video tiếp theo, chúng tôi sẽ tiếp tục và tạo ra một máy ảo mới để máy ảo có thể có hệ điều hành `Linux` trên đó cho môi trường phòng thí nghiệm của chúng tôi để chúng tôi có thể thực hành các lệnh Linux trên đó.
 
 ### Download and Install VMWare Player (Optional)
 
@@ -823,3 +810,229 @@ Bây giờ, trong video tiếp theo của chúng tôi, chúng tôi sẽ tiếp t
 
 ### Download and Install Linux (CentOS 7)
 
+Trong video này chúng ta sẽ tải xuống và cài đặt hệ điều hành Linux.
+Bây giờ có lẽ bạn đang nghĩ, "Này, tôi có thể sử dụng bất kỳ hệ điều hành Linux nào khác như Ubuntu, Kali hoặc bất kỳ hệ điều hành Linux nào khác cho vấn đề đó không? Vâng, câu trả lời là có, bạn có thể sử dụng bất kỳ bản phân phối Linux nào.
+
+Tuy nhiên, tôi khuyên bạn nên gắn bó với CentOS.
+Và lý do chính đằng sau điều này là vì 80% doanh nghiệp trên thế giới ngày nay sử dụng REHL, tức là Red Hat Enterprise Linux.
+Và Doanh nghiệp Mũ Đỏ. Linux hoàn toàn giống với CentOS là CentOS tất nhiên là nguồn mở, tải xuống miễn phí.
+Nếu bạn đang sử dụng bản phân phối Linux khác thì không sao, nhưng xin lưu ý rằng khoảng 90% lệnh mà tôi đang sử dụng trong CentOS cũng có thể áp dụng được trên các bản phân phối Linux khác.
+
+Được rồi, bây giờ đến với phiên bản CentOS.
+Bạn định sử dụng phiên bản nào?
+Có nhiều phiên bản khác nhau, bảy, tám và chín.
+Chà, trong khóa học này, tôi chủ yếu tập trung vào CentOS 7, nhưng tôi cũng bao gồm tất cả tài liệu được giới thiệu trong CentOS 8 và CentOS 9 Stream.
+
+Câu trả lời là bạn có thể sử dụng bất kỳ hệ điều hành nào trong số này, phiên bản bảy, tám hoặc chín, có kèm theo hướng dẫn.
+Một số tính năng của Red Hat đã được giới thiệu trong CentOS 8 và 9, chẳng hạn như vùng chứa và nội dung.
+
+Vì vậy, nếu bạn định sử dụng CentOS 7 thì sau này trong khóa học này, bạn sẽ phải cài đặt CentOS 8 hoặc 9 để sử dụng các vùng chứa đó hoặc một số tính năng mới hơn.
+
+Nhưng không sao, hiện tại bạn có thể cài đặt CentOS 8, sau này bạn có thể tìm hiểu CentOS 9 hoặc bất kỳ cách nào bạn muốn.
+
+Được rồi, quay lại sơ đồ của chúng ta, chúng ta có máy tính xách tay hoặc máy tính để bàn chạy Windows hoặc Mac, sau đó chúng ta cài đặt phần mềm ảo hóa, `VMware Player` hoặc `Oracle VirtualBox`, sau đó chúng ta tạo Máy ảo của mình.
+
+Trong video này, đây là lúc cài đặt hệ điều hành Linux. 
+Và bản phân phối hoặc phiên bản Linux mà chúng tôi đang sử dụng là CentOS.
+
+Và trong video này chúng ta sẽ sử dụng phiên bản 7. Nếu bạn muốn sử dụng phiên bản 8, hãy bỏ qua video này ngay bây giờ và chuyển sang video tiếp theo. 
+Nếu bạn muốn sử dụng CentOS 9 Stream, hãy bỏ qua cái này và cái sau đó và đi thẳng đến CentOS 9 Stream.
+
+Được rồi, điều đầu tiên bạn làm về CentOS ISO là tải xuống. Và để làm được điều đó, bạn phải truy cập trang web CentOS.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-42.png)
+
+Vì vậy, hãy chọn một trình duyệt bạn chọn. Tôi đang chọn trình duyệt của mình, đó là Firefox. Hoặc bạn có thể chọn bất kỳ một trong những lựa chọn của bạn. 
+Truy cập Google và gõ "Tải xuống CentOS 7. Được rồi, hãy nhấp vào cái đầu tiên có chữ "CentOS.org" tải xuống, bấm vào đây. Và nó sẽ đưa bạn đến CentOS Linux 7 đã được chọn, chọn `x86_64`.
+
+Bây giờ nó sẽ cung cấp cho bạn tất cả các máy nhân bản khác nhau để bạn có thể tải xuống ảnh ISO.
+Chọn cái đầu tiên và 99% bạn sẽ nhận được ISO từ liên kết đầu tiên. 
+Nhấp vào nó và nó sẽ đưa bạn đến trang tiếp theo, nơi bạn phải chuyển đến trang có kích thước cao nhất hiện nay là 9.5 và nó báo mọi thứ ISO, hãy nhấp vào nó và nó sẽ bắt đầu tải xuống.
+
+Bây giờ tôi đã tải xuống tập tin này để tiết kiệm thời gian. Bạn có thể tạm dừng video ngay bây giờ và hoàn tất quá trình tải xuống rồi quay lại.
+Vì vậy, dù sao đi nữa, giả sử rằng bạn đã tải xuống tệp và bây giờ là lúc đính kèm tệp đó vào Oracle VirtualBox của chúng tôi.
+
+Để làm được điều đó, hãy truy cập `Oracle VirtualBox` và truy cập Máy ảo mà chúng tôi đã tạo.
+
+Được rồi, `My Linux VM` và nhấp vào Bắt đầu.
+Ngay khi khởi động, nó sẽ hỏi bạn "Where is the ISO image that you wanted to have attached and install the operating system?" 
+Ở đây có dòng chữ "Theo mặc định ổ đĩa máy chủ D", có nghĩa là bạn sẽ phải đưa đĩa DVD vào DVD-ROM, nhưng không phải như vậy, chúng tôi đã tải xuống ảnh ISO.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-43.png)
+
+Vì vậy hãy nhấp vào thư mục này và chỉ định ảnh ISO của bạn ở đâu.
+Vì vậy, hãy nhấp vào `Thêm`, đây là thứ tôi đã thêm trước đó, vì vậy đừng lo lắng về nó, chỉ cần nhấp vào Thêm và chuyển đến màn hình nền nơi bạn đã tải xuống ảnh ISO `CentOS 7`.
+
+Đây rồi. Nhấp vào Mở và chọn.
+Và bây giờ hãy tiếp tục và nhấp vào Bắt đầu.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-44.png)
+
+Bây giờ thao tác này sẽ khởi động Máy ảo của bạn và nó sẽ khởi động màn hình chào mừng của `CentOS 7`.
+Vì vậy, bạn phải nhấp vào bên trong cửa sổ này tại đây, vì vậy bạn phải nhấp vào bên trong cửa sổ để di chuyển hoặc chọn lựa chọn được cung cấp cho bạn, "Cài đặt CentOS 7 hoặc kiểm tra phương tiện này và cài đặt CentOS 7. 
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-45.png)
+
+Chọn cái đầu tiên, ngay bây giờ, như bạn có thể thấy, nó được đánh dấu.
+Bạn sẽ phải sử dụng phím mũi tên lên xuống vì chuột sẽ không hoạt động.
+Chọn cái đầu tiên và nhấn Enter.
+
+Nếu bạn đang sử dụng `VMware Workstation Player`, hãy mở VMware Workstation Player.
+Ngay tại đây chúng ta có Máy ảo của mình.
+Vì vậy, nhấp chuột phải vào nó, đi tới Cài đặt và đi đến nơi ghi CD/DVD. Và nhấp vào đây nơi có nội dung "Sử dụng tệp hình ảnh ISO" rồi nhấp vào Duyệt và chọn tệp hoặc hình ảnh ISO mà bạn đã tải xuống cho CentOS 7.
+Chọn cái đó. Nhấp vào Mở và nhấp vào Được rồi.
+Và sau đó bạn có thể chỉ cần nhấp vào đây, thao tác này sẽ bật nguồn hoặc chơi Máy ảo.
+Một trong hai sẽ thực hiện chức năng tương tự.
+Vì vậy, giả sử nếu bạn nhấp vào nó và bạn sẽ thấy ngay khi nó phát hiện được ảnh ISO, thì bạn sẽ thấy màn hình CentOS 7 chào mừng.
+
+Hãy tiếp tục và nhấp vào bên trong cửa sổ, sau đó di chuyển con trỏ lên để thực hiện Cài đặt CentOS 7.
+Nhân tiện, trong khi bạn đã chụp chuột bên trong cửa sổ này, bạn có thể nhấn `Alt+Ctrl` hoặc phím điều khiển bên phải trên bàn phím để loại bỏ chuột đã bắt.
+
+Xem này, bạn đã lấy lại được con chuột chưa?
+Đó là cách bạn có thể thả chuột.
+Nếu bạn bấm vào bên trong một lần nữa, nó sẽ chụp lại.
+Đó là cách hoạt động của Oracle VirtualBox, vì vậy đừng lo lắng.
+Được rồi, nó cũng nói với bạn điều tương tự, "Máy ảo báo cáo rằng hệ điều hành khách hỗ trợ tích hợp con trỏ chuột," thứ, thứ, thứ, blah blah blah.
+Tốt rồi. Nhấp vào Hủy việc này ngay tại đây.
+Hãy hủy thông báo này.
+
+Hãy đợi trình hướng dẫn cài đặt xuất hiện và chúng ta sẽ tìm hiểu từng bước cách trình hướng dẫn cài đặt sẽ hoạt động.
+Được rồi, ở đây bạn sẽ có GUI, hoặc loại giao diện đồ họa người dùng của trình hướng dẫn cài đặt.
+"Chào mừng đến với CentOS 7. 
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-46.png)
+
+Chọn ngôn ngữ. 
+Tôi đang chọn Hoa Kỳ.
+Đó là nơi tôi đang ở.
+Nếu bạn ở nơi khác, hãy chọn theo khu vực của bạn.
+Bấm vào Tiếp tục.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-47.png)
+
+Được rồi, ngày và giờ. Châu Mỹ/New York.
+Tôi đang ở New York nên nó chọn New York theo mặc định.
+Bàn phím. Lấy danh sách bàn phím Đó là tiếng Anh, Hoa Kỳ.
+Hỗ trợ ngôn ngữ, Hoa Kỳ.
+
+Phương tiện cài đặt, phương tiện cục bộ vì chúng tôi đã đính kèm hình ảnh ISO. Lựa chọn phần mềm, cài đặt tối thiểu. 
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-48.png)
+
+Nhấp vào đó và chọn "Server with GUI", vì bạn muốn loại môi trường hoặc GUI của máy tính để bàn chứ không chỉ là một dòng lệnh, hãy nhấp vào Done.
+Được rồi, nó đang kiểm tra việc lựa chọn phần mềm, nghĩa là nó đang kiểm tra xem nó có các gói hoặc phần mềm cần thiết để cài đặt máy chủ với lựa chọn GUI mà tôi đã làm hay không.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-49.png)
+
+Được rồi, trong khi nó đang kiểm tra điều đó, hãy đi xuống Đích Cài đặt.
+Nó báo "Đã chọn phân vùng tự động. Vì vậy, chỉ cần chọn nó và nó báo 10 Gib.
+Chỉ cần nhấp vào nó và nhấp lại.
+Vì vậy nó sẽ đánh dấu và nhấn Done.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-50.png)
+
+Được rồi, nó đang kiểm tra, đảm bảo nó có mọi thứ. 
+Được rồi, 
+vậy là media cục bộ đã xong, 
+máy chủ có GUI đã xong, 
+đích cài đặt đã xong, 
+`kdump` được bật theo mặc định, hãy để nguyên như vậy.
+Điều đó có nghĩa là nếu có vấn đề gì xảy ra với kernel, nó sẽ tạo ra các nhật ký và bạn có muốn những nhật ký đó không? 
+Đó là lý do tại sao chúng tôi đã kích hoạt nó. 
+
+Được rồi, mạng và tên máy chủ. Bấm vào đó.
+Nó báo "Chưa kết nối. Trước hết, hãy chỉ định tên máy chủ mà bạn muốn chọn cho Máy ảo của mình.
+Chúng tôi sẽ chọn `MyLinuxVM` hoặc bạn có thể chọn bất kỳ tên máy chủ nào bạn chọn.
+Nhấp vào Áp dụng và bạn sẽ thấy ngay bây giờ nó cho biết máy chủ cục bộ.
+Nó sẽ thay đổi thành `MyLinuxVM`.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-51.png)
+
+Nhấp vào Áp dụng.
+Thế là xong, nộp hồ sơ là xong.
+Bây giờ hãy nhấp vào Cấu hình và đi đến Chung và nhấp vào "Tự động kết nối với mạng này khi có sẵn.
+Đánh dấu, Lưu. 
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-52.png)
+
+Bây giờ `Connecting`.
+Và nó sẽ tự động bật và chỉ cần nhấp vào Xong.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-53.png)
+
+Được rồi, tên mạng và máy chủ đã xong, chính sách bảo mật, không tìm thấy nội dung.
+Điều đó ổn thôi. Để nguyên như mặc định.
+Và bấm vào Bắt đầu cài đặt.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-54.png)
+
+Được rồi, bước tiếp theo là xác định hoặc tạo Mật khẩu gốc. 
+Bấm vào Mật khẩu gốc. Đây giống như mật khẩu quản trị viên dành cho bạn.
+Cũng giống như khi cửa sổ Windows có mật khẩu quản trị thì trong Linux, quản trị viên được gọi là Mật khẩu gốc.
+Vì vậy hãy chắc chắn rằng bạn chọn một mật khẩu mà bạn có thể nhớ được.
+
+Một điều nữa, nếu bạn chọn một mật khẩu yếu, ở phía dưới sẽ cho bạn biết: 
+"The password you have provided is weak.
+The password fails the dictionary check.
+It is based on a dictionary word.
+You will have to press done twice to confirm it". 
+
+Thế là nó nói nó yếu, nhưng tôi sẽ cho phép bạn, không sao cả.
+Nhưng chỉ cần nhấp vào thực hiện hai lần. Một và hai.
+
+Được rồi, Tạo người dùng. 
+Bây giờ đây là quản trị viên.
+Bây giờ bạn có thể tạo một người dùng thông thường trên Linux.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-55.png)
+
+Hãy nhấp vào nó và tên đầy đủ, tôi sẽ tạo tên người dùng của mình.
+Trong trường hợp của bạn,
+bạn có thể tạo họ và tên của mình.
+Vậy tên đầy đủ là `Imran Afzal`.
+Và bạn sẽ thấy tự động nó xác định tên người dùng cho tôi, đó là `IAfzal`, tên viết tắt và họ.
+
+"Đặt người dùng này làm quản trị viên? " Tốt rồi.
+"Yêu cầu mật khẩu để sử dụng tài khoản này. Vì vậy hãy xác định mật khẩu cho tài khoản của bạn ngay bây giờ.
+Bạn có thể chọn mật khẩu giống như mật khẩu bạn đã chọn cho `root` hoặc nếu bạn chọn một mật khẩu khác thì hãy nhớ mật khẩu của mình.
+Được rồi.
+Tương tự như vậy, nếu bạn chọn yếu, hãy nhấp vào `Done` hai lần.
+
+Vì vậy, bây giờ nó đang trải qua quá trình cài đặt gói và cài đặt toàn bộ hệ điều hành.
+Ngay bây giờ, như bạn có thể thấy, nó cần 1348 gói được cài đặt và chúng tôi đang ở mức 149.
+Quá trình này có thể mất từ 5 phút đến 20 phút, tùy thuộc vào tốc độ hệ thống của bạn.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-56.png)
+
+Vì vậy, tôi sẽ tua nhanh từ thời điểm này và sau khi quá trình cài đặt hoàn tất, chúng ta sẽ quay lại.
+
+Được rồi, "`CentOS` hiện đã được cài đặt thành công và sẵn sàng để bạn sử dụng.
+Hãy tiếp tục và khởi động lại để bắt đầu sử dụng nó." 
+Nhấp vào `Reboot`.
+Được rồi, bây giờ bạn phải chấp nhận giấy phép, vì vậy hãy nhấp vào Thông tin giấy phép và nhấp vào "Chấp nhận thỏa thuận cấp phép" và nhấp vào Xong.
+Được rồi, thế là hoàn tất, 
+nhấn vào Finish Configuration.
+
+Được rồi, vậy là bạn đã có một màn hình đăng nhập.
+Hãy tiếp tục và nhấp vào tên của bạn hoặc nếu bạn muốn đăng nhập bằng `root`, 
+bạn có thể nhấp vào Not Listed, sau đó nhập `root` của bạn, ngay tại đây, tên người dùng `Root`, sau đó nhấp vào Tiếp theo
+và nó sẽ hỏi bạn mật khẩu root.
+Vì vậy, bây giờ hãy nhấp vào Hủy và hãy đăng nhập như thông thường của bạn và nhập mật khẩu.
+
+Được rồi, ngay đây là màn hình của bạn và bạn cần sử dụng thiết bị đầu cuối. 
+Nếu đăng nhập lần đầu tiên, bạn sẽ thấy màn hình chào mừng này, chỉ cần nhấp vào Tiếp theo.
+Tiếp theo, Dịch vụ định vị, bạn có thể tắt nó đi.
+Kế tiếp. 
+Và bỏ qua phần này và "Start using CentOS Linux"
+Được rồi, bây giờ bạn sẽ lấy lại được máy tính để bàn.
+
+![Download and Install Linux (CentOS 7)](/assets/images/complete-linux-training-course-to-get-your-dream-it-job-2024-58.png)
+
+Nhấp chuột phải vào màn hình nền.
+Rất tiếc, bộ gen đã bắt đầu hoạt động.
+Tốt rồi. Bạn có thể đóng cái này lại.
+Được rồi, nhấp chuột phải và nhấp vào `Open Terminal`.
+Đây là thiết bị đầu cuối mà bạn sẽ sử dụng để chạy tất cả các lệnh.
+
+Bây giờ việc cài đặt hệ thống Linux của bạn đã hoàn tất.
+Chúc mừng.
